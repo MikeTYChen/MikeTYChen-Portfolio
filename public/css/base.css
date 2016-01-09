@@ -22,3 +22,14 @@ a:hover {
         color: #2C86E8;
         font-size: 30px;
         margin: 0 15px; }
+
+.navbar {
+  border: 0;
+  margin-bottom: 0; }
+  .navbar .navbar-center {
+    margin-left: 5%; }
+  .navbar .navbar-right li {
+    width: 48px; }
+  .navbar .navbar-right .glyph-icon {
+    color: #2C86E8;
+    font-size: 18px; }
