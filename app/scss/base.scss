@@ -10,7 +10,33 @@ $break-large: 1800px;
 $break-medium:960px;
 $large-screen-width:1600px;
 
-body{
+h1,h2,h3,h4,h5,h6,a,span,i,body{
 	font-family: 'Source Sans Pro', sans-serif;
 }
-
+a:hover{
+	text-decoration: none;
+}
+.panel-1{
+	padding:22% 10% 22% 10%;
+	width:100%;
+	.welcome-box{
+		text-align: center;
+		h1{
+			font-weight: bold;
+			font-size: 60px;
+			line-height: .5em;
+		}
+		h2{
+			color:$blue;
+			line-height: .6em;
+		}
+		.social-box{
+			margin-top: 15px;
+			.glyph-icon{
+				color:$blue;
+				font-size: 30px;
+				margin:0 15px;
+			}
+		}
+	}
+}
