@@ -40,7 +40,10 @@ a:hover{
 		}
 	}
 }
-
+#toggle-nav{
+	display:none;
+	background-color: $gray;
+}
 .navbar{
 	border:0;
 	margin-bottom:0;
@@ -56,4 +59,9 @@ a:hover{
 			font-size: 18px;
 		}
 	}
+}
+
+.panel-2{
+	background-color: #3df;
+	height:5000px;
 }
