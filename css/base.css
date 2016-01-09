@@ -23,6 +23,10 @@ a:hover {
         font-size: 30px;
         margin: 0 15px; }
 
+#toggle-nav {
+  display: none;
+  background-color: #EEEFF1; }
+
 .navbar {
   border: 0;
   margin-bottom: 0; }
@@ -33,3 +37,7 @@ a:hover {
   .navbar .navbar-right .glyph-icon {
     color: #2C86E8;
     font-size: 18px; }
+
+.panel-2 {
+  background-color: #3df;
+  height: 5000px; }
