@@ -8,7 +8,6 @@
 .bower.json
 .sizecache.json
 
-/dist
 /node_modules
 
 /test/node_smoke_tests/lib/ensure_iterability.js
