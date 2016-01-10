@@ -68,9 +68,17 @@ a:hover{
 	.projects{
 		width:80%;
 		margin:0 auto;
-		img{
-			height:160px;
-			margin-bottom: 15px;
+		.img-box{
+			width:100%;
+			img{
+				cursor:pointer;
+				border:2px solid $white;
+				height:160px;
+				margin-bottom: 15px;
+			}
+			img:hover{
+				border:2px solid $blue;
+			}
 		}
 		.col-md-4{
 			margin-top:50px;
