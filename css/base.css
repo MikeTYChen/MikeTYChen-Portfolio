@@ -39,5 +39,21 @@ a:hover {
     font-size: 18px; }
 
 .panel-2 {
-  background-color: #3df;
-  height: 5000px; }
+  background-color: #fafafa;
+  padding: 100px 0; }
+  .panel-2 .projects {
+    width: 80%;
+    margin: 0 auto; }
+    .panel-2 .projects img {
+      height: 160px;
+      margin-bottom: 15px; }
+    .panel-2 .projects .col-md-4 {
+      margin-top: 50px; }
+    .panel-2 .projects a {
+      cursor: pointer;
+      color: #000;
+      font-size: 20px; }
+    .panel-2 .projects a:hover {
+      color: #2C86E8; }
+    .panel-2 .projects h5 {
+      line-height: .5em; }
