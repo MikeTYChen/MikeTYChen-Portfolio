@@ -44,9 +44,15 @@ a:hover {
   .panel-2 .projects {
     width: 80%;
     margin: 0 auto; }
-    .panel-2 .projects img {
-      height: 160px;
-      margin-bottom: 15px; }
+    .panel-2 .projects .img-box {
+      width: 100%; }
+      .panel-2 .projects .img-box img {
+        cursor: pointer;
+        border: 2px solid #fafafa;
+        height: 160px;
+        margin-bottom: 15px; }
+      .panel-2 .projects .img-box img:hover {
+        border: 2px solid #2C86E8; }
     .panel-2 .projects .col-md-4 {
       margin-top: 50px; }
     .panel-2 .projects a {
