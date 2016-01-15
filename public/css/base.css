@@ -64,3 +64,22 @@ a:hover {
       color: #2C86E8; }
     .panel-2 .projects h5 {
       line-height: .5em; }
+
+.panel-3 {
+  background-color: #EEEFF1; }
+  .panel-3 .about {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0; }
+    .panel-3 .about h1 {
+      font-size: 45px;
+      color: #2C86E8; }
+    .panel-3 .about h3 {
+      line-height: 1.2em; }
+    .panel-3 .about .resume {
+      margin-top: 30px;
+      color: #2C86E8; }
+    .panel-3 .about img {
+      border-radius: 50%;
+      width: 150px; }
