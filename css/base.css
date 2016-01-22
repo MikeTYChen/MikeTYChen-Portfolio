@@ -1,8 +1,65 @@
+.top-project-panel {
+  background-color: #fafafa;
+  width: 100%; }
+  .top-project-panel .top-project-box {
+    width: 82%;
+    margin: 0 auto;
+    padding: 100px; }
+    .top-project-panel .top-project-box .title-box .title {
+      line-height: 1.5em;
+      float: left;
+      font-weight: bold; }
+    .top-project-panel .top-project-box .title-box .link {
+      font-weight: 500;
+      color: #000;
+      line-height: 1.5em;
+      float: right;
+      border-bottom: 1px solid #2C86E8; }
+    .top-project-panel .top-project-box .title-box .link:hover {
+      border-bottom: 1px solid #000; }
+    .top-project-panel .top-project-box .desc-box .desc-type {
+      font-weight: bold; }
+    .top-project-panel .top-project-box .img-box {
+      margin-top: 20px; }
+      .top-project-panel .top-project-box .img-box img {
+        width: 100%;
+        border: 1px solid #fafafa; }
+      .top-project-panel .top-project-box .img-box img:hover {
+        border: 1px solid #2C86E8; }
+
+.second-project-panel {
+  background-color: #fafafa;
+  width: 100%; }
+  .second-project-panel .second-project-box {
+    width: 82%;
+    margin: 0 auto;
+    padding: 100px; }
+    .second-project-panel .second-project-box img {
+      width: 100%; }
+    .second-project-panel .second-project-box .desc-type {
+      font-weight: bold; }
+    .second-project-panel .second-project-box .btn-box {
+      margin-top: 30px;
+      text-align: center; }
+      .second-project-panel .second-project-box .btn-box .btn-all {
+        padding: 10px 20px;
+        border-radius: 0;
+        background-color: #fafafa; }
+      .second-project-panel .second-project-box .btn-box .btn-all:hover {
+        color: #2C86E8;
+        background-color: #fafafa; }
+
 h1, h2, h3, h4, h5, h6, a, span, i, body {
   font-family: 'Source Sans Pro', sans-serif; }
 
+h5 {
+  font-size: 15px; }
+
 a:hover {
   text-decoration: none; }
+
+.clear {
+  clear: both; }
 
 .panel-1 {
   padding: 22% 10% 22% 10%;

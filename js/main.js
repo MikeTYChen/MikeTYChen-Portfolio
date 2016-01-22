@@ -5,7 +5,7 @@ $( document ).ready(function() {
 
 function fixed_nav (){
 	var pos = $(window).scrollTop();
-	var panel1 = $('.panel-2').offset().top;
+	var panel1 = $('.top-project-panel').offset().top;
 	var boolPos;
 	if(pos>panel1){
 		$( "#toggle-nav" ).show( "drop", {direction: "up"}, 250 );
