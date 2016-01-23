@@ -1,0 +1,24 @@
+.main-panel{
+	padding:22% 10% 22% 10%;
+	width:100%;
+	.welcome-box{
+		text-align: center;
+		h1{
+			font-weight: bold;
+			font-size: 60px;
+			line-height: .5em;
+		}
+		h2{
+			color:$blue;
+			line-height: .6em;
+		}
+		.social-box{
+			margin-top: 15px;
+			.glyph-icon{
+				color:$blue;
+				font-size: 30px;
+				margin:0 15px;
+			}
+		}
+	}
+}

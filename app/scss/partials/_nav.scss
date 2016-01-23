@@ -1,0 +1,21 @@
+
+#toggle-nav{
+	display:none;
+	background-color: $gray;
+}
+.navbar{
+	border:0;
+	margin-bottom:0;
+	.navbar-center{
+		margin-left:5%;
+	}
+	.navbar-right{
+		li{
+			width:48px;
+		}
+		.glyph-icon{
+			color:$blue;
+			font-size: 18px;
+		}
+	}
+}
