@@ -1,7 +1,7 @@
 .about-panel{
 	background-color: $gray;
 	.about-box{
-		width:80%;
+		width:$container-width;
 		margin:0 auto;
 		text-align: center;
 		padding: 100px 0;
