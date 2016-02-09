@@ -14,9 +14,13 @@
     font-size: 18px; }
 
 .main-panel {
-  padding: 22% 10% 22% 10%;
   width: 100%; }
   .main-panel .welcome-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
     text-align: center; }
     .main-panel .welcome-box h1 {
       font-weight: bold;
