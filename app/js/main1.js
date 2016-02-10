@@ -65,7 +65,7 @@
         // constructor
         (function() {
             _this.pos = {};
-            init();
+            init();   
         })();
 
         function init() {
