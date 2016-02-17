@@ -1,12 +1,14 @@
 $blue:#2C86E8;
 $gray: #EEEFF1;
-$d-gray: #4F5152;
+$d-gray: rgb(210,210,210);
 $black: #000;
 $white:rgb(250,250,250);
-
-$prim-color:$blue;
-$sec-color:$white;
-$tert-color:$d-gray;
+$orange:rgb(241,103,57);
+$prim-color:$orange;
+$sec-color:$black;
+$tert-color:$white;
+$quart-color:$d-gray;
+$pent-color:$gray;
 
 $navbar-height:50px;
 
@@ -23,6 +25,7 @@ $main-blinker: $main-font;
 
 @import 'partials/_nav.scss';
 @import 'partials/_mainPanel.scss';
+@import 'partials/_aboutPanel.scss';
 
 @import 'partials/_projectPanel.scss';
 @import 'partials/_blink.scss';

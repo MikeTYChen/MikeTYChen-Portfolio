@@ -1,9 +1,11 @@
-.main-panel{
+.about-panel{
 	width:100%;
 	min-height:100%;
 	background-color: $prim-color;
+	padding: 0px 0 100px 0;
 	.nav-box{
 		width:95%;
+		padding-top:30px;
 		margin:0 auto;
 		text-align: right;
 		ul{
@@ -14,7 +16,7 @@
 			margin-right: 25px;
 			float:right;
 			a{
-				color:$tert-color;
+				color:$sec-color;
 				font-family: 'Courier';
 			}
 			a:hover{
@@ -22,7 +24,20 @@
 			}
 		}
 	}
-	.main-box{
+	.bio-img{
+		position:absolute;
+		margin-top: -60px;
+		top:0;
+		width:90%;
+	}
+	.bio-box{
+		padding-top: 400px;
+		padding-left: 20%;
+		h4{
+			font-size: 20px;
+		}
+	}
+	.about-box{
 		.desc-box{
 			padding-left: 20%;
 			.name-txt{
@@ -84,68 +99,10 @@
 					height:63px;
 				}
 				h3{					
-					color: $quart-color; 
+					color: $sec-color; 
 					font-family: "Courier";
 					font-size: 20px;
 				}
-			}
-		}
-		.skills-box{
-			margin-top:80px;
-			.category-box{
-				width:100%;
-				display: inline-block;
-				.category-title{	
-					float: left;			
-					white-space: nowrap;
-					h4{
-						color:$tert-color;
-						font-family: "Courier";
-					}
-				}
-				.skills-txt-box{	
-					margin-left: 20px;
-					float: left;
-					.skills-txt{
-						cursor: pointer;
-						img{
-						    display: none
-						}
-						span:hover + img{
-							margin-top: -20px;
-							margin-left: 150px;
-							position:absolute;
-						    display: block;
-						}
-					}
-					h4{
-						font-size: 25px;
-						font-weight: bold;
-					}
-				}
-			}
-		}
-	}
-	.welcome-box{
-		padding:21%;
-		text-align: center;
-		width:100%;
-		height:100%;
-		h1{
-			font-weight: bold;
-			font-size: 60px;
-			line-height: .5em;
-		}
-		h2{
-			color:$prim-color;
-			line-height: .6em;
-		}
-		.social-box{
-			margin-top: 15px;
-			.glyph-icon{
-				color:$prim-color;
-				font-size: 30px;
-				margin:0 15px;
 			}
 		}
 	}
