@@ -6,13 +6,13 @@
   .navbar .navbar-right li {
     width: 48px; }
   .navbar .navbar-right .glyph-icon {
-    color: #2FCE47;
+    color: #298CFF;
     font-size: 18px; }
 
 .main-panel {
   width: 100%;
   min-height: 100%;
-  background-color: #2FCE47; }
+  background-color: #298CFF; }
   .main-panel .nav-box {
     width: 95%;
     margin: 0 auto;
@@ -116,19 +116,19 @@
       font-size: 60px;
       line-height: .5em; }
     .main-panel .welcome-box h2 {
-      color: #2FCE47;
+      color: #298CFF;
       line-height: .6em; }
     .main-panel .welcome-box .social-box {
       margin-top: 15px; }
       .main-panel .welcome-box .social-box .glyph-icon {
-        color: #2FCE47;
+        color: #298CFF;
         font-size: 30px;
         margin: 0 15px; }
 
 .about-panel {
   width: 100%;
   min-height: 100%;
-  background-color: #2FCE47;
+  background-color: #298CFF;
   padding: 0px 0 100px 0; }
   .about-panel .nav-box {
     width: 95%;
@@ -237,7 +237,7 @@
       font-size: 20px;
       margin-right: 20px; }
     .project-panel .project-box .projects-list-box a:hover {
-      color: #2FCE47; }
+      color: #298CFF; }
   .project-panel .project-box .individual-project-box {
     width: 95%;
     margin: 30px auto 0 auto; }
