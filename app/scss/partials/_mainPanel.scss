@@ -15,7 +15,7 @@
 			float:right;
 			a{
 				color:$tert-color;
-				font-family: 'Courier';
+				font-family: 'Cousine', ;
 			}
 			a:hover{
 				text-decoration: underline;
@@ -26,14 +26,13 @@
 		.desc-box{
 			padding-left: 20%;
 			.name-txt{
-				font-weight: bold;
 				font-size:45px;
 				line-height: 3em;
 			}
 			h2{	
 				color:$sec-color;
 				margin-top: 30px;
-				font-size: 30px;
+				font-size: 28px;
 			}
 			a{
 				color:$sec-color;
@@ -85,7 +84,7 @@
 				}
 				h3{					
 					color: $quart-color; 
-					font-family: "Courier";
+					font-family: 'Cousine', ;
 					font-size: 20px;
 				}
 			}
@@ -100,7 +99,7 @@
 					white-space: nowrap;
 					h4{
 						color:$tert-color;
-						font-family: "Courier";
+						font-family: 'Cousine', ;
 					}
 				}
 				.skills-txt-box{	

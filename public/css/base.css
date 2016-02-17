@@ -25,21 +25,20 @@
       float: right; }
       .main-panel .nav-box li a {
         color: #fafafa;
-        font-family: 'Courier'; }
+        font-family: "Cousine"; }
       .main-panel .nav-box li a:hover {
         text-decoration: underline; }
   .main-panel .main-box .desc-box {
     padding-left: 20%; }
     .main-panel .main-box .desc-box .name-txt {
-      font-weight: bold;
       font-size: 45px;
       line-height: 3em; }
     .main-panel .main-box .desc-box h2 {
-      color: #000;
+      color: #1E1E1E;
       margin-top: 30px;
-      font-size: 30px; }
+      font-size: 28px; }
     .main-panel .main-box .desc-box a {
-      color: #000;
+      color: #1E1E1E;
       text-decoration: underline; }
     .main-panel .main-box .desc-box a:hover {
       color: #fafafa; }
@@ -49,7 +48,7 @@
       .main-panel .main-box .desc-box .social-box a {
         text-decoration: none; }
       .main-panel .main-box .desc-box .social-box .glyph-icon {
-        color: #000;
+        color: #1E1E1E;
         font-size: 30px;
         margin: 0 25px 0 0; }
       .main-panel .main-box .desc-box .social-box .glyph-icon:hover {
@@ -78,7 +77,7 @@
         height: 63px; }
       .main-panel .main-box .desc-box .project-box h3 {
         color: #d2d2d2;
-        font-family: "Courier";
+        font-family: "Cousine";
         font-size: 20px; }
   .main-panel .main-box .skills-box {
     margin-top: 80px; }
@@ -90,7 +89,7 @@
         white-space: nowrap; }
         .main-panel .main-box .skills-box .category-box .category-title h4 {
           color: #fafafa;
-          font-family: "Courier"; }
+          font-family: "Cousine"; }
       .main-panel .main-box .skills-box .category-box .skills-txt-box {
         margin-left: 20px;
         float: left; }
@@ -142,8 +141,8 @@
       margin-right: 25px;
       float: right; }
       .about-panel .nav-box li a {
-        color: #000;
-        font-family: 'Courier'; }
+        color: #1E1E1E;
+        font-family: "Cousine"; }
       .about-panel .nav-box li a:hover {
         text-decoration: underline; }
   .about-panel .bio-img {
@@ -163,11 +162,11 @@
       font-size: 45px;
       line-height: 3em; }
     .about-panel .about-box .desc-box h2 {
-      color: #000;
+      color: #1E1E1E;
       margin-top: 30px;
       font-size: 30px; }
     .about-panel .about-box .desc-box a {
-      color: #000;
+      color: #1E1E1E;
       text-decoration: underline; }
     .about-panel .about-box .desc-box a:hover {
       color: #fafafa; }
@@ -177,7 +176,7 @@
       .about-panel .about-box .desc-box .social-box a {
         text-decoration: none; }
       .about-panel .about-box .desc-box .social-box .glyph-icon {
-        color: #000;
+        color: #1E1E1E;
         font-size: 30px;
         margin: 0 25px 0 0; }
       .about-panel .about-box .desc-box .social-box .glyph-icon:hover {
@@ -205,8 +204,8 @@
         width: 250px;
         height: 63px; }
       .about-panel .about-box .desc-box .project-box h3 {
-        color: #000;
-        font-family: "Courier";
+        color: #1E1E1E;
+        font-family: "Cousine";
         font-size: 20px; }
 
 .project-panel {
@@ -225,15 +224,15 @@
       float: right; }
       .project-panel .project-box .nav-box .navigation li a {
         text-align: right;
-        color: #000;
-        font-family: 'Courier'; }
+        color: #1E1E1E;
+        font-family: "Cousine"; }
       .project-panel .project-box .nav-box .navigation li a:hover {
         text-decoration: underline; }
   .project-panel .project-box .projects-list-box {
     width: 95%;
     margin: 30px auto 0 auto; }
     .project-panel .project-box .projects-list-box a {
-      color: #000;
+      color: #1E1E1E;
       font-size: 20px;
       margin-right: 20px; }
     .project-panel .project-box .projects-list-box a:hover {
@@ -261,8 +260,8 @@
       background-color: #d2d2d2; }
 
 .name-txt {
-  color: #000;
-  font-family: "Courier";
+  color: #1E1E1E;
+  font-family: "Cousine";
   font-size: 20px;
   white-space: nowrap;
   overflow: hidden;
@@ -271,6 +270,7 @@
           animation: type 3s steps(60, end); }
   .name-txt span {
     font-size: 50px;
+    font-weight: 500;
     -webkit-animation: 1.3s blink step-end infinite;
     animation: 1.3s blink step-end infinite; }
 
@@ -298,7 +298,8 @@ html, body {
   overflow-x: hidden; }
 
 h1, h2, h3, h4, h5, h6, a, span, i, body {
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-weight: 300;
+  font-family: 'Lato', sans-serif; }
 
 h5 {
   font-size: 15px; }
