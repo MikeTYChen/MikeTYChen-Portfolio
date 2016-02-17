@@ -1,0 +1,71 @@
+.project-panel{
+	padding-top:20px;
+	background-color: #3df;
+	height:auto;
+	.project-box{
+		.nav-box{
+			width:95%;
+			margin:0 auto;
+			.nav-mike{
+				padding:0;
+				margin-top: 5px;
+			}
+			.navigation{
+				ul{
+					list-style: none;
+				}
+				li{
+					font-size: 20px;
+					margin-right: 25px;
+					float:right;
+					a{
+						text-align: right;
+						color:$black;
+						font-family: 'Courier';
+					}
+					a:hover{
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+		.projects-list-box{
+			width:95%;
+			margin:30px auto 0 auto;
+			a{
+				color:$black;
+				font-size: 20px;
+				margin-right: 20px;
+			}
+			a:hover{
+				color:$blue;
+			}
+		}
+		.individual-project-box{
+			width:95%;
+			margin:30px auto 0 auto;
+			background-color: red;
+			.project{
+				background-color: #3df;
+				width:100%;
+				height:300px;
+			}
+		}
+		.all-projects-box{
+			width:100%;
+			display:inline-block;
+			.project{
+				width:100%;
+				height:50px;
+				background-color: green;
+			}
+			.projects{
+				background-image: url('../assets/images/SEAM.png');
+				float:left;
+				width:25%;
+				height:80px;
+				background-color: red;
+			}
+		}
+	}
+}

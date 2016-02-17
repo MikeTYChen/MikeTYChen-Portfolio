@@ -1,6 +1,131 @@
 .main-panel{
 	width:100%;
-	height:100%;
+	min-height:100%;
+	background-color: $prim-color;
+	.nav-box{
+		width:95%;
+		margin:0 auto;
+		text-align: right;
+		ul{
+			list-style: none;
+		}
+		li{
+			font-size: 20px;
+			margin-right: 25px;
+			float:right;
+			a{
+				color:$black;
+				font-family: 'Courier';
+			}
+			a:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+	.main-box{
+
+		.desc-box{
+			padding-left: 20%;
+			.name-txt{
+				font-weight: bold;
+				font-size:45px;
+				line-height: 3em;
+			}
+			h2{	
+				margin-top: 30px;
+				font-size: 30px;
+			}
+			a{
+				color:$black;
+				text-decoration: underline;
+			}
+			a:hover{
+				color:$sec-color;
+			}
+			.social-box{
+				margin-top: 50px;
+				text-align: left;
+				a{
+					text-decoration: none;
+				}
+				.glyph-icon{
+					color:$black;
+					font-size: 30px;
+					margin:0 25px 0 0;
+				}
+				.glyph-icon:hover{
+					color:$sec-color;
+				}
+			}
+			.hello-box{
+				left:20px;
+				top:-10px;
+				position:absolute;
+				h3{
+					font-size: 40px;
+					color:$d-gray;
+				}
+				h4{
+					z-index: 1;
+					opacity: 0.5;
+					color:$d-gray;
+					font-size: 30px;
+				}
+			}
+			.project-box{
+				margin-top: 37%;
+				width:200px;
+				height:100px;
+				.project-txt{
+					overflow:hidden;
+					position:absolute;
+					bottom:0;
+					width:250px;
+					height:63px;
+				}
+				h3{					
+					color: $black; 
+					font-family: "Courier";
+					font-size: 20px;
+				}
+			}
+		}
+		.skills-box{
+			margin-top:80px;
+			.category-box{
+				width:100%;
+				display: inline-block;
+				.category-title{	
+					float: left;			
+					white-space: nowrap;
+					h4{
+						color:$gray;
+						font-family: "Courier";
+					}
+				}
+				.skills-txt-box{	
+					margin-left: 20px;
+					float: left;
+					.skills-txt{
+						cursor: pointer;
+						img{
+						    display: none
+						}
+						span:hover + img{
+							margin-top: -20px;
+							margin-left: 150px;
+							position:absolute;
+						    display: block;
+						}
+					}
+					h4{
+						font-size: 25px;
+						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
 	.welcome-box{
 		padding:21%;
 		text-align: center;

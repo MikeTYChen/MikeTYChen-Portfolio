@@ -4,6 +4,10 @@ $d-gray: #4F5152;
 $black: #000;
 $white:rgb(250,250,250);
 
+$prim-color:$blue;
+$sec-color:$white;
+$tert-color:$d-gray;
+
 $navbar-height:50px;
 
 $container-width:82%;
@@ -13,17 +17,19 @@ $break-large: 1800px;
 $break-medium:960px;
 $large-screen-width:1600px;
 
+
+$main-font: 50;
+$main-blinker: $main-font;
+
 @import 'partials/_nav.scss';
 @import 'partials/_mainPanel.scss';
-@import 'partials/_topProjects.scss';
-@import 'partials/_secondProjects.scss';
-@import 'partials/_aboutPanel.scss';
-@import 'partials/_canvas.scss';
 
-@import 'partials/_chart.scss';
-@import 'partials/_projectsPage.scss';
+@import 'partials/_projectPanel.scss';
+@import 'partials/_blink.scss';
 
-
+html,body{
+	overflow-x:hidden;
+}
 h1,h2,h3,h4,h5,h6,a,span,i,body{
 	font-family: 'Source Sans Pro', sans-serif;
 }
