@@ -169,7 +169,7 @@
 		</div>
 		<div class="row all-projects-box">
 			<div ng-repeat="project in projects"  ng-show="!isActive(project)" class="projects">
-				<img style="width:100%;" ng-src="{{project.img}}">
+				<img style="width:100%;" ng-src="{{project.img}}" ng-click="setActiveProject($index)">
 			</div>
 		</div>
 		
