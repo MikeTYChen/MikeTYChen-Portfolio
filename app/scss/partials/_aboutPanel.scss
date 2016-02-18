@@ -5,18 +5,17 @@
 	padding: 0px 0 100px 0;
 	.nav-box{
 		width:95%;
-		padding-top:30px;
-		margin:0 auto;
+		margin:20px auto 0 auto;
 		text-align: right;
 		ul{
 			list-style: none;
 		}
 		li{
-			font-size: 20px;
-			margin-right: 25px;
+			font-size: 18px;
+			margin-right: 55px;
 			float:right;
 			a{
-				color:$sec-color;
+				color:$tert-color;
 				font-family: 'Cousine', ;
 			}
 			a:hover{
@@ -26,31 +25,40 @@
 	}
 	.bio-img{
 		position:absolute;
-		margin-top: -60px;
+		margin-top: -47px;
 		top:0;
 		width:90%;
 	}
 	.bio-box{
-		padding-top: 500px;
-		padding-left: 20%;
+		padding-top: 400px;
+		padding-left: 15%;
 		h4{
-			font-size: 20px;
+			margin-top: 20px;
+			line-height: 1.5em;
+			color:$sec-color;
+			font-size: 19px;
+			font-weight: 600;
 		}
 	}
 	.about-box{
 		.desc-box{
-			padding-left: 20%;
+			padding-left: 16%;
 			.name-txt{
+				font-family: 'Open Sans', sans-serif;
 				font-weight: bold;
-				font-size:45px;
-				line-height: 3em;
+				font-size:55px;
+				line-height: 2em;
 			}
 			h2{	
+
 				color:$sec-color;
-				margin-top: 30px;
-				font-size: 30px;
+				line-height: 1.3em;
+				margin-top: 23px;
+				font-size: 28px;
+				font-weight: 600;
 			}
 			a{
+				font-weight: 600;
 				color:$sec-color;
 				text-decoration: underline;
 			}
@@ -88,20 +96,38 @@
 				}
 			}
 			.project-box{
-				margin-top: 37%;
-				width:200px;
-				height:100px;
+				margin-top: 18%;
+				width:380px;
+				height:200px;
 				.project-txt{
 					overflow:hidden;
 					position:absolute;
-					bottom:0;
-					width:250px;
-					height:63px;
+					bottom:10px;
+					width:320px;
+					height:100px;
+				}
+				.down-txt{
+					font-size: 43px;
+					margin-top: -90px;
+					margin-left: 280px;
+					bottom:50px;
+					color:$quart-color;
+				}
+				.move-down{
+					animation: moveD 2.5s infinite;
+				}
+				@keyframes moveD {
+				  0%,100%{
+				    margin-top: -90px;
+				  }
+				  50%{
+				  	margin-top: -70px;
+				  }
 				}
 				h3{					
-					color: $sec-color; 
+					color: $quart-color; 
 					font-family: 'Cousine', ;
-					font-size: 20px;
+					font-size: 25px;
 				}
 			}
 		}

@@ -1,14 +1,13 @@
 .name-txt{
   color: $sec-color; 
-  font-family: 'Cousine', ;
   font-size: 20px;
   white-space: nowrap;
   overflow: hidden;
   width: 30em;
   animation: type 3s steps(60, end); 
   span{
-    font-size:50px;
-    font-weight: 500;
+    font-size:65px;
+    font-weight: 600;
     -webkit-animation: 1.3s blink step-end infinite;
     -moz-animation: 1.3s blink step-end infinite;
     -ms-animation: 1.3s blink step-end infinite;
@@ -16,6 +15,8 @@
     animation: 1.3s blink step-end infinite;
   }
 }
+
+
 
 @keyframes type{ 
   from { width: 0; } 

@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 16/02/2016 23:03
+    Creation date: 18/02/2016 19:35
     */
 
     @font-face {
@@ -37,11 +37,13 @@
     }
 
     .flaticon-application:before { content: "\f100"; }
-.flaticon-email5:before { content: "\f101"; }
-.flaticon-github17:before { content: "\f102"; }
-.flaticon-linkedin11:before { content: "\f103"; }
+.flaticon-arrows:before { content: "\f101"; }
+.flaticon-email5:before { content: "\f102"; }
+.flaticon-github17:before { content: "\f103"; }
+.flaticon-linkedin11:before { content: "\f104"; }
     
     $font-Flaticon-application: "\f100";
-    $font-Flaticon-email5: "\f101";
-    $font-Flaticon-github17: "\f102";
-    $font-Flaticon-linkedin11: "\f103";
+    $font-Flaticon-arrows: "\f101";
+    $font-Flaticon-email5: "\f102";
+    $font-Flaticon-github17: "\f103";
+    $font-Flaticon-linkedin11: "\f104";

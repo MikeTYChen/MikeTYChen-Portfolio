@@ -6,13 +6,13 @@
   .navbar .navbar-right li {
     width: 48px; }
   .navbar .navbar-right .glyph-icon {
-    color: #298CFF;
+    color: #00ABFC;
     font-size: 18px; }
 
 .main-panel {
   width: 100%;
   min-height: 100%;
-  background-color: #298CFF; }
+  background-color: #00ABFC; }
   .main-panel .nav-box {
     width: 95%;
     margin: 0 auto;
@@ -20,8 +20,8 @@
     .main-panel .nav-box ul {
       list-style: none; }
     .main-panel .nav-box li {
-      font-size: 20px;
-      margin-right: 25px;
+      font-size: 18px;
+      margin-right: 55px;
       float: right; }
       .main-panel .nav-box li a {
         color: #fafafa;
@@ -29,16 +29,21 @@
       .main-panel .nav-box li a:hover {
         text-decoration: underline; }
   .main-panel .main-box .desc-box {
-    padding-left: 20%; }
+    padding-left: 16%; }
     .main-panel .main-box .desc-box .name-txt {
-      font-size: 45px;
-      line-height: 3em; }
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      font-size: 55px;
+      line-height: 2em; }
     .main-panel .main-box .desc-box h2 {
-      color: #1E1E1E;
-      margin-top: 30px;
-      font-size: 28px; }
+      color: #0C1531;
+      line-height: 1.3em;
+      margin-top: 23px;
+      font-size: 28px;
+      font-weight: 600; }
     .main-panel .main-box .desc-box a {
-      color: #1E1E1E;
+      font-weight: 600;
+      color: #0C1531;
       text-decoration: underline; }
     .main-panel .main-box .desc-box a:hover {
       color: #fafafa; }
@@ -48,7 +53,7 @@
       .main-panel .main-box .desc-box .social-box a {
         text-decoration: none; }
       .main-panel .main-box .desc-box .social-box .glyph-icon {
-        color: #1E1E1E;
+        color: #0C1531;
         font-size: 30px;
         margin: 0 25px 0 0; }
       .main-panel .main-box .desc-box .social-box .glyph-icon:hover {
@@ -59,31 +64,53 @@
       position: absolute; }
       .main-panel .main-box .desc-box .hello-box h3 {
         font-size: 40px;
-        color: #d2d2d2; }
+        color: #E0DDD7; }
       .main-panel .main-box .desc-box .hello-box h4 {
         z-index: 1;
         opacity: 0.5;
-        color: #d2d2d2;
+        color: #E0DDD7;
         font-size: 30px; }
     .main-panel .main-box .desc-box .project-box {
-      margin-top: 37%;
-      width: 200px;
-      height: 100px; }
+      margin-top: 18%;
+      width: 380px;
+      height: 200px; }
       .main-panel .main-box .desc-box .project-box .project-txt {
         overflow: hidden;
         position: absolute;
-        bottom: 0;
-        width: 250px;
-        height: 63px; }
+        bottom: 10px;
+        width: 320px;
+        height: 100px; }
+      .main-panel .main-box .desc-box .project-box .down-txt {
+        font-size: 43px;
+        margin-top: -90px;
+        margin-left: 280px;
+        bottom: 50px;
+        color: #E0DDD7; }
+      .main-panel .main-box .desc-box .project-box .move-down {
+        -webkit-animation: moveD 2.5s infinite;
+                animation: moveD 2.5s infinite; }
+
+@-webkit-keyframes moveD {
+  0%, 100% {
+    margin-top: -90px; }
+  50% {
+    margin-top: -70px; } }
+
+@keyframes moveD {
+  0%, 100% {
+    margin-top: -90px; }
+  50% {
+    margin-top: -70px; } }
       .main-panel .main-box .desc-box .project-box h3 {
-        color: #d2d2d2;
+        color: #E0DDD7;
         font-family: "Cousine";
-        font-size: 20px; }
+        font-size: 25px; }
   .main-panel .main-box .skills-box {
-    margin-top: 80px; }
+    margin-top: 50px; }
     .main-panel .main-box .skills-box .category-box {
       width: 100%;
-      display: inline-block; }
+      display: inline-block;
+      margin-top: 8px; }
       .main-panel .main-box .skills-box .category-box .category-title {
         float: left;
         white-space: nowrap; }
@@ -91,82 +118,72 @@
           color: #fafafa;
           font-family: "Cousine"; }
       .main-panel .main-box .skills-box .category-box .skills-txt-box {
+        margin-top: -2px;
         margin-left: 20px;
         float: left; }
-        .main-panel .main-box .skills-box .category-box .skills-txt-box .skills-txt {
+        .main-panel .main-box .skills-box .category-box .skills-txt-box .skills-txt span {
+          color: #0C1531;
+          font-size: 20px;
+          font-weight: 700;
           cursor: pointer; }
-          .main-panel .main-box .skills-box .category-box .skills-txt-box .skills-txt img {
-            display: none; }
-          .main-panel .main-box .skills-box .category-box .skills-txt-box .skills-txt span:hover + img {
-            margin-top: -20px;
-            margin-left: 150px;
-            position: absolute;
-            display: block; }
-        .main-panel .main-box .skills-box .category-box .skills-txt-box h4 {
-          font-size: 25px;
-          font-weight: bold; }
-  .main-panel .welcome-box {
-    padding: 21%;
-    text-align: center;
-    width: 100%;
-    height: 100%; }
-    .main-panel .welcome-box h1 {
-      font-weight: bold;
-      font-size: 60px;
-      line-height: .5em; }
-    .main-panel .welcome-box h2 {
-      color: #298CFF;
-      line-height: .6em; }
-    .main-panel .welcome-box .social-box {
-      margin-top: 15px; }
-      .main-panel .welcome-box .social-box .glyph-icon {
-        color: #298CFF;
-        font-size: 30px;
-        margin: 0 15px; }
+        .main-panel .main-box .skills-box .category-box .skills-txt-box .skills-txt img {
+          display: none; }
+        .main-panel .main-box .skills-box .category-box .skills-txt-box .skills-txt span:hover + img {
+          margin-top: -20px;
+          margin-left: 150px;
+          position: absolute;
+          display: block; }
 
 .about-panel {
   width: 100%;
   min-height: 100%;
-  background-color: #298CFF;
+  background-color: #00ABFC;
   padding: 0px 0 100px 0; }
   .about-panel .nav-box {
     width: 95%;
-    padding-top: 30px;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
     text-align: right; }
     .about-panel .nav-box ul {
       list-style: none; }
     .about-panel .nav-box li {
-      font-size: 20px;
-      margin-right: 25px;
+      font-size: 18px;
+      margin-right: 55px;
       float: right; }
       .about-panel .nav-box li a {
-        color: #1E1E1E;
+        color: #fafafa;
         font-family: "Cousine"; }
       .about-panel .nav-box li a:hover {
         text-decoration: underline; }
   .about-panel .bio-img {
     position: absolute;
-    margin-top: -60px;
+    margin-top: -47px;
     top: 0;
     width: 90%; }
   .about-panel .bio-box {
-    padding-top: 500px;
-    padding-left: 20%; }
+    padding-top: 400px;
+    padding-left: 15%; }
     .about-panel .bio-box h4 {
-      font-size: 20px; }
+      margin-top: 20px;
+      line-height: 1.5em;
+      color: #0C1531;
+      font-size: 19px;
+      font-weight: 600; }
   .about-panel .about-box .desc-box {
-    padding-left: 20%; }
+    padding-left: 16%; }
     .about-panel .about-box .desc-box .name-txt {
+      font-family: 'Open Sans', sans-serif;
       font-weight: bold;
-      font-size: 45px;
-      line-height: 3em; }
+      font-size: 55px;
+      line-height: 2em; }
     .about-panel .about-box .desc-box h2 {
-      color: #1E1E1E;
-      margin-top: 30px;
-      font-size: 30px; }
+      color: #0C1531;
+      line-height: 1.3em;
+      margin-top: 23px;
+      font-size: 28px;
+      font-weight: 600; }
     .about-panel .about-box .desc-box a {
-      color: #1E1E1E;
+      font-weight: 600;
+      color: #0C1531;
       text-decoration: underline; }
     .about-panel .about-box .desc-box a:hover {
       color: #fafafa; }
@@ -176,7 +193,7 @@
       .about-panel .about-box .desc-box .social-box a {
         text-decoration: none; }
       .about-panel .about-box .desc-box .social-box .glyph-icon {
-        color: #1E1E1E;
+        color: #0C1531;
         font-size: 30px;
         margin: 0 25px 0 0; }
       .about-panel .about-box .desc-box .social-box .glyph-icon:hover {
@@ -187,26 +204,41 @@
       position: absolute; }
       .about-panel .about-box .desc-box .hello-box h3 {
         font-size: 40px;
-        color: #d2d2d2; }
+        color: #E0DDD7; }
       .about-panel .about-box .desc-box .hello-box h4 {
         z-index: 1;
         opacity: 0.5;
-        color: #d2d2d2;
+        color: #E0DDD7;
         font-size: 30px; }
     .about-panel .about-box .desc-box .project-box {
-      margin-top: 37%;
-      width: 200px;
-      height: 100px; }
+      margin-top: 18%;
+      width: 380px;
+      height: 200px; }
       .about-panel .about-box .desc-box .project-box .project-txt {
         overflow: hidden;
         position: absolute;
-        bottom: 0;
-        width: 250px;
-        height: 63px; }
+        bottom: 10px;
+        width: 320px;
+        height: 100px; }
+      .about-panel .about-box .desc-box .project-box .down-txt {
+        font-size: 43px;
+        margin-top: -90px;
+        margin-left: 280px;
+        bottom: 50px;
+        color: #E0DDD7; }
+      .about-panel .about-box .desc-box .project-box .move-down {
+        -webkit-animation: moveD 2.5s infinite;
+                animation: moveD 2.5s infinite; }
+
+@keyframes moveD {
+  0%, 100% {
+    margin-top: -90px; }
+  50% {
+    margin-top: -70px; } }
       .about-panel .about-box .desc-box .project-box h3 {
-        color: #1E1E1E;
+        color: #E0DDD7;
         font-family: "Cousine";
-        font-size: 20px; }
+        font-size: 25px; }
 
 .project-panel {
   padding-top: 20px; }
@@ -224,32 +256,34 @@
       float: right; }
       .project-panel .project-box .nav-box .navigation li a {
         text-align: right;
-        color: #1E1E1E;
+        color: #0C1531;
         font-family: "Cousine"; }
+      .project-panel .project-box .nav-box .navigation li .active-link {
+        text-decoration: underline; }
       .project-panel .project-box .nav-box .navigation li a:hover {
         text-decoration: underline; }
   .project-panel .project-box .projects-list-box {
     width: 95%;
     margin: 30px auto 0 auto; }
     .project-panel .project-box .projects-list-box a {
-      color: #1E1E1E;
+      color: #0C1531;
       font-size: 20px;
       margin-right: 20px;
       cursor: pointer; }
     .project-panel .project-box .projects-list-box .active-txt {
-      color: #298CFF; }
+      color: #00ABFC; }
     .project-panel .project-box .projects-list-box a:hover {
-      color: #298CFF; }
+      color: #00ABFC; }
   .project-panel .project-box .individual-project-box {
     width: 95%;
-    margin: 30px auto 0 auto; }
+    margin: 50px auto 0 auto; }
     .project-panel .project-box .individual-project-box .project {
       width: 100%; }
       .project-panel .project-box .individual-project-box .project img {
         width: 100%; }
   .project-panel .project-box .all-projects-box {
     width: 100%;
-    margin: 30px 0 0 0; }
+    margin: 120px 0 0 0; }
     .project-panel .project-box .all-projects-box .projects {
       float: left;
       width: 25%;
@@ -259,11 +293,10 @@
       float: left;
       width: 25%;
       height: 150px;
-      background-color: #d2d2d2; }
+      background-color: #E0DDD7; }
 
 .name-txt {
-  color: #1E1E1E;
-  font-family: "Cousine";
+  color: #0C1531;
   font-size: 20px;
   white-space: nowrap;
   overflow: hidden;
@@ -271,8 +304,8 @@
   -webkit-animation: type 3s steps(60, end);
           animation: type 3s steps(60, end); }
   .name-txt span {
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 65px;
+    font-weight: 600;
     -webkit-animation: 1.3s blink step-end infinite;
     animation: 1.3s blink step-end infinite; }
 
@@ -301,7 +334,7 @@ html, body {
 
 h1, h2, h3, h4, h5, h6, a, span, i, body {
   font-weight: 300;
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
 
 h5 {
   font-size: 15px; }
