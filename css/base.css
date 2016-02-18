@@ -253,7 +253,7 @@
     .project-panel .project-box .all-projects-box .projects {
       float: left;
       width: 25%;
-      height: 150px;
+      height: auto;
       background-color: #EEEFF1; }
     .project-panel .project-box .all-projects-box .projects-2 {
       float: left;
