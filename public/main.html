@@ -168,8 +168,8 @@
 			</div>
 		</div>
 		<div class="row all-projects-box">
-			<div ng-repeat="project in projects" class="projects">
-				<img style="width:100%;max-height:150px;" ng-src="{{project.img}}">
+			<div ng-repeat="project in projects"  ng-show="!isActive(project)" class="projects">
+				<img style="width:100%;" ng-src="{{project.img}}">
 			</div>
 		</div>
 		
