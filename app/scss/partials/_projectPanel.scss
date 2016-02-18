@@ -34,6 +34,10 @@
 				color:$sec-color;
 				font-size: 20px;
 				margin-right: 20px;
+				cursor:pointer;
+			}
+			.active-txt{
+				color:$prim-color;
 			}
 			a:hover{
 				color:$prim-color;
@@ -43,7 +47,6 @@
 			width:95%;
 			margin:30px auto 0 auto;
 			.project{
-				background-color: #3df;
 				width:100%;
 				img{
 					width:100%;

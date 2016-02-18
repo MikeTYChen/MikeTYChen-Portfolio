@@ -234,14 +234,16 @@
     .project-panel .project-box .projects-list-box a {
       color: #1E1E1E;
       font-size: 20px;
-      margin-right: 20px; }
+      margin-right: 20px;
+      cursor: pointer; }
+    .project-panel .project-box .projects-list-box .active-txt {
+      color: #298CFF; }
     .project-panel .project-box .projects-list-box a:hover {
       color: #298CFF; }
   .project-panel .project-box .individual-project-box {
     width: 95%;
     margin: 30px auto 0 auto; }
     .project-panel .project-box .individual-project-box .project {
-      background-color: #3df;
       width: 100%; }
       .project-panel .project-box .individual-project-box .project img {
         width: 100%; }

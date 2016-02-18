@@ -1,4 +1,5 @@
-<div class="main-panel">
+
+        <div class="main-panel">
 	<div class="main-box">
 		<div class="row">			
 			<div class="nav-box">
@@ -127,3 +128,97 @@
 		</div>
 	</div>
 </div>
+        <div ng-controller="projectController" class="project-panel">
+	{{boo}}
+	<div class="project-box">
+		<div class="row nav-box">
+			<div class="col-xs-6">
+				<h1 class="nav-mike">Michael Chen</h1>
+			</div>	
+			<div class="col-xs-6">
+				<div class="navigation">
+					<ul>
+						<li><a href="#">about me</a></li>
+					    <li><a href="#">projects</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row projects-list-box">
+			<div class="col-xs-12">
+			    <a ng-repeat="project in projects" ng-class="{'active-txt': isActive(project)}" ng-click="setActiveProject($index)"> {{project.title}}</a>
+			</div>
+		</div>
+		<div ng-repeat="project in projects" ng-show="isActive(project)" class="row individual-project-box">
+			<div class="col-md-8">
+				<div class="project">
+					<img ng-src="{{project.img}}" />
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="project-desc">
+					<h3>{{project.title}}</h3>
+					<a href="{{project.url}}" target="_blank">visit site</a>
+					<h4><b>Role:</b> {{project.role}}</h4>
+					<h4><b>Tech:</b> Software Engineering (Full Stack)</h4>
+					<h4>PackHire provides you with platform where you<br>
+					can turn people in your network into the best<br>
+					recruiters for your company</h4>
+				</div>
+			</div>
+		</div>
+		<div class="row all-projects-box">
+			<div ng-repeat="project in projects" class="projects">
+				<img style="width:100%;max-height:150px;" ng-src="{{project.img}}">
+			</div>
+		</div>
+		
+	</div>
+</div>
+        <div class="about-panel">
+	<div class="about-box">
+		<div class="row">			
+			<div class="nav-box">
+				<ul>
+					<li><a href="#">about me</a></li>
+			        <li><a href="#">projects</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+
+				<img class="bio-img" src="assets/images/mike2.jpg"/>
+				<div class="bio-box">
+					<h4>Michael joined IBM’s Analytics Platform as a <br> 
+					front-end developer in June 2015.</h4>
+					<h4>He graduated from Northwestern University<br> 
+					 studying Biological Sciences and Computer<br>
+					 Science. During his time at Northwestern,<br> 
+					 Michael led EPIC, the undergraduate<br> 
+					 entrepreneurship student group and created<br> 
+					 programs such as WildHacks, an<br> 
+					 intercollegiate hackathon and Project Pitch,<br> 
+					 an entrepreneurship development program.</h4>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="desc-box">
+					<h1 class="name-txt">I'm Michael<span>|</span></h1>
+					<h2>I’m a <a href="">Full Stack Engineer</a><br> 
+					with <a href="">Design</a> and <a href="">Project<br> 
+					Management</a> experience.</h2>
+					<div class="social-box">
+				        <a href="mailto:miketychen@gmail.com" target="_blank"><span class="glyph-icon flaticon-email5"></span></a>                
+				        <a href="http://www.linkedin.com/in/miketychen" target="_blank"><span class="glyph-icon flaticon-linkedin11"></span></a>        
+				        <a href="http://www.github.com/miketychen" target="_blank"><span class="glyph-icon flaticon-github17"></span></a>
+				        <a href="http://drive.google.com" target="_blank"><span class="glyph-icon flaticon-application"></span></a>     
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		<script src="vendor/jquery/dist/jquery.min.js"></script>
+<script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
