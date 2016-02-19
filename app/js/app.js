@@ -19,6 +19,9 @@ angular.module('portfolioApp', [
       
     };
 })
+.controller('homeController', function($scope,$log) {	
+	
+})
 .config(['$routeProvider','$locationProvider', function($routeProvider,$locationProvider) {
 	$routeProvider.when('/', {
 		templateUrl: 'main.html'

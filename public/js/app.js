@@ -19,6 +19,12 @@ angular.module('portfolioApp', [
       
     };
 })
+<<<<<<< Updated upstream
+=======
+.controller('homeController', function($scope,$log) {	
+	
+})
+>>>>>>> Stashed changes
 .config(['$routeProvider','$locationProvider', function($routeProvider,$locationProvider) {
 	$routeProvider.when('/', {
 		templateUrl: 'main.html'
