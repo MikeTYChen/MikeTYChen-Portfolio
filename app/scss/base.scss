@@ -2,6 +2,7 @@ $blue:#2C86E8;
 $gray: #EEEFF1;
 $d-gray: rgb(210,210,210);
 
+$d-gray2: rgb(204,203,203);
 $black: #000;
 $black1:#1E1E1E;
 $white:rgb(250,250,250);
@@ -51,6 +52,7 @@ $main-blinker: $main-font;
 @import 'partials/_mainPanel.scss';
 @import 'partials/_aboutPanel.scss';
 
+@import 'partials/_carousel.scss';
 @import 'partials/_projectPanel.scss';
 @import 'partials/_blink.scss';
 

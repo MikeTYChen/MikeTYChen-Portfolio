@@ -1,0 +1,19 @@
+.carousel-inner{
+	.carousel-slide{
+		border:15px solid white;
+	}	
+}
+.carousel-control{
+	width:50px;
+	opacity:0.8!important;
+	background-color: $prim-color;
+}
+.carousel-control:hover {
+	opacity:0.8;
+}
+.carousel-control:hover .glyphicon{
+	color:$white;
+}
+.glyphicon{
+	color:rgb(180,180,180);
+}

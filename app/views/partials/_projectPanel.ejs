@@ -1,4 +1,4 @@
-<div ng-controller="projectController" class="project-panel">
+<div ng-controller="projectController" id="project-panel" class="project-panel">
 	{{boo}}
 	<div class="project-box">
 		<div class="row nav-box">
@@ -20,9 +20,7 @@
 		</div>
 		<div ng-repeat="project in projects" ng-show="isActive(project)" class="row individual-project-box">
 			<div class="col-md-8">
-				<div class="project">
-					<img ng-src="{{project.img}}" />
-				</div>
+				<%include _carousel.ejs%>
 			</div>
 			<div class="col-md-4">
 				<div class="project-desc">
@@ -37,8 +35,9 @@
 			</div>
 		</div>
 		<div class="row all-projects-box">
-			<div ng-repeat="project in projects"  ng-show="!isActive(project)" class="projects">
-				<img style="width:100%;" ng-src="{{project.img}}" ng-click="setActiveProject($index)">
+			<div ng-repeat="project in projects" class="projects" ng-click="setActiveProject($index);gotoElement('project-panel')">
+				<img style="width:100%;" ng-src="{{project.img}}">
+				<span class="text-content"><span>{{project.title}}</span></span>
 			</div>
 		</div>
 		

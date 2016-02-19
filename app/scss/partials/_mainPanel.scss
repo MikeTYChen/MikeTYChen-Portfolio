@@ -2,6 +2,7 @@
 	width:100%;
 	min-height:100%;
 	background-color: $prim-color;
+	padding-bottom: 2.1%;
 	.nav-box{
 		width:95%;
 		margin:0 auto;
@@ -13,11 +14,12 @@
 			font-size: 18px;
 			margin-right: 55px;
 			float:right;
-			a{
+			h4{
+				cursor:pointer;
 				color:$tert-color;
 				font-family: 'Cousine', ;
 			}
-			a:hover{
+			h4:hover{
 				text-decoration: underline;
 			}
 		}
@@ -80,6 +82,7 @@
 				margin-top: 18%;
 				width:380px;
 				height:200px;
+				cursor:pointer;
 				.project-txt{
 					overflow:hidden;
 					position:absolute;

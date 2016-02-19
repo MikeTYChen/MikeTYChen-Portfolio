@@ -1,4 +1,5 @@
-angular.module('skillsCtrl', []).controller('skillsController', function($scope,$log) {
+angular.module('skillsCtrl', [])
+.controller('skillsController', function($scope,$log) {
 	$scope.activeProject = 0;
 	$scope.skillsSet=[
 		{category:"front-end ",
@@ -11,6 +12,4 @@ angular.module('skillsCtrl', []).controller('skillsController', function($scope,
 		},
 
 	];
-
-
-});
+})

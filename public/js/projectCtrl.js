@@ -1,4 +1,5 @@
-angular.module('projectCtrl', []).controller('projectController', function($scope,$log) {
+angular.module('projectCtrl', ['ui.bootstrap'])
+.controller('projectController', function($scope,$log) {
 	$scope.activeProject = 0;
 	$scope.projects=[
 	{title:"PackHire",img:"assets/images/PackHire-Big.png",url:"http://www.packhire.com", role:"Software Engineering (Full Stack)"},
@@ -16,4 +17,21 @@ angular.module('projectCtrl', []).controller('projectController', function($scop
 	$scope.isActive = function(project){
         return $scope.projects.indexOf(project) == $scope.activeProject;
     }
-});
+})
+.controller('CarouselCtrl', function ($scope) {
+  $scope.myInterval = 5000;
+  $scope.noWrapSlides = false;
+  var slides = $scope.slides = [{image:"assets/images/PackHire-Big.png"},{image:"assets/images/HatchGood-Big.png"}];
+  var currIndex = 0;
+})
+.config(['$provide', Decorate]);
+  function Decorate($provide) {
+
+  //Override UI Bootstrap Carousel Directive's Template
+  $provide.decorator('uibCarouselDirective', function($delegate) {
+    var directive = $delegate[0];  
+    directive.templateUrl = "partials/general/carousel.tpl.html";
+    
+    return $delegate;
+  });
+};

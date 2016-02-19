@@ -4,8 +4,8 @@
 		<div class="row">			
 			<div class="nav-box">
 				<ul>
-					<li><a href="#">about me</a></li>
-			        <li><a href="#">projects</a></li>
+					<li><h4 ng-click="gotoElement('project-panel')">about me</h4></li>
+			        <li><h4 ng-click="gotoElement('project-panel')">projects</h4></li>
 				</ul>
 			</div>
 		</div>
@@ -26,7 +26,7 @@
 						<h3>hello there</h3>
 						<h4>//////////////////</h4>
 					</div> -->
-					<div class="project-box">
+					<div class="project-box" ng-click="gotoElement('project-panel')">
 						<div class="project-txt">
 							<h3>see what i’ve been<br>
 							working on lately</h3>
@@ -132,7 +132,7 @@
 		</div>
 	</div>
 </div>
-        <div ng-controller="projectController" class="project-panel">
+        <div ng-controller="projectController" id="project-panel" class="project-panel">
 	{{boo}}
 	<div class="project-box">
 		<div class="row nav-box">
@@ -154,9 +154,15 @@
 		</div>
 		<div ng-repeat="project in projects" ng-show="isActive(project)" class="row individual-project-box">
 			<div class="col-md-8">
-				<div class="project">
-					<img ng-src="{{project.img}}" />
-				</div>
+				<div ng-controller="CarouselCtrl">
+  <div>
+    <uib-carousel interval="myInterval" no-wrap="noWrapSlides">
+      <uib-slide class="carousel-slide" ng-repeat="slide in slides" active="slide.active" index="slide.id">
+        <img ng-src="{{slide.image}}" style="margin:auto;">
+      </uib-slide>
+    </uib-carousel>
+  </div>
+</div>
 			</div>
 			<div class="col-md-4">
 				<div class="project-desc">
@@ -171,8 +177,9 @@
 			</div>
 		</div>
 		<div class="row all-projects-box">
-			<div ng-repeat="project in projects"  ng-show="!isActive(project)" class="projects">
-				<img style="width:100%;" ng-src="{{project.img}}" ng-click="setActiveProject($index)">
+			<div ng-repeat="project in projects" class="projects" ng-click="setActiveProject($index);gotoElement('project-panel')">
+				<img style="width:100%;" ng-src="{{project.img}}">
+				<span class="text-content"><span>{{project.title}}</span></span>
 			</div>
 		</div>
 		

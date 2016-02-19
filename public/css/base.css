@@ -12,7 +12,8 @@
 .main-panel {
   width: 100%;
   min-height: 100%;
-  background-color: #00ABFC; }
+  background-color: #00ABFC;
+  padding-bottom: 2.1%; }
   .main-panel .nav-box {
     width: 95%;
     margin: 0 auto;
@@ -23,10 +24,11 @@
       font-size: 18px;
       margin-right: 55px;
       float: right; }
-      .main-panel .nav-box li a {
+      .main-panel .nav-box li h4 {
+        cursor: pointer;
         color: #fafafa;
         font-family: "Cousine"; }
-      .main-panel .nav-box li a:hover {
+      .main-panel .nav-box li h4:hover {
         text-decoration: underline; }
   .main-panel .main-box .desc-box {
     padding-left: 16%; }
@@ -73,7 +75,8 @@
     .main-panel .main-box .desc-box .project-box {
       margin-top: 18%;
       width: 380px;
-      height: 200px; }
+      height: 200px;
+      cursor: pointer; }
       .main-panel .main-box .desc-box .project-box .project-txt {
         overflow: hidden;
         position: absolute;
@@ -160,7 +163,7 @@
     top: 0;
     width: 90%; }
   .about-panel .bio-box {
-    padding-top: 400px;
+    padding-top: 500px;
     padding-left: 15%; }
     .about-panel .bio-box h4 {
       margin-top: 20px;
@@ -240,6 +243,23 @@
         font-family: "Cousine";
         font-size: 25px; }
 
+.carousel-inner .carousel-slide {
+  border: 15px solid white; }
+
+.carousel-control {
+  width: 50px;
+  opacity: 0.8 !important;
+  background-color: #00ABFC; }
+
+.carousel-control:hover {
+  opacity: 0.8; }
+
+.carousel-control:hover .glyphicon {
+  color: #fafafa; }
+
+.glyphicon {
+  color: #b4b4b4; }
+
 .project-panel {
   padding-top: 20px; }
   .project-panel .project-box .nav-box {
@@ -285,10 +305,30 @@
     width: 100%;
     margin: 120px 0 0 0; }
     .project-panel .project-box .all-projects-box .projects {
+      position: relative;
       float: left;
-      width: 25%;
+      width: 33.3%;
       height: auto;
-      background-color: #EEEFF1; }
+      background-color: #00ABFC; }
+      .project-panel .project-box .all-projects-box .projects img {
+        border: 1px solid #00ABFC; }
+    .project-panel .project-box .all-projects-box .text-content {
+      cursor: pointer;
+      font-size: 18px;
+      position: absolute;
+      padding-top: 20%;
+      text-align: center;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(29, 106, 154, 0.92);
+      color: #fff;
+      visibility: hidden;
+      opacity: 0; }
+    .project-panel .project-box .all-projects-box .projects:hover .text-content {
+      visibility: visible;
+      opacity: 1; }
     .project-panel .project-box .all-projects-box .projects-2 {
       float: left;
       width: 25%;
