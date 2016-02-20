@@ -16,7 +16,16 @@
   }
 }
 
-
+@keyframes height{ 
+  from { 
+    height: 0; 
+    visibility:hidden;
+  } 
+  to{
+    height:100%;
+    visibility:visible;
+  }
+} 
 
 @keyframes type{ 
   from { width: 0; } 
