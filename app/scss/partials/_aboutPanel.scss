@@ -1,43 +1,43 @@
 .about-panel{
 	width:100%;
-	min-height:100%;
-	background-color: $prim-color;
-	padding: 0px 0 100px 0;
-	.nav-box{
-		width:95%;
-		margin:20px auto 0 auto;
-		text-align: right;
-		ul{
-			list-style: none;
-		}
-		li{
-			font-size: 18px;
-			margin-right: 55px;
-			float:right;
-			a{
-				color:$tert-color;
-				font-family: 'Cousine', ;
-			}
-			a:hover{
-				text-decoration: underline;
-			}
-		}
-	}
+	background-color: $pent-color;
 	.bio-img{
 		position:absolute;
-		margin-top: -47px;
 		top:0;
-		width:90%;
+		width:93%;
 	}
 	.bio-box{
-		padding-top: 500px;
-		padding-left: 15%;
-		h4{
-			margin-top: 20px;
-			line-height: 1.5em;
-			color:$sec-color;
-			font-size: 19px;
-			font-weight: 600;
+		margin-top: 50px;
+		margin-right: 12%;
+		text-align: left;
+		h2{
+			color:$tert-color;
+			font-size: 35px;
+		}
+		.desc-txt-box{
+			width:100%;
+			margin-top: 30px;
+			h4{
+				line-height: 1.5em;
+				color:$sec-color;
+				font-size: 18px;
+				font-weight: 600;
+			}	
+		}	
+		.social-box{
+			margin-top: 30px;
+			text-align: left;
+			a{
+				text-decoration: none!important;
+			}			
+			.glyph-icon{
+				color:$tert-color;
+				font-size: 30px;
+				margin:0 25px 0 0;
+			}
+			.glyph-icon:hover{
+				color:$sec-color;
+			}
 		}
 	}
 	.about-box{
@@ -64,21 +64,6 @@
 			}
 			a:hover{
 				color:$tert-color;
-			}
-			.social-box{
-				margin-top: 50px;
-				text-align: left;
-				a{
-					text-decoration: none;
-				}
-				.glyph-icon{
-					color:$sec-color;
-					font-size: 30px;
-					margin:0 25px 0 0;
-				}
-				.glyph-icon:hover{
-					color:$tert-color;
-				}
 			}
 			.hello-box{
 				left:20px;

@@ -1,5 +1,4 @@
-
-        <div class="main-panel">
+<div class="main-panel">
 	<div class="main-box">
 		<div class="row">			
 			<div class="nav-box">
@@ -132,17 +131,17 @@
 		</div>
 	</div>
 </div>
-        <div ng-controller="projectController" id="project-panel" class="project-panel">
-	{{boo}}
+<div ng-controller="projectController" id="project-panel" class="project-panel">
 	<div class="project-box">
 		<div class="row nav-box">
 			<div class="col-xs-6">
+				<h2 class="nav-label">My Latest Creations</h2 >
 			</div>	
 			<div class="col-xs-6">
 				<div class="navigation">
 					<ul>
-						<li><a href="#">about me</a></li>
-					    <li><a href="#" class="active-link">projects</a></li>
+						<li><h4>about me</h4></li>
+					    <li><h4>projects</h4></li>
 					</ul>
 				</div>
 			</div>
@@ -168,67 +167,82 @@
 				<div class="project-desc">
 					<h3>{{project.title}}</h3>
 					<a href="{{project.url}}" target="_blank">visit site</a>
-					<h4><b>Role:</b> {{project.role}}</h4>
-					<h4><b>Tech:</b> Software Engineering (Full Stack)</h4>
-					<h4>PackHire provides you with platform where you<br>
-					can turn people in your network into the best<br>
+					<h4><span>Role:</span> {{project.role}}</h4>
+					<h4><span>Tech:</span> Software Engineering (Full Stack)</h4>
+					<h4>PackHire provides you with platform where you 
+					can turn people in your network into the best 
 					recruiters for your company</h4>
 				</div>
 			</div>
-		</div>
-		<div class="row all-projects-box">
-			<div ng-repeat="project in projects" class="projects" ng-click="setActiveProject($index);gotoElement('project-panel')">
-				<img style="width:100%;" ng-src="{{project.img}}">
-				<span class="text-content"><span>{{project.title}}</span></span>
-			</div>
-		</div>
-		
+		</div>		
 	</div>
 </div>
-        <div class="about-panel">
-	<div class="about-box">
-		<div class="row">			
-			<div class="nav-box">
-				<ul>
-					<li><a href="#">about me</a></li>
-			        <li><a href="#">projects</a></li>
-				</ul>
+<div class="prof-panel">
+	<div class="prof-box">
+		<div class="row title-box">
+			<div class="col-md-12">
+				<h2>Professional Experience</h2>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6">
-
-				<img class="bio-img" src="assets/images/mike2.jpg"/>
-				<div class="bio-box">
-					<h4>Michael joined IBM’s Analytics Platform as a <br> 
-					front-end developer in June 2015.</h4>
-					<h4>He graduated from Northwestern University<br> 
-					 studying Biological Sciences and Computer<br>
-					 Science. During his time at Northwestern,<br> 
-					 Michael led EPIC, the undergraduate<br> 
-					 entrepreneurship student group and created<br> 
-					 programs such as WildHacks, an<br> 
-					 intercollegiate hackathon and Project Pitch,<br> 
-					 an entrepreneurship development program.</h4>
+			<div class="row desc-txt-box">
+				<div class="col-md-4">
+					<h4 class="title-txt">Software Engineer</h4>
+					<h4 class="company-txt">IBM | Austin, TX</h4>
+					<h4 class="date-txt">2015 - Present</h4>
+					<h5>--</h5>
+					<h4 class="bio-txt">IBM Analytics Platform creates enterprise level applications to enable companies to visualize, explore, and shape big data.</h4>
+					<h4 class="bio-txt">I am working to create a next generation data science workbench as well as some open source software. reate a next generation data science workbench as well as some open source software.</h4>
+				</div>
+				<div class="col-md-4">
+					<h4 class="title-txt">Software Engineer Intern</h4>
+					<h4 class="company-txt">IBM | Austin, TX</h4>
+					<h4 class="date-txt">2015 - Present</h4>
+					<h5>--</h5>
+					<h4 class="bio-txt">IBM Analytics Platform creates enterprise level applications to enable companies to visualize, explore, and shape big data.</h4>
+					<h4 class="bio-txt">I am working to create a next generation data science workbench as well as some open source software. reate a next generation data science workbench as well as some open source software.</h4>
+				</div>
+				<div class="col-md-4">
+					<h4 class="title-txt">Software Engineer Intern</h4>
+					<h4 class="company-txt">IBM | Austin, TX</h4>
+					<h4 class="date-txt">2015 - Present</h4>
+					<h5>--</h5>
+					<h4 class="bio-txt">IBM Analytics Platform creates enterprise level applications to enable companies to visualize, explore, and shape big data.</h4>
+					<h4 class="bio-txt">I am working to create a next generation data science workbench as well as some open source software. reate a next generation data science workbench as well as some open source software.</h4>
 				</div>
 			</div>
+		</div>
+	</div>
+</div>
+<div class="about-panel">
+	<div class="about-box">
+		<div class="row">
 			<div class="col-md-6">
-				<div class="desc-box">
-					<h1 class="name-txt">Hi, I'm Michael.<span>|</span></h1>
-					<h2>I’m a <a href="">Full Stack Engineer</a><br> 
-					with <a href="">Design</a> and <a href="">Project<br> 
-					Management</a> experience.</h2>
-					<div class="social-box">
+				<img class="bio-img" src="assets/images/team.jpg"/>
+			</div>
+			<div class="col-md-6">
+					<div class="bio-box">
+					<h2>About Me</h2>
+					<div class="desc-txt-box">
+						<h4>Michael joined IBM’s Analytics Platform as a front-end developer in June 2015.</h4>
+						<h4>He graduated from Northwestern University studying Biological Sciences and Computer Science. During his time at Northwestern, Michael led EPIC, the undergraduate entrepreneurship student group and programs such as WildHacks, an intercollegiate hackathon and Project Pitch, an entrepreneurship development program.</h4>
+					</div>
+					 <div class="social-box">
 				        <a href="mailto:miketychen@gmail.com" target="_blank"><span class="glyph-icon flaticon-email5"></span></a>                
 				        <a href="http://www.linkedin.com/in/miketychen" target="_blank"><span class="glyph-icon flaticon-linkedin11"></span></a>        
 				        <a href="http://www.github.com/miketychen" target="_blank"><span class="glyph-icon flaticon-github17"></span></a>
 				        <a href="http://drive.google.com" target="_blank"><span class="glyph-icon flaticon-application"></span></a>     
 					</div>
+					
 				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 footer">
+				<h3 class="footer-txt">Made with   &nbsp; <i class="glyph-icon flaticon-cup"></i></h3>
 			</div>
 		</div>
 	</div>
 </div>
-		<script src="vendor/jquery/dist/jquery.min.js"></script>
+
+<script src="vendor/jquery/dist/jquery.min.js"></script>
 <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>

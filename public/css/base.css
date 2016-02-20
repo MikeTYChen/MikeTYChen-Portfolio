@@ -6,13 +6,13 @@
   .navbar .navbar-right li {
     width: 48px; }
   .navbar .navbar-right .glyph-icon {
-    color: #00ABFC;
+    color: #fdfdfd;
     font-size: 18px; }
 
 .main-panel {
   width: 100%;
   min-height: 100%;
-  background-color: #00ABFC;
+  background-color: #fdfdfd;
   padding-bottom: 2.3%; }
   .main-panel .nav-box {
     width: 95%;
@@ -26,7 +26,7 @@
       float: right; }
       .main-panel .nav-box li h4 {
         cursor: pointer;
-        color: #fafafa;
+        color: #8D99AE;
         font-family: "Cousine"; }
       .main-panel .nav-box li h4:hover {
         text-decoration: underline; }
@@ -36,44 +36,45 @@
       font-family: 'Open Sans', sans-serif;
       font-weight: bold;
       font-size: 55px;
-      line-height: 2em; }
+      line-height: 2em;
+      color: #1eb954; }
     .main-panel .main-box .desc-box h2 {
-      color: #0C1531;
+      color: #011627;
       line-height: 1.3em;
-      margin-top: 23px;
+      margin-top: 43px;
       font-size: 28px;
       font-weight: 600; }
     .main-panel .main-box .desc-box a {
       font-weight: 600;
-      color: #0C1531;
+      color: #011627;
       text-decoration: underline; }
     .main-panel .main-box .desc-box a:hover {
-      color: #fafafa; }
+      color: #1eb954; }
     .main-panel .main-box .desc-box .social-box {
-      margin-top: 50px;
+      margin-top: 100px;
       text-align: left; }
       .main-panel .main-box .desc-box .social-box a {
         text-decoration: none; }
       .main-panel .main-box .desc-box .social-box .glyph-icon {
-        color: #0C1531;
+        color: #1eb954;
         font-size: 30px;
         margin: 0 25px 0 0; }
       .main-panel .main-box .desc-box .social-box .glyph-icon:hover {
-        color: #fafafa; }
+        color: #011627; }
     .main-panel .main-box .desc-box .hello-box {
       left: 20px;
       top: -10px;
       position: absolute; }
       .main-panel .main-box .desc-box .hello-box h3 {
         font-size: 40px;
-        color: #E0DDD7; }
+        color: #8D99AE; }
       .main-panel .main-box .desc-box .hello-box h4 {
         z-index: 1;
         opacity: 0.5;
-        color: #E0DDD7;
+        color: #8D99AE;
         font-size: 30px; }
     .main-panel .main-box .desc-box .project-box {
-      margin-top: 18%;
+      margin-top: 6%;
       width: 380px;
       height: 200px;
       cursor: pointer; }
@@ -88,7 +89,7 @@
         margin-top: -90px;
         margin-left: 280px;
         bottom: 50px;
-        color: #E0DDD7; }
+        color: #8D99AE; }
       .main-panel .main-box .desc-box .project-box .move-down {
         -webkit-animation: moveD 2.5s infinite;
                 animation: moveD 2.5s infinite; }
@@ -105,7 +106,7 @@
   50% {
     margin-top: -70px; } }
       .main-panel .main-box .desc-box .project-box h3 {
-        color: #E0DDD7;
+        color: #8D99AE;
         font-family: "Cousine";
         font-size: 25px; }
   .main-panel .main-box .skills-box {
@@ -118,14 +119,14 @@
         float: left;
         white-space: nowrap; }
         .main-panel .main-box .skills-box .category-box .category-title h4 {
-          color: #fafafa;
+          color: #1eb954;
           font-family: "Cousine"; }
       .main-panel .main-box .skills-box .category-box .skills-txt-box {
         margin-top: -2px;
         margin-left: 20px;
         float: left; }
         .main-panel .main-box .skills-box .category-box .skills-txt-box .skills-txt span {
-          color: #0C1531;
+          color: #011627;
           font-size: 20px;
           font-weight: 700;
           cursor: pointer; }
@@ -139,38 +140,37 @@
 
 .about-panel {
   width: 100%;
-  min-height: 100%;
-  background-color: #00ABFC;
-  padding: 0px 0 100px 0; }
-  .about-panel .nav-box {
-    width: 95%;
-    margin: 20px auto 0 auto;
-    text-align: right; }
-    .about-panel .nav-box ul {
-      list-style: none; }
-    .about-panel .nav-box li {
-      font-size: 18px;
-      margin-right: 55px;
-      float: right; }
-      .about-panel .nav-box li a {
-        color: #fafafa;
-        font-family: "Cousine"; }
-      .about-panel .nav-box li a:hover {
-        text-decoration: underline; }
+  background-color: #f4f4f4; }
   .about-panel .bio-img {
     position: absolute;
-    margin-top: -47px;
     top: 0;
-    width: 90%; }
+    width: 93%; }
   .about-panel .bio-box {
-    padding-top: 500px;
-    padding-left: 15%; }
-    .about-panel .bio-box h4 {
-      margin-top: 20px;
-      line-height: 1.5em;
-      color: #0C1531;
-      font-size: 19px;
-      font-weight: 600; }
+    margin-top: 50px;
+    margin-right: 12%;
+    text-align: left; }
+    .about-panel .bio-box h2 {
+      color: #1eb954;
+      font-size: 35px; }
+    .about-panel .bio-box .desc-txt-box {
+      width: 100%;
+      margin-top: 30px; }
+      .about-panel .bio-box .desc-txt-box h4 {
+        line-height: 1.5em;
+        color: #011627;
+        font-size: 18px;
+        font-weight: 600; }
+    .about-panel .bio-box .social-box {
+      margin-top: 30px;
+      text-align: left; }
+      .about-panel .bio-box .social-box a {
+        text-decoration: none !important; }
+      .about-panel .bio-box .social-box .glyph-icon {
+        color: #1eb954;
+        font-size: 30px;
+        margin: 0 25px 0 0; }
+      .about-panel .bio-box .social-box .glyph-icon:hover {
+        color: #011627; }
   .about-panel .about-box .desc-box {
     padding-left: 16%; }
     .about-panel .about-box .desc-box .name-txt {
@@ -179,39 +179,28 @@
       font-size: 55px;
       line-height: 2em; }
     .about-panel .about-box .desc-box h2 {
-      color: #0C1531;
+      color: #011627;
       line-height: 1.3em;
       margin-top: 23px;
       font-size: 28px;
       font-weight: 600; }
     .about-panel .about-box .desc-box a {
       font-weight: 600;
-      color: #0C1531;
+      color: #011627;
       text-decoration: underline; }
     .about-panel .about-box .desc-box a:hover {
-      color: #fafafa; }
-    .about-panel .about-box .desc-box .social-box {
-      margin-top: 50px;
-      text-align: left; }
-      .about-panel .about-box .desc-box .social-box a {
-        text-decoration: none; }
-      .about-panel .about-box .desc-box .social-box .glyph-icon {
-        color: #0C1531;
-        font-size: 30px;
-        margin: 0 25px 0 0; }
-      .about-panel .about-box .desc-box .social-box .glyph-icon:hover {
-        color: #fafafa; }
+      color: #1eb954; }
     .about-panel .about-box .desc-box .hello-box {
       left: 20px;
       top: -10px;
       position: absolute; }
       .about-panel .about-box .desc-box .hello-box h3 {
         font-size: 40px;
-        color: #E0DDD7; }
+        color: #8D99AE; }
       .about-panel .about-box .desc-box .hello-box h4 {
         z-index: 1;
         opacity: 0.5;
-        color: #E0DDD7;
+        color: #8D99AE;
         font-size: 30px; }
     .about-panel .about-box .desc-box .project-box {
       margin-top: 18%;
@@ -228,7 +217,7 @@
         margin-top: -90px;
         margin-left: 280px;
         bottom: 50px;
-        color: #E0DDD7; }
+        color: #8D99AE; }
       .about-panel .about-box .desc-box .project-box .move-down {
         -webkit-animation: moveD 2.5s infinite;
                 animation: moveD 2.5s infinite; }
@@ -239,104 +228,123 @@
   50% {
     margin-top: -70px; } }
       .about-panel .about-box .desc-box .project-box h3 {
-        color: #E0DDD7;
+        color: #8D99AE;
         font-family: "Cousine";
         font-size: 25px; }
 
+.prof-panel {
+  width: 100%;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 0px 0 30px 0; }
+  .prof-panel .prof-box .title-box {
+    width: 95%;
+    margin: 50px auto 0 auto; }
+    .prof-panel .prof-box .title-box h2 {
+      color: #1eb954;
+      font-size: 35px; }
+  .prof-panel .prof-box .desc-txt-box {
+    width: 100%;
+    margin: 110px auto 0 auto;
+    padding: 0 0 50px 0; }
+    .prof-panel .prof-box .desc-txt-box .title-txt {
+      font-size: 16px;
+      font-weight: 700;
+      font-family: "Cousine"; }
+    .prof-panel .prof-box .desc-txt-box .company-txt {
+      font-size: 14px;
+      font-weight: 700;
+      font-family: "Cousine"; }
+    .prof-panel .prof-box .desc-txt-box .date-txt {
+      font-size: 14px;
+      font-weight: 700;
+      font-family: "Cousine"; }
+    .prof-panel .prof-box .desc-txt-box .location-txt {
+      font-size: 14px;
+      font-weight: 700; }
+    .prof-panel .prof-box .desc-txt-box .bio-txt {
+      font-size: 16px;
+      line-height: 1.5em; }
+
 .carousel-inner .carousel-slide {
-  border: 15px solid white; }
+  border: 15px solid gainsboro; }
 
 .carousel-control {
   width: 50px;
-  opacity: 0.8 !important;
-  background-color: #00ABFC; }
+  background-image: none !important;
+  background-color: #011627 !important;
+  opacity: 0.5; }
 
 .carousel-control:hover {
   opacity: 0.8; }
 
 .carousel-control:hover .glyphicon {
-  color: #fafafa; }
+  color: #fdfdfd; }
 
 .glyphicon {
+  text-shadow: none;
   color: #b4b4b4; }
 
 .project-panel {
-  padding-top: 20px; }
-  .project-panel .project-box .nav-box {
-    width: 95%;
-    margin: 0 auto; }
-    .project-panel .project-box .nav-box .nav-mike {
-      padding: 0;
-      margin-top: 5px; }
-    .project-panel .project-box .nav-box .navigation ul {
-      list-style: none; }
-    .project-panel .project-box .nav-box .navigation li {
-      font-size: 20px;
-      margin-right: 25px;
-      float: right; }
-      .project-panel .project-box .nav-box .navigation li a {
-        text-align: right;
-        color: #0C1531;
-        font-family: "Cousine"; }
-      .project-panel .project-box .nav-box .navigation li .active-link {
-        text-decoration: underline; }
-      .project-panel .project-box .nav-box .navigation li a:hover {
-        text-decoration: underline; }
-  .project-panel .project-box .projects-list-box {
-    width: 95%;
-    margin: 30px auto 0 auto; }
-    .project-panel .project-box .projects-list-box a {
-      color: #0C1531;
-      font-size: 20px;
-      margin-right: 20px;
-      cursor: pointer; }
-    .project-panel .project-box .projects-list-box .active-txt {
-      color: #00ABFC; }
-    .project-panel .project-box .projects-list-box a:hover {
-      color: #00ABFC; }
-  .project-panel .project-box .individual-project-box {
-    width: 95%;
-    margin: 50px auto 0 auto; }
-    .project-panel .project-box .individual-project-box .project {
-      width: 100%; }
-      .project-panel .project-box .individual-project-box .project img {
+  padding-top: 20px;
+  background-color: #f4f4f4; }
+  .project-panel .project-box {
+    padding-bottom: 150px; }
+    .project-panel .project-box .nav-box {
+      width: 95%;
+      margin: 0 auto; }
+      .project-panel .project-box .nav-box .nav-label {
+        font-size: 35px;
+        margin-top: 8px;
+        color: #1eb954; }
+      .project-panel .project-box .nav-box .navigation ul {
+        list-style: none; }
+      .project-panel .project-box .nav-box .navigation li {
+        font-size: 18px;
+        margin-right: 55px;
+        float: right; }
+        .project-panel .project-box .nav-box .navigation li h4 {
+          cursor: pointer;
+          color: #8D99AE;
+          font-family: "Cousine"; }
+        .project-panel .project-box .nav-box .navigation li .active-link {
+          text-decoration: underline; }
+        .project-panel .project-box .nav-box .navigation li a:hover {
+          text-decoration: underline; }
+    .project-panel .project-box .projects-list-box {
+      width: 95%;
+      margin: 50px auto 0 auto; }
+      .project-panel .project-box .projects-list-box a {
+        color: #011627;
+        font-size: 20px;
+        margin-right: 20px;
+        cursor: pointer;
+        font-weight: 700; }
+      .project-panel .project-box .projects-list-box .active-txt {
+        color: #1eb954; }
+      .project-panel .project-box .projects-list-box a:hover {
+        color: #011627; }
+    .project-panel .project-box .individual-project-box {
+      width: 95%;
+      margin: 50px auto 0 auto; }
+      .project-panel .project-box .individual-project-box .project {
         width: 100%; }
-  .project-panel .project-box .all-projects-box {
-    width: 100%;
-    margin: 120px 0 0 0; }
-    .project-panel .project-box .all-projects-box .projects {
-      position: relative;
-      float: left;
-      width: 33.3%;
-      height: auto;
-      background-color: #00ABFC; }
-      .project-panel .project-box .all-projects-box .projects img {
-        border: 1px solid #00ABFC; }
-    .project-panel .project-box .all-projects-box .text-content {
-      cursor: pointer;
-      font-size: 18px;
-      position: absolute;
-      padding-top: 20%;
-      text-align: center;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: rgba(29, 106, 154, 0.92);
-      color: #fff;
-      visibility: hidden;
-      opacity: 0; }
-    .project-panel .project-box .all-projects-box .projects:hover .text-content {
-      visibility: visible;
-      opacity: 1; }
-    .project-panel .project-box .all-projects-box .projects-2 {
-      float: left;
-      width: 25%;
-      height: 150px;
-      background-color: #E0DDD7; }
+        .project-panel .project-box .individual-project-box .project img {
+          width: 100%; }
+      .project-panel .project-box .individual-project-box .project-desc h3 {
+        font-size: 30px;
+        font-weight: 700; }
+      .project-panel .project-box .individual-project-box .project-desc a {
+        font-size: 15px;
+        color: #1eb954;
+        font-weight: 700;
+        font-family: "Cousine"; }
+      .project-panel .project-box .individual-project-box .project-desc span {
+        font-family: "Cousine";
+        font-weight: 700; }
 
 .name-txt {
-  color: #0C1531;
+  color: #011627;
   font-size: 20px;
   white-space: nowrap;
   overflow: hidden;
@@ -361,13 +369,13 @@
   from, to {
     color: transparent; }
   50% {
-    color: #fafafa; } }
+    color: #1eb954; } }
 
 @-webkit-keyframes "blink" {
   from, to {
     color: transparent; }
   50% {
-    color: #fafafa; } }
+    color: #1eb954; } }
 
 html, body {
   overflow-x: hidden; }
@@ -384,3 +392,11 @@ a:hover {
 
 .clear {
   clear: both; }
+
+.footer {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  text-align: center; }
+  .footer .footer-txt {
+    font-size: 14px;
+    color: #1eb954; }

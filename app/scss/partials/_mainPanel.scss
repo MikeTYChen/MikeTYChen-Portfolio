@@ -16,7 +16,7 @@
 			float:right;
 			h4{
 				cursor:pointer;
-				color:$tert-color;
+				color:$quart-color;
 				font-family: 'Cousine', ;
 			}
 			h4:hover{
@@ -32,11 +32,12 @@
 				font-weight: bold;
 				font-size:55px;
 				line-height: 2em;
+				color:$tert-color;
 			}
 			h2{	
 				color:$sec-color;
 				line-height: 1.3em;
-				margin-top: 23px;
+				margin-top: 43px;
 				font-size: 28px;
 				font-weight: 600;
 			}
@@ -49,18 +50,19 @@
 				color:$tert-color;
 			}
 			.social-box{
-				margin-top: 50px;
+				// margin-top: 50px;
+				margin-top:100px;
 				text-align: left;
 				a{
 					text-decoration: none;
 				}
 				.glyph-icon{
-					color:$sec-color;
+					color:$tert-color;
 					font-size: 30px;
 					margin:0 25px 0 0;
 				}
 				.glyph-icon:hover{
-					color:$tert-color;
+					color:$sec-color;
 				}
 			}
 			.hello-box{
@@ -79,7 +81,8 @@
 				}
 			}
 			.project-box{
-				margin-top: 18%;
+				// margin-top: 18%;
+				margin-top:6%;
 				width:380px;
 				height:200px;
 				cursor:pointer;

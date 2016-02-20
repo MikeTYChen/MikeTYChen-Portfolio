@@ -1,0 +1,7 @@
+
+		<div class="row all-projects-box">
+			<div ng-repeat="project in projects" class="projects" ng-click="setActiveProject($index);gotoElement('project-panel')">
+				<img style="width:100%;" ng-src="{{project.img}}">
+				<span class="text-content"><span>{{project.title}}</span></span>
+			</div>
+		</div>

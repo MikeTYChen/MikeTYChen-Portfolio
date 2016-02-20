@@ -26,16 +26,44 @@ $pr1c:#4cd964;
 $pr1d:#F8B300;
 
 $inv:rgb(56,121,251);
-
-
+$op:rgba(247,148,33,1);
+$op1:#FF951C;
+$op2:#005DFF;
+// $op2:rgb(6,23,59);
+$op3:rgb(245,245,245);
+$bl2:rgba(255,255,255,0.4);
 
 $pr1b:#00ABFC;
 $se2:#0C1531;
-$prim-color:$pr1b;
+$se2:#2c3e50;
+// $se2:#253544;
+$se3:rgb(207,0,15);
+$blue:#2754FF;
+$green: rgb(30,185,84);
+// $green:#16a085;
+$yellow:#f1c40f;
+
+// $se2:#00FF50;
+
+//bestcoolr
+$white:#FDFFFC;
+$sec:#E71D36;
+$black:#011627;
+$yel: #FF9F1C;
+
+$white:#FDFFFC;
+$white:rgb(253,253,253);
+$sec:rgb(0,159,183);
+$black:#011627;
+$gr: #8D99AE;
+$grayy:rgb(244,244,244);
+
+$prim-color:$white;
 $sec-color:$se2;
-$tert-color:$white;
-$quart-color:$dg;
-$pent-color:$gray;
+$sec-color:$black;
+$tert-color:$green;
+$quart-color:$gr;
+$pent-color:$grayy;
 $navbar-height:50px;
 $container-width:82%;
 
@@ -51,6 +79,7 @@ $main-blinker: $main-font;
 @import 'partials/_nav.scss';
 @import 'partials/_mainPanel.scss';
 @import 'partials/_aboutPanel.scss';
+@import 'partials/_professPanel.scss';
 
 @import 'partials/_carousel.scss';
 @import 'partials/_projectPanel.scss';
@@ -71,4 +100,15 @@ a:hover{
 }
 .clear{
 	clear:both;
+}
+
+
+.footer{
+	margin-top: 20px;
+	padding-bottom:20px;
+	text-align: center;			
+	.footer-txt{
+		font-size: 14px;
+		color:$tert-color;
+	}
 }

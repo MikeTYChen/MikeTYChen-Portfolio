@@ -1,12 +1,13 @@
 .carousel-inner{
 	.carousel-slide{
-		border:15px solid white;
+		border:15px solid rgb(220,220,220);
 	}	
 }
 .carousel-control{
 	width:50px;
-	opacity:0.8!important;
-	background-color: $prim-color;
+	background-image: none!important;
+	background-color: $sec-color!important;
+	opacity:0.5;
 }
 .carousel-control:hover {
 	opacity:0.8;
@@ -15,5 +16,6 @@
 	color:$white;
 }
 .glyphicon{
+	text-shadow:none;
 	color:rgb(180,180,180);
 }
