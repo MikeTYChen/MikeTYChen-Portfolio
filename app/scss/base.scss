@@ -76,6 +76,13 @@ $large-screen-width:1600px;
 $main-font: 50;
 $main-blinker: $main-font;
 
+$break-smaller:20em;
+$break-small:23em;
+$break-med:40.063em;
+$break-lg:64.063em;
+$break-xlg:80.063em;
+
+
 @import 'partials/_nav.scss';
 @import 'partials/_mainPanel.scss';
 @import 'partials/_aboutPanel.scss';
@@ -85,6 +92,14 @@ $main-blinker: $main-font;
 @import 'partials/_projectPanel.scss';
 @import 'partials/_blink.scss';
 
+
+
+// @media (min-width:20em) { /* smartphones, iPhone, portrait 480x320 phones */ }
+// @media (min-width:30.063em) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+// @media (min-width:40.063em) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+// @media (min-width:60.063em) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+// @media (min-width:64.063em) { /* big landscape tablets, laptops, and desktops */ }
+// @media (min-width:80.063em) { /* hi-res laptops and desktops */ }
 html,body{
 	overflow-x:hidden;
 }
@@ -111,3 +126,30 @@ a:hover{
 		color:$tert-color;
 	}
 }
+
+.mobile-hidden{
+	display:none;
+}
+.desk-hidden{
+	display:block;
+}
+@media (min-width:$break-smaller) { 
+}
+@media (min-width:$break-small) { 
+	
+}
+@media (min-width:$break-med) { 
+	.mobile-hidden{
+		display:block;
+	}
+	.desk-hidden{
+		display:none;
+	}
+}
+@media (min-width:$break-lg) { 
+
+}
+@media (min-width:$break-xlg) { 
+
+}
+

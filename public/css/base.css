@@ -31,35 +31,29 @@
   min-height: 100%;
   background-color: #fdfdfd;
   padding-bottom: 2.3%; }
-  .main-panel .nav-box {
-    width: 95%;
-    margin: 0 auto;
-    text-align: right; }
-    .main-panel .nav-box ul {
-      list-style: none; }
-    .main-panel .nav-box li {
-      font-size: 18px;
-      margin-right: 55px;
-      float: right; }
-      .main-panel .nav-box li h4 {
-        cursor: pointer;
-        color: #8D99AE;
-        font-family: "Cousine"; }
-      .main-panel .nav-box li h4:hover {
-        text-decoration: underline; }
   .main-panel .main-box .desc-box {
-    padding-left: 16%; }
+    padding: 0 6%; }
     .main-panel .main-box .desc-box .name-txt {
+      width: 30em;
+      white-space: nowrap;
+      overflow: hidden;
       font-family: 'Open Sans', sans-serif;
       font-weight: bold;
-      font-size: 55px;
+      font-size: 2.6em;
       line-height: 2em;
-      color: #1eb954; }
+      color: #1eb954;
+      -webkit-animation: type 3s steps(60, end);
+              animation: type 3s steps(60, end); }
+      .main-panel .main-box .desc-box .name-txt span {
+        font-size: 65px;
+        font-weight: 600;
+        -webkit-animation: 1.3s blink step-end infinite;
+        animation: 1.3s blink step-end infinite; }
     .main-panel .main-box .desc-box h2 {
       color: #011627;
       line-height: 1.3em;
       margin-top: 43px;
-      font-size: 28px;
+      font-size: 24px;
       font-weight: 600; }
     .main-panel .main-box .desc-box a {
       font-weight: 600;
@@ -68,14 +62,13 @@
     .main-panel .main-box .desc-box a:hover {
       color: #1eb954; }
     .main-panel .main-box .desc-box .social-box {
-      margin-top: 100px;
-      text-align: left; }
+      margin-top: 80px; }
       .main-panel .main-box .desc-box .social-box a {
         text-decoration: none; }
       .main-panel .main-box .desc-box .social-box .glyph-icon {
         color: #1eb954;
         font-size: 30px;
-        margin: 0 25px 0 0; }
+        margin: 0 1em 0 0em; }
       .main-panel .main-box .desc-box .social-box .glyph-icon:hover {
         color: #011627; }
     .main-panel .main-box .desc-box .hello-box {
@@ -91,7 +84,6 @@
         color: #8D99AE;
         font-size: 30px; }
     .main-panel .main-box .desc-box .project-box {
-      margin-top: 6%;
       width: 380px;
       height: 200px;
       cursor: pointer; }
@@ -99,12 +91,11 @@
         overflow: hidden;
         position: absolute;
         bottom: 10px;
-        width: 320px;
+        width: 300px;
         height: 100px; }
       .main-panel .main-box .desc-box .project-box .down-txt {
         font-size: 43px;
         margin-top: -90px;
-        margin-left: 280px;
         bottom: 50px;
         color: #8D99AE; }
       .main-panel .main-box .desc-box .project-box .move-down {
@@ -127,7 +118,7 @@
         font-family: "Cousine";
         font-size: 25px; }
   .main-panel .main-box .skills-box {
-    margin-top: 50px; }
+    margin-top: 100px; }
     .main-panel .main-box .skills-box .category-box {
       width: 100%;
       display: inline-block;
@@ -154,6 +145,83 @@
           margin-left: 150px;
           position: absolute;
           display: block; }
+
+.mobile-project-txt {
+  position: absolute;
+  text-align: center;
+  margin-top: 28%;
+  width: 280px;
+  height: 100px;
+  z-index: 10; }
+
+@media (min-width: 20em) {
+  .main-panel .main-box .desc-box {
+    padding: 0 6%; }
+    .main-panel .main-box .desc-box .name-txt {
+      margin-top: 40px;
+      font-size: 2.2em; }
+    .main-panel .main-box .desc-box h2 {
+      margin-top: 50px;
+      font-size: 1.5em; }
+    .main-panel .main-box .desc-box .social-box {
+      margin-top: 80px;
+      text-align: left; }
+      .main-panel .main-box .desc-box .social-box .glyph-icon {
+        margin: 0 1.4em 0 0; }
+      .main-panel .main-box .desc-box .social-box .last-icon {
+        margin: 0; }
+    .main-panel .main-box .desc-box .project-box {
+      margin-top: 14%; } }
+
+@media (min-width: 23em) {
+  .main-panel .main-box .desc-box {
+    padding: 0 6%; }
+    .main-panel .main-box .desc-box .name-txt {
+      font-size: 2.7em; }
+    .main-panel .main-box .desc-box h2 {
+      font-size: 1.8em; }
+    .main-panel .main-box .desc-box .social-box {
+      margin-top: 80px;
+      text-align: left; }
+      .main-panel .main-box .desc-box .social-box .glyph-icon {
+        margin: 0 2.0em 0 0; }
+      .main-panel .main-box .desc-box .social-box .last-icon {
+        margin: 0; }
+    .main-panel .main-box .desc-box .project-box {
+      margin-top: 12%; }
+  .mobile-project-txt {
+    width: 330px; } }
+
+@media (min-width: 64.063em) {
+  .main-panel .main-box .desc-box {
+    margin-top: 60px;
+    padding: 0 14%; }
+    .main-panel .main-box .desc-box .name-txt {
+      font-size: 55px; }
+    .main-panel .main-box .desc-box h2 {
+      font-size: 28px; }
+    .main-panel .main-box .desc-box .intro-box {
+      width: 84%; }
+    .main-panel .main-box .desc-box .social-box {
+      margin-top: 100px;
+      text-align: left; }
+      .main-panel .main-box .desc-box .social-box .glyph-icon {
+        margin: 0 25px 0 0; }
+    .main-panel .main-box .desc-box .project-box {
+      position: absolute;
+      margin-top: 20px;
+      z-index: 10;
+      width: 380px;
+      height: 200px; }
+      .main-panel .main-box .desc-box .project-box .project-txt {
+        width: 380px;
+        cursor: pointer; }
+      .main-panel .main-box .desc-box .project-box .down-txt {
+        cursor: pointer;
+        font-size: 43px;
+        margin-left: 280px; }
+  .main-panel .main-box .skills-box {
+    padding-bottom: 15%; } }
 
 .about-panel {
   width: 100%;
@@ -359,20 +427,6 @@
         font-family: "Cousine";
         font-weight: 700; }
 
-.name-txt {
-  color: #011627;
-  font-size: 20px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 30em;
-  -webkit-animation: type 3s steps(60, end);
-          animation: type 3s steps(60, end); }
-  .name-txt span {
-    font-size: 65px;
-    font-weight: 600;
-    -webkit-animation: 1.3s blink step-end infinite;
-    animation: 1.3s blink step-end infinite; }
-
 @-webkit-keyframes height {
   from {
     height: 0;
@@ -433,3 +487,15 @@ a:hover {
   .footer .footer-txt {
     font-size: 14px;
     color: #1eb954; }
+
+.mobile-hidden {
+  display: none; }
+
+.desk-hidden {
+  display: block; }
+
+@media (min-width: 40.063em) {
+  .mobile-hidden {
+    display: block; }
+  .desk-hidden {
+    display: none; } }

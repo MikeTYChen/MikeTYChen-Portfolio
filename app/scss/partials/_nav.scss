@@ -1,23 +1,3 @@
-// #toggle-nav{
-// }
-// .navbar{
-// 	border:0;
-// 	margin-bottom:0;
-// 	.navbar-center{
-// 		margin-left:5%;
-// 	}
-// 	.navbar-right{
-// 		li{
-// 			width:48px;
-// 		}
-// 		.glyph-icon{
-// 			color:$prim-color;
-// 			font-size: 18px;
-// 		}
-// 	}
-// }
-
-
 .nav-bar{
 	position:absolute;
 	min-height: 100%;
@@ -52,3 +32,44 @@
 	min-height:20px;
 	max-height:50px;
 }
+
+// #toggle-nav{
+// }
+// .navbar{
+// 	border:0;
+// 	margin-bottom:0;
+// 	.navbar-center{
+// 		margin-left:5%;
+// 	}
+// 	.navbar-right{
+// 		li{
+// 			width:48px;
+// 		}
+// 		.glyph-icon{
+// 			color:$prim-color;
+// 			font-size: 18px;
+// 		}
+// 	}
+// }
+
+// .nav-box{
+// 	width:95%;
+// 	margin:0 auto;
+// 	text-align: right;
+// 	ul{
+// 		list-style: none;
+// 	}
+// 	li{
+// 		font-size: 18px;
+// 		margin-right: 55px;
+// 		float:right;
+// 		h4{
+// 			cursor:pointer;
+// 			color:$quart-color;
+// 			font-family: 'Cousine', ;
+// 		}
+// 		h4:hover{
+// 			text-decoration: underline;
+// 		}
+// 	}
+// }
