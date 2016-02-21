@@ -160,15 +160,15 @@
 		</div>
 		<div class="row projects-list-box">
 			<div class="col-xs-12">
-			    <a ng-repeat="project in projects" ng-class="{'active-txt': isActive(project)}" ng-click="setActiveProject($index)"> {{project.title}}</a>
+			    <a ng-repeat="project in projects" ng-class="{'active-txt': isActive(project)}" ng-click="setActiveProject($index);emitCategoryInfo($event)"> {{project.title}}</a>
 			</div>
 		</div>
 		<div ng-repeat="project in projects" ng-show="isActive(project)" class="row individual-project-box">
 			<div class="col-md-8">
 				<div ng-controller="CarouselCtrl">
-  <div>
-    <uib-carousel interval="myInterval" no-wrap="noWrapSlides">
-      <uib-slide class="carousel-slide" ng-repeat="slide in slides" active="slide.active" index="slide.id">
+  <div ng-repeat="sliding in project">
+    <uib-carousel interval="myInterval" ng-show="isActive(project)">
+      <uib-slide class="carousel-slide" ng-repeat="slide in sliding" active="slide.active" index="slide.id">
         <img ng-src="{{slide.image}}" style="margin:auto;">
       </uib-slide>
     </uib-carousel>
