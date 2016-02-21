@@ -116,8 +116,21 @@ a:hover{
 .clear{
 	clear:both;
 }
+
+
+
+
+
+//common
+.mobile-hidden{
+	display:none;
+}
+.desk-hidden{
+	display:block;
+}
+
 .footer{
-	margin-top: 20px;
+	margin-top: 30px;
 	padding-bottom:20px;
 	text-align: center;		
 	background-color: $pent-color;	
@@ -127,12 +140,7 @@ a:hover{
 	}
 }
 
-.mobile-hidden{
-	display:none;
-}
-.desk-hidden{
-	display:block;
-}
+
 @media (min-width:$break-smaller) { 
 }
 @media (min-width:$break-small) { 
@@ -144,6 +152,9 @@ a:hover{
 	}
 	.desk-hidden{
 		display:none;
+	}
+	.footer{
+		margin-top: 20px;
 	}
 }
 @media (min-width:$break-lg) { 
