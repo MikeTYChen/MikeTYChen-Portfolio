@@ -70,14 +70,3 @@ angular.module('projectCtrl', ['ui.bootstrap'])
 .controller('CarouselCtrl', function ($scope,$log) {
   
 })
-.config(['$provide', Decorate]);
-  function Decorate($provide) {
-
-  //Override UI Bootstrap Carousel Directive's Template
-  $provide.decorator('uibCarouselDirective', function($delegate) {
-    var directive = $delegate[0];  
-    directive.templateUrl = "partials/general/carousel.tpl.html";
-    
-    return $delegate;
-  });
-};

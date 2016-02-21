@@ -9,6 +9,15 @@
 	background-color: $sec-color!important;
 	opacity:0.5;
 }
+.carousel-indicators{
+	li{
+		border-color: $sec-color;
+	}
+	li.active{
+		background-color: $sec-color;
+	}
+	
+}
 .carousel-control:hover {
 	opacity:0.8;
 }
