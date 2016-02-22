@@ -17,7 +17,7 @@ angular.module('projectCtrl', ['ui.bootstrap'])
   },
 	{title:"HatchGood",img:"assets/images/HatchGood-Big.png",url:"http://www.hatchgood.com", role:"Software Engineering (Full Stack)",
     tech:["HTML","CSS/SASS","Javascript","Gulp","Node.JS","MySQL"],
-    about:"PackHire provides you with platform where you can turn people in your network into the best recruiters for your company",
+    about:"HatchGood is an e-commerce platform that aims to bring great design and new talent to consumer needs. By providing a platform for designers to sell their ideas, consumers are able to purchase well-designed products with a fraction of the cost.",
     slides:[
       {image:"assets/images/HatchGood/hatch-0.png"},
       {image:"assets/images/HatchGood/hatch-1.jpeg"},
@@ -29,7 +29,7 @@ angular.module('projectCtrl', ['ui.bootstrap'])
   },
 	{title:"SEAM",img:"assets/images/SEAM-Big.png",url:"http://seam.herokuapp.com", role:"Software Engineering (Full Stack)",
     tech:["HTML","CSS","Javascript","Gulp","Node.JS","MongoDB"],
-    about:"PackHire provides you with platform where you can turn people in your network into the best recruiters for your company",
+    about:"PSEAM is a platform that eases the pain of meetings. It helps a user plan for focused discussions, gives the power to move conversations forward and align the team on next steps afterwards.",
     slides:[
       {image:"assets/images/SEAM/seam-0.png"},
       {image:"assets/images/SEAM/seam-1.jpeg"},
@@ -41,16 +41,16 @@ angular.module('projectCtrl', ['ui.bootstrap'])
   },
 	{title:"Twitter Filter",img:"assets/images/Twitter-Big.png",url:"http://twitterfilter-miketychen.herokuapp.com/", role:"Software Engineering (Full Stack)",
     tech:["HTML","CSS","Javascript","Python"],
-    about:"PackHire provides you with platform where you can turn people in your network into the best recruiters for your company",
+    about:"The Twitter Filter project was a short project that enables a user to pull any user's tweet and filter based on words or date it was tweeted.",
     slides:[
       {image:"assets/images/Twitter/twitter-0.png"},
       {image:"assets/images/Twitter/twitter-1.jpeg"},
       {image:"assets/images/Twitter/twitter-2.jpeg"},
     ]
   },
-	{title:"Front End",img:"assets/images/Front.png",url:"http://twitterfilter-miketychen.herokuapp.com/", role:"Software Engineering (Full Stack)",
+	{title:"Front End",img:"assets/images/Front.png",url:"http://twitterfilter-miketychen.herokuapp.com/", role:"Front-End Engineering",
     tech:["HTML","CSS","SASS","Javascript","Angular.JS","Gulp"],
-    about:"PackHire provides you with platform where you can turn people in your network into the best recruiters for your company",
+    about:"My front end projects consists of creating multiple sites for clients as well as organizations to display data and content in a meaningful and visually optimized way.",
     slides:[
       {image:"assets/images/Front/front-0.png"},
       {image:"assets/images/Front/front-1.jpeg"},
@@ -61,7 +61,7 @@ angular.module('projectCtrl', ['ui.bootstrap'])
   },
   {title:"Data Science",img:"assets/images/Front.png",url:"#", role:"Software Engineering & Data Science",
     tech:["Java","Python","C++","MySQL"],
-    about:"PackHire provides you with platform where you can turn people in your network into the best recruiters for your company",
+    about:"My data science and bioinformatics projects include: developing algorithms to optimize engagement and insights on social ads, create pipelines to sequence the genome and map out 3D architecture of whole genomes interactions.",
     slides:[
       {image:"assets/images/Front/front-0.png"},
       {image:"assets/images/Front/front-1.jpeg"},

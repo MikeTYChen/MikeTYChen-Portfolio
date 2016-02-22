@@ -366,6 +366,10 @@
         position: absolute;
         display: block; }
 
+@media (min-width: 40.063em) {
+  .skills-panel .skills-box {
+    width: 90%; } }
+
 .prof-panel {
   width: 100%;
   background-color: #fdfdfd;
@@ -521,6 +525,7 @@
       .project-panel .project-box .individual-project-box .project-desc .about-label {
         margin-top: 20px; }
       .project-panel .project-box .individual-project-box .project-desc .about-txt {
+        line-height: 1.2em;
         margin-left: 20px;
         margin-top: 18px; }
       .project-panel .project-box .individual-project-box .project-desc .site-link {

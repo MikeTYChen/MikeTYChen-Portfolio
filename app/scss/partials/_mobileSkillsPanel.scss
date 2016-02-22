@@ -53,6 +53,11 @@
 @media (min-width:$break-small) { 
 }
 @media (min-width:$break-med) { 	
+	.skills-panel{
+		.skills-box{
+			width:90%;
+		}
+	}
 }
 @media (min-width:$break-lg) { 
 }
