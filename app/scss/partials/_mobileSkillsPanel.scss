@@ -1,0 +1,49 @@
+.skills-panel{
+	.skills-box{
+			width:88%;
+			margin:0 auto;
+			.title-box{
+				margin:20px 0 20px 0;
+				.title-label{
+					font-size: 35px;
+					color:$tert-color;
+				}
+			}
+			.category-box{
+				width:100%;
+				display: inline-block;
+				margin-top: 8px;
+				.category-title{	
+					float: left;			
+					white-space: nowrap;
+					h4{
+						color:$tert-color;
+						font-family: 'Cousine', ;
+					}
+				}
+				.skills-txt-box{	
+					z-index:80;
+					margin-top: -2px;
+					margin-left: 20px;
+					float: left;
+					.skills-txt{	
+						span{				
+							color:$sec-color;	
+							font-size: 20px;
+							font-weight: 700;
+							cursor: pointer;
+						}
+						img{
+						    display: none
+						}
+						span:hover + img{
+							margin-top: -20px;
+							margin-left: 150px;
+							position:absolute;
+						    display: block;
+						}
+					}
+				}
+			}
+		}
+}

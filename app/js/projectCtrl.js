@@ -49,6 +49,15 @@ angular.module('projectCtrl', ['ui.bootstrap'])
       {image:"assets/images/Front/front-4.jpeg"}
     ]
   },
+  {title:"Data Science",img:"assets/images/Front.png",url:"#", role:"Software Engineering & Data Science",
+    slides:[
+      {image:"assets/images/Front/front-0.png"},
+      {image:"assets/images/Front/front-1.jpeg"},
+      {image:"assets/images/Front/front-2.jpeg"},
+      {image:"assets/images/Front/front-3.jpeg"},
+      {image:"assets/images/Front/front-4.jpeg"}
+    ]
+  },
 	];
 
 

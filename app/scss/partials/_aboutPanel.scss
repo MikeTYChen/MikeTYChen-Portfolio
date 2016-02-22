@@ -6,7 +6,7 @@
 		width:100%;
 	}
 	.bio-box{
-		width:82%;
+		width:88%;
 		margin:0 auto;
 		text-align: left;
 		h2{
@@ -16,12 +16,16 @@
 		.desc-txt-box{
 			width:100%;
 			margin-top: 30px;
-			h4{
+			h4,a{
 				line-height: 1.5em;
 				color:$sec-color;
 				font-size: 15px;
 				font-weight: 600;
-			}	
+			}
+			a:hover{
+				color:$tert-color;
+			}
+
 		}	
 		.social-box{
 			margin-top:30px;
@@ -46,7 +50,15 @@
 @media (min-width:$break-smaller) { 
 }
 @media (min-width:$break-small) { 
-	
+	.about-panel{
+		.bio-box{
+			.social-box{
+				.glyph-icon{					
+					margin:0 2.06em 0 0em;
+				}
+			}
+		}
+	}
 }
 @media (min-width:$break-med) { 
 	.about-panel{
@@ -60,7 +72,7 @@
 			margin-top: 50px;
 			margin-right: 12%;
 			.desc-txt-box{
-				h4{
+				h4,a{
 					font-size: 18px;
 				}	
 			}
@@ -68,7 +80,7 @@
 				margin-top:30px;			
 				.glyph-icon{
 					font-size: 30px;
-					margin:0 25px 0 0;
+					margin:0 28px 0 0;
 				}
 			}
 		}

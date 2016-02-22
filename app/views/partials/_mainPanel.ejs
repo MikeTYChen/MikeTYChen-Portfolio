@@ -44,90 +44,15 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-5">
-				<div class="skills-box" ng-controller="skillsController">
-					<!-- <div class="category-box" ng-repeat="set in skillsSet">
+			<div class="col-xs-12 col-md-5 hidden-xs">
+				<div class="skills-box" ng-controller="skillsController">	
+					<div class="category-box" ng-repeat="set in skillsSet">
 						<div class="category-title">
-							<h4>{{set.category}}</h4>
+							<h4 ng-bind-html="set.category | unsafe"></h4>
 						</div>
 						<div class="skills-txt-box">
 							<h4 class="skills-txt" ng-repeat="skill in set.skills">
-								<span ng-bind-html="skill.title">{{skill.title}}</span>
-								<img style="width:220px;height:125px;"src="assets/images/PackHire.png"/>
-							</h4>
-						</div>
-					</div> -->
-					<div class="category-box">
-						<div class="category-title">
-							<h4>front-end&nbsp; </h4>
-						</div>
-						<div class="skills-txt-box">
-							<h4 class="skills-txt">
-								<span>HTML</span>
-								<img style="width:220px;height:125px;"src="assets/images/PackHire.png"/>
-							</h4>
-							<h4 class="skills-txt">
-								<span>CSS &amp; SASS</span>
-								<img style="width:220px;height:125px;"src="assets/images/PackHire.png"/>
-							</h4>
-							<h4 class="skills-txt">
-								<span>Javascript</span>
-								<img style="width:220px;height:125px;"src="assets/images/PackHire.png"/>
-							</h4>
-							<h4 class="skills-txt">
-								<span>Angular</span>
-								<img style="width:220px;height:125px;"src="assets/images/PackHire.png"/>
-							</h4>
-							<h4 class="skills-txt">
-								<span>Gulp &amp; Grunt</span>
-								<img style="width:220px;height:125px;"src="assets/images/PackHire.png"/>
-							</h4>
-						</div>
-						<div class="clear"></div>
-					</div>
-					<div class="category-box">
-						<div class="category-title">
-							<h4>back-end &amp;<br> databses</h4>
-						</div>
-						<div class="skills-txt-box">
-							<h4 class="skills-txt">
-								<span>Node.js</span>
-								<img style="width:220px;height:125px;"src="assets/images/PackHire.png"/>
-							</h4>
-							<h4 class="skills-txt">
-								<span>MongoDB</span>
-								<img style="width:220px;height:125px;"src="assets/images/PackHire.png"/>
-							</h4>
-							<h4 class="skills-txt">
-								<span>Ruby On Rails</span>
-								<img style="width:220px;height:125px;"src="assets/images/PackHire.png"/>
-							</h4>
-							<h4 class="skills-txt">
-								<span>MySQL</span>
-								<img style="width:220px;height:125px;"src="assets/images/PackHire.png"/>
-							</h4>
-							<h4 class="skills-txt">
-								<span>PostgreSQL</span>
-								<img style="width:220px;height:125px;"src="assets/images/PackHire.png"/>
-							</h4>
-						</div>
-						<div class="clear"></div>
-					</div>
-					<div class="category-box">
-						<div class="category-title">
-							<h4>gen. prog.</h4>
-						</div>
-						<div class="skills-txt-box">
-							<h4 class="skills-txt">
-								<span>Java</span>
-								<img style="width:220px;height:125px;"src="assets/images/PackHire.png"/>
-							</h4>
-							<h4 class="skills-txt">
-								<span>Python</span>
-								<img style="width:220px;height:125px;"src="assets/images/PackHire.png"/>
-							</h4>
-							<h4 class="skills-txt">
-								<span>C++</span>
+								<span>{{skill.title}}</span>
 								<img style="width:220px;height:125px;"src="assets/images/PackHire.png"/>
 							</h4>
 						</div>
