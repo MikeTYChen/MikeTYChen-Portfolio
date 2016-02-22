@@ -7,7 +7,7 @@
 			width:95%;
 			margin:0 auto;
 			.title-label{
-				font-size: 35px;
+				font-size: 30px;
 				margin-top: 8px;
 				color:$tert-color;
 			}
@@ -62,7 +62,7 @@
 		.project-box{
 			.title-box{
 				.title-label{
-
+					font-size: 30px;
 				}
 			}
 			.projects-list-box{
@@ -77,10 +77,28 @@
 	}
 }
 @media (min-width:$break-small) { 
-	
+	.project-panel{
+		.project-box{
+			.title-box{
+				.title-label{
+					font-size: 35px;
+				}
+			}
+		}
+	}
 }
 @media (min-width:$break-med) { 
-	
+	.project-panel{
+		.project-box{
+			.title-box{
+				.title-label{
+					font-size: 35px;
+				}
+			}
+			.projects-list-box{
+			}
+		}
+	}
 }
 @media (min-width:$break-lg) { 
 

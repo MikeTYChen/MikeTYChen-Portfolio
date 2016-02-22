@@ -2,7 +2,7 @@
 	width:100%;
 	min-height:100%;
 	background-color: $prim-color;
-	padding-bottom: 6%;
+	padding-bottom: 2%;
 	z-index:99;
 	.main-box{
 		.desc-box{
@@ -154,7 +154,7 @@
 .mobile-project-txt{
 	position:absolute;
 	text-align: center;
-	margin-top: 28%;
+	margin-top: 26%;
 	width:280px;
 	height:100px;
 	z-index:10;
@@ -201,19 +201,19 @@
 					}
 				}
 				.project-box{
-					margin-top:12%;
+					margin-top:18%;
 				}
 			}
 		}
 	}  		
 	.mobile-project-txt{
-
-		margin-top: 40%;
+		margin-top: 30%;
 		width:330px;
 	}
 }
 @media (min-width:$break-med) { 
 	.main-panel{
+		padding-bottom: 6%;
 		.skills-box{
 			margin-top:50px;
 			.category-box{
