@@ -36,14 +36,14 @@
 							<h3>see what i’ve been<br>
 							working on lately</h3>
 							<div class="down-txt move-down">
-								<span class="flaticon-arrows down-arr move-down"></span>
+								<span class="flaticon-arrows-1 down-arr move-down"></span>
 							</div>
 						</div>
 					</div>
 					<div class="project-box desk-hidden">
 						<div class="mobile-project-txt">
 							<div class="down-txt move-down">
-								<span class="flaticon-arrows down-arr move-down" ng-click="gotoElement('project-panel')"></span>
+								<span class="flaticon-arrows-1 down-arr move-down" ng-click="gotoElement('project-panel')"></span>
 							</div>
 						</div>
 					</div>
@@ -89,7 +89,7 @@
 			</div>
 		</div>
 		<div ng-repeat="project in projects" ng-show="isActive(project)" class="row individual-project-box">
-			<div class="col-md-8">
+			<div class="col-md-7">
 				<div ng-controller="CarouselCtrl">
   <div>
     <uib-carousel interval="myInterval" no-wrap="noWrapSlides">
@@ -100,15 +100,35 @@
   </div>
 </div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-5">
 				<div class="project-desc">
 					<h3>{{project.title}}</h3>
-					<a href="{{project.url}}" target="_blank">visit site</a>
-					<h4><span>Role:</span> {{project.role}}</h4>
-					<h4><span>Tech:</span> Software Engineering (Full Stack)</h4>
-					<h4>PackHire provides you with platform where you 
-					can turn people in your network into the best 
-					recruiters for your company</h4>
+					<a class="site-link" href="{{project.url}}" target="_blank">visit site <i class="glyph-icon flaticon-arrows"></i></a>
+					<div class="clear"></div>
+					<div class="row desc-row" >
+						<div class="col-xs-2">
+							<h5 class="label-txt" >Role:</h5>
+						</div>
+						<div class="col-xs-10">
+							<h4 class="role-txt">{{project.role}}</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-2">
+							<h5 class="label-txt">Tech:</h5>
+						</div>
+						<div class="col-xs-10 skill-box">
+							<span class="skill-txt" ng-class="$index%2==0 ? 'skills-even' : 'skills-odd'" ng-repeat="skill in project.tech">{{skill}}</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-2">
+							<h5 class="label-txt about-label" >About:</h5>
+						</div>
+						<div class="col-xs-10">
+							<h4 class="about-txt">{{project.about}}</h4>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>		

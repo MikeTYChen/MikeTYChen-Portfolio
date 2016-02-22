@@ -445,7 +445,7 @@
   padding-top: 20px;
   background-color: #f4f4f4; }
   .project-panel .project-box {
-    padding-bottom: 150px; }
+    padding-bottom: 100px; }
     .project-panel .project-box .title-box {
       width: 95%;
       margin: 0 auto; }
@@ -475,14 +475,42 @@
       .project-panel .project-box .individual-project-box .project-desc h3 {
         font-size: 30px;
         font-weight: 700; }
-      .project-panel .project-box .individual-project-box .project-desc a {
+      .project-panel .project-box .individual-project-box .project-desc .desc-row {
+        margin-top: 20px; }
+      .project-panel .project-box .individual-project-box .project-desc .label-txt {
+        font-family: "Cousine";
+        font-weight: 700;
+        font-size: 18px; }
+      .project-panel .project-box .individual-project-box .project-desc .tech-txt {
+        font-family: "Cousine";
+        font-weight: 700;
+        font-size: 18px; }
+      .project-panel .project-box .individual-project-box .project-desc .role-txt {
+        margin-left: 8%;
+        margin-top: 8px; }
+      .project-panel .project-box .individual-project-box .project-desc .skill-box {
+        margin-top: 5px; }
+        .project-panel .project-box .individual-project-box .project-desc .skill-box .skill-txt {
+          float: left;
+          font-weight: 300;
+          font-size: 17px;
+          font-family: 'Open Sans', sans-serif; }
+        .project-panel .project-box .individual-project-box .project-desc .skill-box .skills-even {
+          margin-left: 8%;
+          width: 32%; }
+        .project-panel .project-box .individual-project-box .project-desc .skill-box .skills-odd {
+          width: 54%; }
+      .project-panel .project-box .individual-project-box .project-desc .about-label {
+        margin-top: 20px; }
+      .project-panel .project-box .individual-project-box .project-desc .about-txt {
+        margin-left: 20px;
+        margin-top: 18px; }
+      .project-panel .project-box .individual-project-box .project-desc .site-link {
+        line-height: 2.5em;
         font-size: 15px;
         color: #1eb954;
         font-weight: 700;
         font-family: "Cousine"; }
-      .project-panel .project-box .individual-project-box .project-desc span {
-        font-family: "Cousine";
-        font-weight: 700; }
 
 @media (min-width: 20em) {
   .project-panel .project-box .title-box .title-label {
@@ -499,8 +527,24 @@
     font-size: 35px; } }
 
 @media (min-width: 40.063em) {
-  .project-panel .project-box .title-box .title-label {
-    font-size: 35px; } }
+  .project-panel .project-box {
+    padding-bottom: 150px; }
+    .project-panel .project-box .title-box .title-label {
+      font-size: 35px; }
+    .project-panel .project-box .individual-project-box .project-desc .role-txt {
+      margin-left: 0%; }
+    .project-panel .project-box .individual-project-box .project-desc .skill-box {
+      margin-top: 5px; }
+      .project-panel .project-box .individual-project-box .project-desc .skill-box .skills-even {
+        margin-left: 0%;
+        width: 40%; }
+      .project-panel .project-box .individual-project-box .project-desc .skill-box .skills-odd {
+        width: 60%; }
+    .project-panel .project-box .individual-project-box .project-desc .about-label {
+      margin-top: 20px; }
+    .project-panel .project-box .individual-project-box .project-desc .about-txt {
+      margin-left: 0px;
+      margin-top: 18px; } }
 
 @-webkit-keyframes height {
   from {
@@ -553,6 +597,9 @@ a:hover {
 
 .clear {
   clear: both; }
+
+.bg {
+  background-color: #3df; }
 
 .mobile-hidden {
   display: none; }

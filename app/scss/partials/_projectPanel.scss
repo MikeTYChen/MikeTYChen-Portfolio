@@ -2,7 +2,7 @@
 	padding-top:20px;
 	background-color: $pent-color;
 	.project-box{
-		padding-bottom:150px;
+		padding-bottom:100px;
 		.title-box{
 			width:95%;
 			margin:0 auto;
@@ -41,15 +41,52 @@
 					font-size: 30px;
 					font-weight: 700;
 				}
-				a{
+				.desc-row{
+					margin-top: 20px;
+				}
+				.label-txt{
+					font-family: 'Cousine', ;
+					font-weight: 700;	
+					font-size: 18px;
+				}
+				.tech-txt{
+					font-family: 'Cousine', ;
+					font-weight: 700;
+					font-size: 18px;
+				}
+				.role-txt{
+					margin-left: 8%;
+					margin-top: 8px;
+				}
+				.skill-box{
+					margin-top: 5px;
+					.skill-txt{
+						float:left;
+						font-weight: 300;
+						font-size: 17px;
+						font-family: 'Open Sans', sans-serif;
+					}
+					.skills-even{
+						margin-left: 8%;				
+						width:32%;
+					}
+					.skills-odd{
+						width:54%;
+					}
+				}
+				.about-label{
+					margin-top: 20px;
+				}
+				.about-txt{
+					margin-left: 20px;
+					margin-top: 18px;
+				}
+				.site-link{
+					line-height: 2.5em;
 					font-size:15px;
 					color:$tert-color;
 					font-weight: 700;
 					font-family: 'Cousine', ;
-				}
-				span{
-					font-family: 'Cousine', ;
-					font-weight: 700;					
 				}
 			}
 		}
@@ -90,12 +127,38 @@
 @media (min-width:$break-med) { 
 	.project-panel{
 		.project-box{
+
+			padding-bottom:150px;
 			.title-box{
 				.title-label{
 					font-size: 35px;
 				}
 			}
 			.projects-list-box{
+			}
+			.individual-project-box{
+				.project-desc{
+					.role-txt{
+						margin-left: 0%;
+					}
+					.skill-box{
+						margin-top: 5px;
+						.skills-even{
+							margin-left: 0%;				
+							width:40%;
+						}
+						.skills-odd{
+							width:60%;
+						}
+					}
+					.about-label{
+						margin-top: 20px;
+					}
+					.about-txt{
+						margin-left: 0px;
+						margin-top: 18px;
+					}
+				}
 			}
 		}
 	}

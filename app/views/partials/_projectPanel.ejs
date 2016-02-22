@@ -19,18 +19,38 @@
 			</div>
 		</div>
 		<div ng-repeat="project in projects" ng-show="isActive(project)" class="row individual-project-box">
-			<div class="col-md-8">
+			<div class="col-md-7">
 				<%include _carousel.ejs%>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-5">
 				<div class="project-desc">
 					<h3>{{project.title}}</h3>
-					<a href="{{project.url}}" target="_blank">visit site</a>
-					<h4><span>Role:</span> {{project.role}}</h4>
-					<h4><span>Tech:</span> Software Engineering (Full Stack)</h4>
-					<h4>PackHire provides you with platform where you 
-					can turn people in your network into the best 
-					recruiters for your company</h4>
+					<a class="site-link" href="{{project.url}}" target="_blank">visit site <i class="glyph-icon flaticon-arrows"></i></a>
+					<div class="clear"></div>
+					<div class="row desc-row" >
+						<div class="col-xs-2">
+							<h5 class="label-txt" >Role:</h5>
+						</div>
+						<div class="col-xs-10">
+							<h4 class="role-txt">{{project.role}}</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-2">
+							<h5 class="label-txt">Tech:</h5>
+						</div>
+						<div class="col-xs-10 skill-box">
+							<span class="skill-txt" ng-class="$index%2==0 ? 'skills-even' : 'skills-odd'" ng-repeat="skill in project.tech">{{skill}}</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-2">
+							<h5 class="label-txt about-label" >About:</h5>
+						</div>
+						<div class="col-xs-10">
+							<h4 class="about-txt">{{project.about}}</h4>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>		
