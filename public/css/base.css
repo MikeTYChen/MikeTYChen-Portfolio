@@ -93,9 +93,10 @@
         overflow: hidden;
         position: absolute;
         bottom: 10px;
-        width: 300px;
+        width: 350px;
         height: 100px; }
       .main-panel .main-box .desc-box .project-box .down-txt {
+        margin-left: 280px;
         font-size: 43px;
         margin-top: -90px;
         bottom: 50px;
@@ -297,7 +298,24 @@
   .about-panel {
     width: 100%; }
     .about-panel .bio-img {
-      width: 93%; }
+      width: 100%; }
+    .about-panel .bio-box {
+      width: 93%;
+      padding: 0;
+      margin: 50px auto 0 auto; }
+      .about-panel .bio-box .desc-txt-box h4, .about-panel .bio-box .desc-txt-box a {
+        font-size: 18px; }
+      .about-panel .bio-box .social-box {
+        margin-top: 30px; }
+        .about-panel .bio-box .social-box .glyph-icon {
+          font-size: 30px;
+          margin: 0 28px 0 0; } }
+
+@media (min-width: 64.063em) {
+  .about-panel {
+    width: 100%; }
+    .about-panel .bio-img {
+      width: 95%; }
     .about-panel .bio-box {
       width: auto;
       padding: 0;
