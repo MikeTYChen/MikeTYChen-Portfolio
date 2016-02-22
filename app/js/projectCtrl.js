@@ -63,11 +63,11 @@ angular.module('projectCtrl', ['ui.bootstrap'])
     tech:["Java","Python","C++","MySQL"],
     about:"My data science and bioinformatics projects include: developing algorithms to optimize engagement and insights on social ads, create pipelines to sequence the genome and map out 3D architecture of whole genomes interactions.",
     slides:[
-      {image:"assets/images/Front/front-0.png"},
-      {image:"assets/images/Front/front-1.jpeg"},
-      {image:"assets/images/Front/front-2.jpeg"},
-      {image:"assets/images/Front/front-3.jpeg"},
-      {image:"assets/images/Front/front-4.jpeg"}
+      {image:"assets/images/DataScience/data-0.jpeg"},
+      {image:"assets/images/DataScience/data-1.jpeg"},
+      {image:"assets/images/DataScience/data-2.jpeg"},
+      {image:"assets/images/DataScience/data-3.jpeg"},
+      {image:"assets/images/DataScience/data-4.jpeg"}
     ]
   },
 	];
