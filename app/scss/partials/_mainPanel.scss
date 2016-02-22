@@ -86,7 +86,6 @@
 					height:100px;
 				}
 				.down-txt{
-					margin-left: 280px;
 					font-size: 43px;
 					margin-top: -90px;
 					bottom:50px;
@@ -215,6 +214,15 @@
 @media (min-width:$break-med) { 
 	.main-panel{
 		padding-bottom: 6%;
+		.main-box{
+			.desc-box{
+				.project-box{
+					.down-txt{						
+						margin-left: 280px;
+					}
+				}
+			}
+		}
 		.skills-box{
 			margin-top:50px;
 			.category-box{

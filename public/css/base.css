@@ -96,7 +96,6 @@
         width: 350px;
         height: 100px; }
       .main-panel .main-box .desc-box .project-box .down-txt {
-        margin-left: 280px;
         font-size: 43px;
         margin-top: -90px;
         bottom: 50px;
@@ -194,6 +193,8 @@
 @media (min-width: 40.063em) {
   .main-panel {
     padding-bottom: 6%; }
+    .main-panel .main-box .desc-box .project-box .down-txt {
+      margin-left: 280px; }
     .main-panel .skills-box {
       margin-top: 50px; }
       .main-panel .skills-box .category-box {
