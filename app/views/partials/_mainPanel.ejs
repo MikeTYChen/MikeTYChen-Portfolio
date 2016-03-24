@@ -14,7 +14,7 @@
 				<div class="desc-box">
 					<h1 class="name-txt">Hi, I'm Michael.<span>|</span></h1>
 					<div class="intro-box">
-						<h2>I’m a <a href="">Full Stack Engineer</a> with <a href="">Design</a> and <a href="">Project Management</a> experience.</h2>
+						<h2>I’m a Full Stack Engineer with Design and Product Management experience.</h2>
 					</div>
 					<div class="social-box">
 				        <a href="mailto:miketychen@gmail.com" target="_blank"><span class="glyph-icon flaticon-email5"></span></a>                
@@ -51,9 +51,9 @@
 							<h4 ng-bind-html="set.category | unsafe"></h4>
 						</div>
 						<div class="skills-txt-box">
-							<h4 class="skills-txt" ng-repeat="skill in set.skills">
+							<h4 class="skills-txt" ng-repeat="skill in set.skills" ng-click="setActiveProject(skill.project); updateSlide();gotoElement('project-panel')">
 								<span>{{skill.title}}</span>
-								<img style="width:190px;height:100px;"src="{{skill.img}}"/>
+								<img style="width:190px;height:100px;" ng-src="{{skill.img}}"/>
 							</h4>
 						</div>
 						<div class="clear"></div>

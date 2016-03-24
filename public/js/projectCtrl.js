@@ -79,7 +79,7 @@ angular.module('projectCtrl', ['ui.bootstrap'])
 	];
 
 
-	$scope.setActiveProject = function(num){
+	$rootScope.setActiveProject = function(num){
 		$rootScope.activeProject = num;
 	}
 
@@ -90,7 +90,7 @@ angular.module('projectCtrl', ['ui.bootstrap'])
   $scope.noWrapSlides = false;
   var slides = $rootScope.slides = $scope.projects[$scope.activeProject].slides;
   var currIndex = 0;
-  $scope.updateSlide = function(){
+  $rootScope.updateSlide = function(){
     $rootScope.slides = $scope.projects[$scope.activeProject].slides;
   }
 })
