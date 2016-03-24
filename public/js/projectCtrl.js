@@ -1,6 +1,6 @@
 angular.module('projectCtrl', ['ui.bootstrap'])
-.controller('projectController', function($scope,$log) {
-	$scope.activeProject = 0;
+.controller('projectController', function($rootScope,$scope,$log) {
+	$rootScope.activeProject = 0;
 	$scope.projects=[
 	{title:"PackHire",img:"assets/images/PackHire-Big.png",url:"http://www.packhire.com", role:"Software Engineering (Full Stack)",
     tech:["HTML","CSS","Javascript","Gulp","Ruby on Rails","PostgreSQL"],
@@ -13,18 +13,6 @@ angular.module('projectCtrl', ['ui.bootstrap'])
       {image:"assets/images/PackHire/pack-4.jpg"},
       {image:"assets/images/PackHire/pack-5.jpg"},
       {image:"assets/images/PackHire/pack-6.jpg"},
-    ]
-  },
-	{title:"HatchGood",img:"assets/images/HatchGood-Big.png",url:"http://www.hatchgood.com", role:"Software Engineering (Full Stack)",
-    tech:["HTML","CSS/SASS","Javascript","Gulp","Node.JS","MySQL"],
-    about:"HatchGood is an e-commerce platform that aims to bring great design and new talent to consumer needs. By providing a platform for designers to sell their ideas, consumers are able to purchase well-designed products with a fraction of the cost.",
-    slides:[
-      {image:"assets/images/HatchGood/hatch-0.jpg"},
-      {image:"assets/images/HatchGood/hatch-1.jpg"},
-      {image:"assets/images/HatchGood/hatch-2.jpg"},
-      {image:"assets/images/HatchGood/hatch-3.jpg"},
-      {image:"assets/images/HatchGood/hatch-4.jpg"},
-      {image:"assets/images/HatchGood/hatch-5.jpg"},
     ]
   },
 	{title:"SEAM",img:"assets/images/SEAM-Big.png",url:"http://seam.herokuapp.com", role:"Software Engineering (Full Stack)",
@@ -70,11 +58,23 @@ angular.module('projectCtrl', ['ui.bootstrap'])
       {image:"assets/images/DataScience/data-4.jpg"}
     ]
   },
+  {title:"HatchGood",img:"assets/images/HatchGood-Big.png",url:"http://www.hatchgood.com", role:"Software Engineering (Full Stack)",
+    tech:["HTML","CSS/SASS","Javascript","Gulp","Node.JS","MySQL"],
+    about:"HatchGood is an e-commerce platform that aims to bring great design and new talent to consumer needs. By providing a platform for designers to sell their ideas, consumers are able to purchase well-designed products with a fraction of the cost.",
+    slides:[
+      {image:"assets/images/HatchGood/hatch-0.jpg"},
+      {image:"assets/images/HatchGood/hatch-1.jpg"},
+      {image:"assets/images/HatchGood/hatch-2.jpg"},
+      {image:"assets/images/HatchGood/hatch-3.jpg"},
+      {image:"assets/images/HatchGood/hatch-4.jpg"},
+      {image:"assets/images/HatchGood/hatch-5.jpg"},
+    ]
+  },
 	];
 
 
 	$scope.setActiveProject = function(num){
-		$scope.activeProject = num;
+		$rootScope.activeProject = num;
 	}
 
 	$scope.isActive = function(project){
@@ -82,10 +82,10 @@ angular.module('projectCtrl', ['ui.bootstrap'])
     }
   $scope.myInterval = 5000;
   $scope.noWrapSlides = false;
-  var slides = $scope.slides = $scope.projects[$scope.activeProject].slides;
+  var slides = $rootScope.slides = $scope.projects[$scope.activeProject].slides;
   var currIndex = 0;
   $scope.updateSlide = function(){
-    $scope.slides = $scope.projects[$scope.activeProject].slides;
+    $rootScope.slides = $scope.projects[$scope.activeProject].slides;
   }
 })
 .controller('CarouselCtrl', function ($scope,$log) {

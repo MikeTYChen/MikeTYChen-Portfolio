@@ -9,14 +9,7 @@ angular.module('portfolioApp', [
 ])
 .controller('mainController', function($scope,$log,$location,anchorSmoothScroll) {	
 	$scope.gotoElement = function (eID){
-		$log.log("going");
-      // set the location.hash to the id of
-      // // the element you wish to scroll to.
-      // $location.hash(eID);
- 
-      // call $anchorScroll()
-      anchorSmoothScroll.scrollTo(eID);
-      
+      anchorSmoothScroll.scrollTo(eID);      
     };
 })
 .controller('homeController', function($scope,$log) {	
@@ -42,7 +35,7 @@ angular.module('portfolioApp', [
         if (distance < 100) {
             scrollTo(0, stopY); return;
         }
-        var speed = Math.round(distance / 100);
+        var speed = Math.round(distance / 125);
         if (speed >= 20) speed = 20;
         var step = Math.round(distance / 55);
         var leapY = stopY > startY ? startY + step : startY - step;

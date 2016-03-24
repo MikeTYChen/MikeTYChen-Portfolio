@@ -1,7 +1,7 @@
 <div class="main-panel">
 	 <section sticky-nav class="nav-bar mobile-hidden">
 	<ul>
-		<li><h4 ng-click="gotoElement('project-panel')">about me</h4></li>
+		<li><h4 ng-click="gotoElement('about-panel')">about me</h4></li>
 		<li><h4 ng-click="gotoElement('project-panel')">projects</h4></li>
 	</ul>
 </section>
@@ -58,7 +58,7 @@
 						<div class="skills-txt-box">
 							<h4 class="skills-txt" ng-repeat="skill in set.skills">
 								<span>{{skill.title}}</span>
-								<img style="width:220px;height:125px;"src="assets/images/PackHire/pack-0.jpg"/>
+								<img style="width:190px;height:100px;"src="{{skill.img}}"/>
 							</h4>
 						</div>
 						<div class="clear"></div>
@@ -134,6 +134,75 @@
 		</div>		
 	</div>
 </div>
+<div ng-controller="projectController"  class="box-panel">
+	<div class="row">
+		<div class="col-md-6">	
+			<a ng-click="setActiveProject(0); updateSlide();gotoElement('project-panel')">
+				<div class="box p1">			  
+					<div class="overlay">
+						<h4 class="title">PackHire</h4>
+						<h5 class="desc">Full Stack (Ruby on Rails)</h5>
+					</div>			  
+				</div>
+			</a>
+		</div>
+		<div class="col-md-6">
+			<a ng-click="setActiveProject(1); updateSlide();gotoElement('project-panel')">
+				<div class="box p2">			  
+					<div class="overlay">
+						<h4 class="title">SEAM</h4>
+						<h5 class="desc">Full Stack (Node.JS)</h5>
+					</div>			  
+				</div>
+			</a>
+		</div>	
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<a ng-click="setActiveProject(2); updateSlide();gotoElement('project-panel')">
+				<div class="box p3">			  
+					<div class="overlay">
+						<h4 class="title">Twitter Filter</h4>
+						<h5 class="desc">Python</h5>
+					</div>			  
+				</div>
+			</a>
+		</div>
+
+		<div class="col-md-6">
+			<a ng-click="setActiveProject(3); updateSlide();gotoElement('project-panel')">
+				<div class="box p4">			  
+					<div class="overlay">
+						<h4 class="title">Clients</h4>
+						<h5 class="desc">Front-End (HTML/CSS/Javascript)</h5>
+					</div>			  
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<a ng-click="setActiveProject(4); updateSlide();gotoElement('project-panel')">
+				<div class="box p5">			  
+					<div class="overlay">
+						<h4 class="title">Data Science</h4>
+						<h5 class="desc">Python</h5>
+					</div>			  
+				</div>
+			</a>
+		</div>
+		<div class="col-md-6">
+			<a ng-click="setActiveProject(5); updateSlide();gotoElement('project-panel')">
+				<div class="box p6">			  
+					<div class="overlay">
+						<h4 class="title">HatchGood</h4>
+						<h5 class="desc">Full Stack (Node.JS)</h5>
+					</div>			  
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
 <div class="skills-panel">
 	<div class="row">
 		<div class="col-xs-12 visible-xs visible-sm">
@@ -157,7 +226,7 @@
 		</div>
 	</div>
 </div>
-<div class="about-panel">
+<div id="about-panel" class="about-panel">
 	<div class="about-box">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-6">
