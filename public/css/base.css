@@ -25,6 +25,41 @@
   min-height: 20px;
   max-height: 50px; }
 
+.splash-panel {
+  width: 100%;
+  padding-bottom: 45%;
+  z-index: 99;
+  background-size: cover; }
+  .splash-panel .background-image {
+    background-image: url("../assets/images/6.png");
+    background-size: cover;
+    display: block;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1; }
+  .splash-panel .content {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    text-align: center; }
+    .splash-panel .content .txt {
+      margin-top: 20%;
+      color: #1eb954;
+      font-weight: 700;
+      font-size: 60px;
+      text-align: center; }
+    .splash-panel .content .desc {
+      margin-top: 2%;
+      color: #fdfdfd;
+      font-weight: 700; }
+
 .main-panel {
   width: 100%;
   min-height: 100%;
