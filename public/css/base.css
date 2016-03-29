@@ -52,7 +52,7 @@
     z-index: 2;
     text-align: center; }
     .splash-panel .content .txt {
-      margin-top: 20%;
+      margin-top: 20.5%;
       color: #1eb954;
       font-weight: 700;
       font-size: 60px;
@@ -61,13 +61,39 @@
       margin-top: 2%;
       color: #fdfdfd;
       font-weight: 700; }
+    .splash-panel .content .social {
+      margin-top: 15px; }
+      .splash-panel .content .social .glyph-icon {
+        color: #1eb954;
+        font-size: 30px;
+        margin: 0 15px; }
+    .splash-panel .content .down-txt {
+      cursor: pointer;
+      padding-top: 150px;
+      font-size: 35px; }
+    .splash-panel .content .move-down {
+      -webkit-animation: moveD 2.5s infinite;
+              animation: moveD 2.5s infinite; }
+
+@-webkit-keyframes moveD {
+  0%, 100% {
+    margin-top: 80px; }
+  50% {
+    margin-top: 30px; } }
+
+@keyframes moveD {
+  0%, 100% {
+    margin-top: 80px; }
+  50% {
+    margin-top: 30px; } }
 
 .main-panel {
   width: 100%;
   min-height: 100%;
   background-color: #fdfdfd;
   padding-bottom: 2%;
-  z-index: 99; }
+  z-index: 99;
+  margin-top: 73px; }
   .main-panel .main-box .desc-box {
     padding: 0 6%; }
     .main-panel .main-box .desc-box .name-txt {
@@ -140,12 +166,6 @@
       .main-panel .main-box .desc-box .project-box .move-down {
         -webkit-animation: moveD 2.5s infinite;
                 animation: moveD 2.5s infinite; }
-
-@-webkit-keyframes moveD {
-  0%, 100% {
-    margin-top: -90px; }
-  50% {
-    margin-top: -70px; } }
 
 @keyframes moveD {
   0%, 100% {

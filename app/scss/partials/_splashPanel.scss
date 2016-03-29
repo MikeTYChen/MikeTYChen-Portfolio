@@ -32,7 +32,7 @@
 		z-index: 2;
 		text-align: center;
 		.txt{
-			margin-top: 20%;
+			margin-top: 20.5%;
 			color:$green;
 			font-weight: 700;
 			font-size: 60px;
@@ -43,5 +43,30 @@
 			color:$white;
 			font-weight: 700;
 		}
+		.social{
+			margin-top: 15px;
+			.glyph-icon{
+				color:$green;
+				font-size: 30px;
+				margin:0 15px;
+			}
+		}
+		.down-txt{
+			cursor:pointer;
+			padding-top: 150px;
+			font-size: 35px;
+		}
+		.move-down{
+			animation: moveD 2.5s infinite;
+		}
+		@keyframes moveD {
+		  0%,100%{
+		    margin-top: 80px;
+		  }
+		  50%{
+		  	margin-top: 30px;
+		  }
+		}
 	}
+
 }
