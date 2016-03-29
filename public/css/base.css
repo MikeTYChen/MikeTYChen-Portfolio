@@ -36,6 +36,8 @@
     display: block;
     filter: blur(3px);
     -webkit-filter: blur(3px);
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
     height: 100%;
     top: 0;
     left: 0;
