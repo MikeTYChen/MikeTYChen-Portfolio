@@ -11,6 +11,7 @@ angular.module('portfolioApp', [
 	$scope.gotoElement = function (eID){
       anchorSmoothScroll.scrollTo(eID);      
     };
+  $scope.showNav = false;
 })
 .controller('homeController', function($scope,$log) {	
 	
@@ -110,4 +111,17 @@ angular.module('portfolioApp', [
     restrict: 'A',
     link: stickyNavLink
   };
+})
+.directive("scroll", function ($window) {
+    return function(scope, element, attrs) {
+      
+        angular.element($window).bind("scroll", function() {
+            if (this.pageYOffset >= $window.outerHeight*0.90) {
+                 scope.showNav = true;
+             } else {
+                 scope.showNav = false;
+             }
+            scope.$apply();
+        });
+    };
 });

@@ -7,15 +7,12 @@
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-
-
-
 	.background-image {
 		background-image: url('../assets/images/6.png');
 		background-size: cover;
 		display: block;
-		filter: blur(3px);
-		-webkit-filter: blur(3px);
+		filter: blur(1px);
+		-webkit-filter: blur(1px);
 		transform: scale(1.02);
 		height: 100%;
 		top:0;
@@ -52,9 +49,12 @@
 			}
 		}
 		.down-txt{
-			cursor:pointer;
 			padding-top: 150px;
 			font-size: 35px;
+		}
+		.down-arr{
+			
+			cursor:pointer;
 		}
 		.move-down{
 			animation: moveD 2.5s infinite;

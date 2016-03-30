@@ -1,29 +1,35 @@
-.nav-bar {
-  min-height: 100%;
-  width: 100%;
-  z-index: 10; }
-  .nav-bar ul {
-    list-style: none;
-    margin-top: 5px; }
-  .nav-bar li {
-    font-size: 18px;
-    margin-right: 55px;
-    float: right; }
-    .nav-bar li h4 {
-      cursor: pointer;
-      color: #011627;
-      font-family: "Cousine"; }
-    .nav-bar li h4:hover {
-      text-decoration: underline; }
+#toggle-nav {
+  display: none;
+  background-color: #EEEFF1; }
 
-.controls-fixed {
-  z-index: 10;
-  background-color: rgba(30, 185, 84, 0.7);
-  position: fixed;
-  top: auto;
-  width: 100%;
-  min-height: 20px;
-  max-height: 50px; }
+.show {
+  display: block; }
+
+.hide {
+  display: block; }
+
+.navbar {
+  border: 0;
+  margin-bottom: 0; }
+  .navbar h4 {
+    cursor: pointer;
+    color: #1eb954;
+    font-weight: 500;
+    margin-top: 13px;
+    margin-right: 25px;
+    font-size: 18px; }
+  .navbar .navbar-center {
+    margin-left: 30px; }
+  .navbar .navbar-brand {
+    color: #1eb954;
+    font-size: 16px; }
+  .navbar .navbar-right {
+    margin-right: 10px; }
+    .navbar .navbar-right li {
+      margin-right: 5px; }
+    .navbar .navbar-right .glyph-icon {
+      color: #1eb954;
+      font-size: 18px; }
 
 .splash-panel {
   width: 100%;
@@ -34,8 +40,8 @@
     background-image: url("../assets/images/6.png");
     background-size: cover;
     display: block;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
     -webkit-transform: scale(1.02);
             transform: scale(1.02);
     height: 100%;
@@ -68,9 +74,10 @@
         font-size: 30px;
         margin: 0 15px; }
     .splash-panel .content .down-txt {
-      cursor: pointer;
       padding-top: 150px;
       font-size: 35px; }
+    .splash-panel .content .down-arr {
+      cursor: pointer; }
     .splash-panel .content .move-down {
       -webkit-animation: moveD 2.5s infinite;
               animation: moveD 2.5s infinite; }

@@ -13,13 +13,49 @@
 			        <a href="http://www.linkedin.com/in/miketychen" target="_blank"><span class="glyph-icon flaticon-linkedin11"></span></a>
 			        <a href="http://www.github.com/miketychen" target="_blank"><span class="glyph-icon flaticon-github17"></span></a>
 				</div>
-				<div class="down-txt move-down" ng-click="gotoElement('project-panel')">
-					<span class="flaticon-arrows-1 down-arr move-down"></span>
+				<div class="down-txt move-down">
+					<span class="flaticon-arrows-1 down-arr move-down" ng-click="gotoElement('project-panel')"></span>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+<!-- <section sticky-nav class="nav-bar mobile-hidden">
+	<ul>
+		<li><h4 ng-click="gotoElement('about-panel')">about me</h4></li>
+		<li><h4 ng-click="gotoElement('project-panel')">projects</h4></li>
+	</ul>
+</section> -->
+
+
+<nav class="navbar navbar-fixed-top" id="toggle-nav" scroll ng-class="{show: showNav, hide: !showNav}">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">MICHAEL CHEN </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><h4 ng-click="gotoElement('project-panel')">projects</h4></li> 
+        <li><h4 ng-click="gotoElement('about-panel')">about me</h4></li>
+        <!-- <li><a href="http://miketychen.github.io/Personal-Stats-Visual" target="_blank">STATS</a></li> -->
+      </ul>
+      <ul class="nav navbar-nav navbar-center">
+        <!-- <li><a href="mailto:miketychen@gmail.com" target="_blank"><span class="glyph-icon flaticon-email5"></span></a></li>
+        <li><a href="http://www.linkedin.com/in/miketychen" target="_blank"><span class="glyph-icon flaticon-linkedin11"></span></a></li>
+        <li><a href="http://www.github.com/miketychen" target="_blank"><span class="glyph-icon flaticon-github17"></span></a></li> -->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 <div class="main-panel">
 	<div class="main-box">
 		<!-- <div class="row">			
