@@ -34,17 +34,14 @@
 .splash-panel {
   width: 100%;
   padding-bottom: 45%;
-  z-index: 99;
-  background-size: cover; }
+  z-index: 99; }
   .splash-panel .background-image {
     background-image: url("../assets/images/6.png");
     background-size: cover;
-    display: block;
     filter: blur(1px);
     -webkit-filter: blur(1px);
     -webkit-transform: scale(1.02);
             transform: scale(1.02);
-    height: 100%;
     top: 0;
     left: 0;
     right: 0;
@@ -58,15 +55,16 @@
     z-index: 2;
     text-align: center; }
     .splash-panel .content .txt {
-      margin-top: 20.5%;
+      margin-top: 46.5%;
       color: #1eb954;
       font-weight: 700;
-      font-size: 60px;
+      font-size: 35px;
       text-align: center; }
     .splash-panel .content .desc {
-      margin-top: 2%;
+      margin-top: 5%;
       color: #fdfdfd;
-      font-weight: 700; }
+      font-weight: 700;
+      font-size: 22px; }
     .splash-panel .content .social {
       margin-top: 15px; }
       .splash-panel .content .social .glyph-icon {
@@ -93,6 +91,24 @@
     margin-top: 80px; }
   50% {
     margin-top: 30px; } }
+
+.splash-panel {
+  min-height: 100%; }
+  .splash-panel .background-image {
+    height: 100%;
+    background-image: url("../assets/images/6.png");
+    background-size: cover;
+    background-position: 50% 100px; }
+
+@media (min-width: 40.063em) {
+  .splash-panel .background-image {
+    height: 100%; }
+  .splash-panel .content .txt {
+    margin-top: 20.5%;
+    font-size: 60px; }
+  .splash-panel .content .desc {
+    margin-top: 2%;
+    font-size: 40px; } }
 
 .main-panel {
   width: 100%;
