@@ -9,7 +9,7 @@
 		background-image: url('../assets/images/header.jpg');
 		background-size: cover;
 		h1{
-			margin-top: 6.5%;
+			margin-top: 5%;
 			font-weight: bold;
 			font-size: 60px;
 			line-height: .5em;
@@ -52,4 +52,27 @@
 		  }
 		}
 	}
+}
+
+@media (min-width:$break-smaller) { 
+}
+@media (min-width:$break-small) { 
+	
+}
+@media (min-width:$break-med) { 
+	.mobile-hidden{
+		display:block;
+	}
+	.desk-hidden{
+		display:none;
+	}
+	.footer{
+		margin-top: 20px;
+	}
+}
+@media (min-width:$break-lg) { 
+
+}
+@media (min-width:$break-xlg) { 
+
 }
