@@ -1,5 +1,3 @@
-
-
 .second-project-box{
 	width: $container-width;
 	margin:0 auto;
@@ -38,4 +36,20 @@
 			font-weight: bold;
 		}
 	}		
+}
+
+
+@media (min-width:$break-smaller) { 
+}
+@media (min-width:$break-small) { 
+	
+}
+@media (min-width:$break-med) { 
+	
+}
+@media (min-width:$break-lg) { 
+
+}
+@media (min-width:$break-xlg) { 
+
 }

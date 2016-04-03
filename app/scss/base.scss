@@ -74,3 +74,28 @@ html,body{
 		color:$prim-color;
 	}
 }
+
+
+
+@media (min-width:$break-smaller) { 
+}
+@media (min-width:$break-small) { 
+	
+}
+@media (min-width:$break-med) { 
+	.mobile-hidden{
+		display:block;
+	}
+	.desk-hidden{
+		display:none;
+	}
+	.footer{
+		margin-top: 20px;
+	}
+}
+@media (min-width:$break-lg) { 
+
+}
+@media (min-width:$break-xlg) { 
+
+}
