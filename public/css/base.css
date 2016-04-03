@@ -15,14 +15,15 @@
     cursor: pointer;
     color: #1eb954;
     font-weight: 500;
-    margin-top: 13px;
-    margin-right: 25px;
-    font-size: 18px; }
+    margin-top: 15px;
+    margin-right: 40px;
+    font-size: 16px; }
   .navbar .navbar-center {
     margin-left: 30px; }
   .navbar .navbar-brand {
     color: #1eb954;
-    font-size: 16px; }
+    font-size: 18px;
+    font-weight: 500; }
   .navbar .navbar-right {
     margin-right: 10px; }
     .navbar .navbar-right li {
@@ -36,7 +37,7 @@
   padding-bottom: 45%;
   z-index: 99; }
   .splash-panel .background-image {
-    background-image: url("../assets/images/6.png");
+    background-image: url("../assets/images/header.jpg");
     background-size: cover;
     filter: blur(1px);
     -webkit-filter: blur(1px);
@@ -55,20 +56,22 @@
     z-index: 2;
     text-align: center; }
     .splash-panel .content .txt {
-      margin-top: 46.5%;
-      color: #1eb954;
+      margin-top: 47%;
+      color: #fdfdfd;
+      text-shadow: 2px 2px black;
       font-weight: 700;
-      font-size: 35px;
+      font-size: 42px;
       text-align: center; }
     .splash-panel .content .desc {
       margin-top: 5%;
-      color: #fdfdfd;
+      color: #1eb954;
+      text-shadow: 2px 2px black;
       font-weight: 700;
       font-size: 22px; }
     .splash-panel .content .social {
       margin-top: 15px; }
       .splash-panel .content .social .glyph-icon {
-        color: #1eb954;
+        color: #fdfdfd;
         font-size: 30px;
         margin: 0 15px; }
     .splash-panel .content .down-txt {
@@ -96,18 +99,16 @@
   min-height: 100%; }
   .splash-panel .background-image {
     height: 100%;
-    background-image: url("../assets/images/6.png");
-    background-size: cover;
-    background-position: 50% 100px; }
+    background-size: cover; }
 
 @media (min-width: 40.063em) {
   .splash-panel .background-image {
     height: 100%; }
   .splash-panel .content .txt {
-    margin-top: 20.5%;
+    margin-top: 23%;
     font-size: 60px; }
   .splash-panel .content .desc {
-    margin-top: 2%;
+    margin-top: 3%;
     font-size: 40px; } }
 
 .main-panel {
