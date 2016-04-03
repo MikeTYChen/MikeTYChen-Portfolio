@@ -1,0 +1,45 @@
+.top-project-panel{
+	background-color: $white;
+	width:100%;
+	.top-project-box{
+		width: $container-width;
+		margin:0 auto;
+		padding:$container-padding;
+		padding-bottom:0px;
+		.title-box{
+			.title{
+				line-height: 1.5em;
+				float:left;
+				font-weight: bold;
+			}
+			.link{
+				font-weight: 500;
+				color:$black;
+				line-height: 1.5em;
+				float:right;
+				border-bottom: 1px solid $blue;
+			}
+			.link:hover{
+				border-bottom: 1px solid $black;
+			}
+		}
+		.desc-box{
+			.desc-type{
+				font-weight: bold;
+			}
+		}
+		.img-box{
+			margin-top: 20px;
+			width:100%;
+			margin:0 auto;
+			img{
+				width:100%;
+				margin:0 auto;
+				border:1px solid $white;
+			}
+			img:hover{
+				border: 1px solid $blue;
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "name": "miketychenportfolio",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Michael Chen <miketychen@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/MikeTYChen/MikeTYChen-Portfolio",
+  "moduleType": [],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "jquery-ui": "~1.11.4"
+  }
+}

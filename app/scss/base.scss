@@ -1,0 +1,76 @@
+$blue:#2C86E8;
+$gray: #EEEFF1;
+$d-gray: #232323;
+$black: #000;
+$white:rgb(250,250,250);
+
+$green: rgb(30,185,84);
+
+$prim-color: $green;
+$sec-color:$white;
+$tert-color:$gray;
+$quart-color: $black;
+$pent-color: $d-gray;
+
+$navbar-height:50px;
+
+$container-width:93%;
+$container-padding:50px;
+$project-width:95%;
+
+$break-smaller:20em;
+$break-small:23em;
+$break-med:40.063em;
+$break-lg:64.063em;
+$break-xlg:80.063em;
+
+@import 'partials/_nav.scss';
+@import 'partials/_mainPanel.scss';
+@import 'partials/_topProjects.scss';
+@import 'partials/_secondProjects.scss';
+@import 'partials/_aboutPanel.scss';
+
+
+@import 'partials/_projectsPage.scss';
+
+
+h1,h2,h3,h4,h5,h6,a,span,i,body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h5{
+	font-size: 15px;
+}
+a:hover{
+	text-decoration: none;
+}
+.clear{
+	clear:both;
+}
+
+html,body{
+	overflow-x:hidden;
+}
+
+//common
+.mobile-hidden{
+	display:none;
+}
+.desk-hidden{
+	display:block;
+}
+.title-txt{
+	color:$prim-color;
+	padding:0 0 25px 0;
+	font-weight: bold;
+}
+
+.footer{
+	margin-top: 30px;
+	padding-bottom:20px;
+	text-align: center;		
+	background-color: $tert-color;	
+	.footer-txt{
+		font-size: 14px;
+		color:$prim-color;
+	}
+}
