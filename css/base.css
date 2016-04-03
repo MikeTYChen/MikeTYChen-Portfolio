@@ -274,3 +274,11 @@ html, body {
   .footer .footer-txt {
     font-size: 14px;
     color: #1eb954; }
+
+@media (min-width: 40.063em) {
+  .mobile-hidden {
+    display: block; }
+  .desk-hidden {
+    display: none; }
+  .footer {
+    margin-top: 20px; } }
