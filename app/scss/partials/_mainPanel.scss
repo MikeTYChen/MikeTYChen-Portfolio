@@ -2,6 +2,65 @@
 	width:100%;
 	height:100%;
 	.welcome-box{
+		padding:65% 0;
+		text-align: center;
+		width:100%;
+		height:100%;
+		background-image: url('../assets/images/header.jpg');
+		background-size: cover;
+		h1{
+			margin-top: 5%;
+			font-weight: bold;
+			font-size: 36px;
+			line-height: .5em;
+			color:$sec-color;
+		}
+		h2{
+			color:$prim-color;
+			font-weight: 400;
+			line-height: .6em;
+		}
+		.social-box{
+			margin-top: 15px;
+			.glyph-icon{
+				color:$prim-color;
+				font-size: 30px;
+				margin:0 15px;
+			}
+		}
+		.down-box{
+			height:50px;
+		}
+		.down-txt{
+			padding-top: 30px;
+			font-size: 35px;
+			color:$prim-color;
+		}
+		.down-arr{			
+			cursor:pointer;
+		}
+		.move-down{
+			animation: moveD 2.5s infinite;
+		}
+		@keyframes moveD {
+		  0%,100%{
+		    margin-top: 100px;
+		  }
+		  50%{
+		  	margin-top: 50px;
+		  }
+		}
+	}
+}
+
+@media (min-width:$break-smaller) { 
+}
+@media (min-width:$break-small) { 
+	
+}
+@media (min-width:$break-med) { 
+.main-panel{
+	.welcome-box{
 		padding:15% 0;
 		text-align: center;
 		width:100%;
@@ -54,21 +113,6 @@
 	}
 }
 
-@media (min-width:$break-smaller) { 
-}
-@media (min-width:$break-small) { 
-	
-}
-@media (min-width:$break-med) { 
-	.mobile-hidden{
-		display:block;
-	}
-	.desk-hidden{
-		display:none;
-	}
-	.footer{
-		margin-top: 20px;
-	}
 }
 @media (min-width:$break-lg) { 
 

@@ -1,7 +1,6 @@
 #toggle-nav{
 	background-color: transparent;	
 	transition:background-color 0.5s ease;
-
 }
 .navbar{
 	border:0;
@@ -36,5 +35,17 @@
 		li{
 			margin-right: 25px;
 		}
+	}
+}
+
+.project-nav{
+	background-color: #232323;
+	.navbar-right{
+		a{
+			color:$sec-color;
+		}
+	}
+	.navbar-brand{
+		color:$prim-color;
 	}
 }
