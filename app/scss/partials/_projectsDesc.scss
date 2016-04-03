@@ -19,12 +19,23 @@
 			font-weight: bold;
 		}
 	}
+	.text-panel-3{
+		width:60%;
+		margin:20px auto;
+		text-align:center;
+		.project-title{
+			line-height: 5em;
+			font-size: 30px;
+			color:$prim-color;
+			font-weight: bold;
+		}
+	}
 	.img-panel{
 		width:90%;
 		margin:20px auto 0 auto;
 		text-align: center;
 		img{
-			width:75%;
+			width:85%;
 		}
 	}
 	.img-panel-2{
@@ -32,7 +43,8 @@
 		margin:20px auto 0 auto;
 		img{
 			float:left;
-			width:50%;
+			margin: 0 3%;
+			width:44%;
 		}
 	}
 }
