@@ -20,10 +20,19 @@
 		}
 	}
 	.img-panel{
-		margin-top: 20px;
-		background-color: #3df;
+		width:90%;
+		margin:20px auto 0 auto;
+		text-align: center;
 		img{
-			width:100%;
+			width:75%;
+		}
+	}
+	.img-panel-2{
+		width:90%;
+		margin:20px auto 0 auto;
+		img{
+			float:left;
+			width:50%;
 		}
 	}
 }
