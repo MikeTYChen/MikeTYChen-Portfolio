@@ -4,7 +4,8 @@
 	.top-project-box{
 		width: $container-width;
 		margin:0 auto;
-		padding:100px;
+		padding:$container-padding;
+		padding-bottom:0px;
 		.title-box{
 			.title{
 				line-height: 1.5em;
@@ -29,8 +30,11 @@
 		}
 		.img-box{
 			margin-top: 20px;
+			width:100%;
+			margin:0 auto;
 			img{
 				width:100%;
+				margin:0 auto;
 				border:1px solid $white;
 			}
 			img:hover{

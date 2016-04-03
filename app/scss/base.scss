@@ -14,7 +14,9 @@ $pent-color: $d-gray;
 
 $navbar-height:50px;
 
-$container-width:90%;
+$container-width:93%;
+$container-padding:50px;
+$project-width:95%;
 
 $break-smaller:20em;
 $break-small:23em;
@@ -55,6 +57,11 @@ html,body{
 }
 .desk-hidden{
 	display:block;
+}
+.title-txt{
+	color:$prim-color;
+	padding:0 0 25px 0;
+	font-weight: bold;
 }
 
 .footer{

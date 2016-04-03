@@ -17,6 +17,13 @@
     color: #fafafa;
     font-weight: bold;
     font-size: 16px; }
+  .navbar .navbar-right a:hover, .navbar .navbar-right a:focus {
+    background-color: transparent;
+    color: #1eb954; }
+  .navbar .navbar-right .active {
+    color: #1eb954; }
+  .navbar .navbar-right li:hover {
+    background-color: none; }
   .navbar .navbar-right li {
     margin-right: 25px; }
 
@@ -74,9 +81,10 @@
   background-color: #fafafa;
   width: 100%; }
   .top-project-panel .top-project-box {
-    width: 90%;
+    width: 93%;
     margin: 0 auto;
-    padding: 100px; }
+    padding: 50px;
+    padding-bottom: 0px; }
     .top-project-panel .top-project-box .title-box .title {
       line-height: 1.5em;
       float: left;
@@ -92,34 +100,43 @@
     .top-project-panel .top-project-box .desc-box .desc-type {
       font-weight: bold; }
     .top-project-panel .top-project-box .img-box {
-      margin-top: 20px; }
+      margin-top: 20px;
+      width: 100%;
+      margin: 0 auto; }
       .top-project-panel .top-project-box .img-box img {
         width: 100%;
+        margin: 0 auto;
         border: 1px solid #fafafa; }
       .top-project-panel .top-project-box .img-box img:hover {
         border: 1px solid #2C86E8; }
 
-.second-project-panel {
-  background-color: #fafafa;
-  width: 100%; }
-  .second-project-panel .second-project-box {
-    width: 90%;
+.second-project-box {
+  width: 93%;
+  margin: 0 auto;
+  padding: 50px; }
+  .second-project-box .img-box {
     margin: 0 auto;
-    padding: 100px; }
-    .second-project-panel .second-project-box img {
+    position: relative;
+    cursor: pointer; }
+    .second-project-box .img-box img {
       width: 100%; }
-    .second-project-panel .second-project-box .desc-type {
+    .second-project-box .img-box .bottom {
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%; }
+    .second-project-box .img-box .top {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transition: opacity 0.5s ease-in-out; }
+    .second-project-box .img-box .top:hover {
+      opacity: 0; }
+  .second-project-box .desc-box {
+    margin: 10px auto 80px auto; }
+    .second-project-box .desc-box .desc-type {
       font-weight: bold; }
-    .second-project-panel .second-project-box .btn-box {
-      margin-top: 30px;
-      text-align: center; }
-      .second-project-panel .second-project-box .btn-box .btn-all {
-        padding: 10px 20px;
-        border-radius: 0;
-        background-color: #fafafa; }
-      .second-project-panel .second-project-box .btn-box .btn-all:hover {
-        color: #2C86E8;
-        background-color: #fafafa; }
 
 .about-panel {
   width: 100%;
@@ -243,6 +260,11 @@ html, body {
 
 .desk-hidden {
   display: block; }
+
+.title-txt {
+  color: #1eb954;
+  padding: 0 0 25px 0;
+  font-weight: bold; }
 
 .footer {
   margin-top: 30px;

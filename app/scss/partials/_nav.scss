@@ -23,6 +23,16 @@
 			font-weight: bold;
 			font-size: 16px;
 		}
+		a:hover, a:focus{
+			background-color:transparent;
+			color:$prim-color;
+		}
+		.active{
+			color:$prim-color;
+		}
+		li:hover{
+			background-color: none;
+		}
 		li{
 			margin-right: 25px;
 		}

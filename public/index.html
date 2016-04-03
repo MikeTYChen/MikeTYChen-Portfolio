@@ -6,7 +6,7 @@
         <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>        
         <link href="assets/fonts/flaticon.css" rel="stylesheet" type="text/css">
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#toggle-nav">
 		<div id="large-header" class="main-panel large-header">
 	<div class="welcome-box">
 		<div class="row">
@@ -47,14 +47,19 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#project-panel">PROJECTS</a></li>
+        <li><a href="#project-panel" class="active" data-scroll="top">PROJECTS</a></li>
         <li><a href="#about-panel">ABOUT</a></li> 
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-		<div class="top-project-panel">
+		<div id="project-panel" class="top-project-panel">
 	<div class="top-project-box">
+		<div class="row">
+			<div class="col-md-12">		
+				<h1 class="title-txt">MY MOST RECENT PROJECT</h1>	
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-md-12">				
 				<div class="title-box">
@@ -81,33 +86,78 @@
 			</div>
 		</div>
 	</div>
-</div>
-        <div class="second-project-panel">
-	<div class="second-project-box">
-		<div class="row">
-			<div class="col-md-6">
-				<div class="img-box">
-					<img src="assets/images/PackHire.png"/>
-				</div>
+
+    <div class="second-project-box">
+	<div class="row">
+			<div class="col-md-12">		
+				<h1 class="title-txt">MY PROJECTS</h1>	
+			</div>
+		</div>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="img-box">
+				<img class="bottom" src="assets/images/Projects/Packhire2.jpg" />
+				<img class="top" src="assets/images/Projects/Packhire.jpg" />
+			</div>
+			<div class="desc-box">
 				<h4>PackHire</h4>
 				<h5><span class="desc-type">Role:</span> Software Engineering (Full Stack)</h5>
 			</div>
-			<div class="col-md-6">
-				<div class="img-box">
-					<img src="assets/images/PackHire.png"/>
-				</div>
-				<h4>SEAM</h4>
+		</div>
+		<div class="col-md-4">
+			<div class="img-box">
+				<img class="bottom" src="assets/images/Projects/SEAM2.jpg" />
+				<img class="top" src="assets/images/Projects/SEAM.jpg" />
+			</div>
+			<div class="desc-box">
+				<h4>PackHire</h4>
 				<h5><span class="desc-type">Role:</span> Software Engineering (Full Stack)</h5>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<div class="btn-box">
-					<button class="btn btn-default btn-all"> View All Projects</button>
-				</div>
+		<div class="col-md-4">
+			<div class="img-box">
+				<img class="bottom" src="assets/images/Projects/Data2.jpg" />
+				<img class="top" src="assets/images/Projects/Data.jpg" />
+			</div>
+			<div class="desc-box">
+				<h4>PackHire</h4>
+				<h5><span class="desc-type">Role:</span> Software Engineering (Full Stack)</h5>
 			</div>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="img-box">
+				<img class="bottom" src="assets/images/Projects/Twitter2.jpg" />
+				<img class="top" src="assets/images/Projects/Twitter.jpg" />
+			</div>
+			<div class="desc-box">
+				<h4>PackHire</h4>
+				<h5><span class="desc-type">Role:</span> Software Engineering (Full Stack)</h5>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="img-box">
+				<img class="bottom" src="assets/images/Projects/Front2.jpg" />
+				<img class="top" src="assets/images/Projects/Front.jpg" />
+			</div>
+			<div class="desc-box">
+				<h4>PackHire</h4>
+				<h5><span class="desc-type">Role:</span> Software Engineering (Full Stack)</h5>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="img-box">
+				<img class="bottom" src="assets/images/Projects/Hatch2.jpg" />
+				<img class="top" src="assets/images/Projects/Hatch.jpg" />
+			</div>
+			<div class="desc-box">
+				<h4>PackHire</h4>
+				<h5><span class="desc-type">Role:</span> Software Engineering (Full Stack)</h5>
+			</div>
+		</div>
+	</div>
+</div>
 </div>
         <div id="about-panel" class="about-panel">
 	<div class="about-box">
