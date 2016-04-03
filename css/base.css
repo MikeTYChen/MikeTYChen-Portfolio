@@ -310,18 +310,28 @@
       color: #1eb954;
       text-align: center;
       font-weight: bold; }
+  .project-desc-panel .text-panel-3 {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center; }
+    .project-desc-panel .text-panel-3 .project-title {
+      line-height: 5em;
+      font-size: 30px;
+      color: #1eb954;
+      font-weight: bold; }
   .project-desc-panel .img-panel {
     width: 90%;
     margin: 20px auto 0 auto;
     text-align: center; }
     .project-desc-panel .img-panel img {
-      width: 75%; }
+      width: 85%; }
   .project-desc-panel .img-panel-2 {
     width: 90%;
     margin: 20px auto 0 auto; }
     .project-desc-panel .img-panel-2 img {
       float: left;
-      width: 50%; }
+      margin: 0 3%;
+      width: 44%; }
 
 h1, h2, h3, h4, h5, h6, a, span, i, body {
   font-family: 'Source Sans Pro', sans-serif; }
