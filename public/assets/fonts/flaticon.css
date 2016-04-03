@@ -1,23 +1,36 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/02/2016 03:11
+  	*/
+
 @font-face {
-	font-family: "Flaticon";
-	src: url("flaticon.eot");
-	src: url("flaticon.eot#iefix") format("embedded-opentype"),
-	url("flaticon.woff") format("woff"),
-	url("flaticon.ttf") format("truetype"),
-	url("flaticon.svg") format("svg");
-	font-weight: normal;
-	font-style: normal;
+  font-family: "Flaticon";
+  src: url("./flaticon.eot");
+  src: url("./flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./flaticon.woff") format("woff"),
+       url("./flaticon.ttf") format("truetype"),
+       url("./flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./flaticon.svg#Flaticon") format("svg");
+  }
+}
+
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-	font-family: Flaticon;
-	font-style: normal;
-}.flaticon-email5:before {
-	content: "\e000";
+  font-family: Flaticon;
+font-style: normal;
 }
-.flaticon-github17:before {
-	content: "\e001";
-}
-.flaticon-linkedin11:before {
-	content: "\e002";
-}
+
+.flaticon-application:before { content: "\f100"; }
+.flaticon-arrows:before { content: "\f101"; }
+.flaticon-arrows-1:before { content: "\f102"; }
+.flaticon-cup:before { content: "\f103"; }
+.flaticon-email5:before { content: "\f104"; }
+.flaticon-github17:before { content: "\f105"; }
+.flaticon-linkedin11:before { content: "\f106"; }

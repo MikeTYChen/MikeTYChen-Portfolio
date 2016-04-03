@@ -1,26 +1,34 @@
 $blue:#2C86E8;
 $gray: #EEEFF1;
-$d-gray: #4F5152;
+$d-gray: #232323;
 $black: #000;
 $white:rgb(250,250,250);
 
+$green: rgb(30,185,84);
+
+$prim-color: $green;
+$sec-color:$white;
+$tert-color:$gray;
+$quart-color: $black;
+$pent-color: $d-gray;
+
 $navbar-height:50px;
 
-$container-width:82%;
+$container-width:90%;
 
-$break-small: 400px;
-$break-large: 1800px;
-$break-medium:960px;
-$large-screen-width:1600px;
+$break-smaller:20em;
+$break-small:23em;
+$break-med:40.063em;
+$break-lg:64.063em;
+$break-xlg:80.063em;
 
 @import 'partials/_nav.scss';
 @import 'partials/_mainPanel.scss';
 @import 'partials/_topProjects.scss';
 @import 'partials/_secondProjects.scss';
 @import 'partials/_aboutPanel.scss';
-@import 'partials/_canvas.scss';
 
-@import 'partials/_chart.scss';
+
 @import 'partials/_projectsPage.scss';
 
 
@@ -35,4 +43,27 @@ a:hover{
 }
 .clear{
 	clear:both;
+}
+
+html,body{
+	overflow-x:hidden;
+}
+
+//common
+.mobile-hidden{
+	display:none;
+}
+.desk-hidden{
+	display:block;
+}
+
+.footer{
+	margin-top: 30px;
+	padding-bottom:20px;
+	text-align: center;		
+	background-color: $tert-color;	
+	.footer-txt{
+		font-size: 14px;
+		color:$prim-color;
+	}
 }
