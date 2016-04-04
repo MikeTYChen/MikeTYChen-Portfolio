@@ -37,26 +37,15 @@
 		}
 	}	
 	.button-box{
-			text-align: center;
-			.more-btn{
-				margin-right:10px;
-				margin-bottom: 80px;
-				border-radius: 0;
-				font-size: 18px;
-			}
-		}
-	.button-box{
+		text-align: center;
 		.more-btn{
-			border:2px solid $pack-color;
-			color:$pack-color;
+			margin-right:10px;
+			margin-bottom: 80px;
+			border-radius: 0;
+			font-size: 18px;
 		}
-		.more-btn:hover{
-			background-color: $pack-color;
-			color:$white;
-		}
-	}	
+	}
 }
-
 
 @media (min-width:$break-smaller) { 
 }

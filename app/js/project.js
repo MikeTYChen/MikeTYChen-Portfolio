@@ -1,4 +1,10 @@
 $( document ).ready(function() {
+    $(document).on('click','.navbar-collapse.in',function(e) {
+        console.log("close");
+        if( $(e.target).is('a') ) {
+            $(this).collapse('hide');
+        }
+    });
     $(document).on("scroll", onScroll);
     
     //smoothscroll

@@ -37,6 +37,7 @@ $break-xlg:80.063em;
 @import 'partials/_mainPanel.scss';
 @import 'partials/_topProjects.scss';
 @import 'partials/_secondProjects.scss';
+@import 'partials/_colorCustom.scss';
 @import 'partials/_aboutPanel.scss';
 @import 'partials/_skillsPanel.scss';
 
@@ -65,7 +66,7 @@ html,body{
 .mobile-hidden{
 	display:none;
 }
-.desk-hidden{
+.desktop-hidden{
 	display:block;
 }
 .title-txt{
@@ -74,7 +75,6 @@ html,body{
 	font-weight: bold;
 	font-size: 25px;
 }
-
 .footer{
 	margin-top: 30px;
 	padding-bottom:20px;
@@ -97,7 +97,7 @@ html,body{
 	.mobile-hidden{
 		display:block;
 	}
-	.desk-hidden{
+	.desktop-hidden{
 		display:none;
 	}
 	.footer{

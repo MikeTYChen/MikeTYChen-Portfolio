@@ -1,5 +1,11 @@
 $( document ).ready(function() {
-    if($(window).width()>479){
+    console.log("HI");
+    $(document).on('click','.navbar-collapse',function(e) {
+        console.log("close");
+        if( $(e.target).is('a') ) {
+            $(this).collapse('hide');
+        }
+    });
         $( window ).scroll(fixed_nav);
         fixed_nav();
         $(document).on("scroll", onScroll);
@@ -24,7 +30,6 @@ $( document ).ready(function() {
                 $(document).on("scroll", onScroll);
             });
         });
-    }
 });
 
 function fixed_nav (){
@@ -38,22 +43,6 @@ function fixed_nav (){
 		// $( "#toggle-nav" ).hide( "slide", {direction: "up"}, 250 );
 	}
 }
-
-$(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-
 
 function onScroll(event){
     var scrollPos = $(document).scrollTop();

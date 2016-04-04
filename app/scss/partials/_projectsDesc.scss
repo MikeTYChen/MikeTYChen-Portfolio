@@ -1,16 +1,27 @@
 .project-desc-panel{
 	width:100%;
 	margin-top:80px;
+	.project-title{
+		font-size: 28px;
+		text-align: center;
+		font-weight: bold;
+	}
+	.title{
+		font-size: 18px;
+	}
 	.text-panel{
-		width:60%;
+		width:$mobile-container-width;
 		margin:0 auto;
 	}
 	.text-panel-2{
-		width:60%;
+		width:$mobile-container-width;
 		margin:40px auto;
+		.title-box{
+			margin-top: 300px!important;
+		}
 	}
 	.text-panel-3{
-		width:60%;
+		width:$mobile-container-width;
 		margin:20px auto;
 		text-align:center;
 		.project-title{
@@ -18,47 +29,90 @@
 			font-size: 30px;
 			font-weight: bold;
 		}
+		.back-txt{
+			font-size: 20px;
+		}
 	}
 	.img-panel{
-		width:90%;
+		width:$mobile-container-width;
 		margin:20px auto 0 auto;
 		text-align: center;
 		img{
-			width:75%;
+			width:100%;
 		}
 	}
 	.img-panel-2{
-		width:85%;
+		width::$mobile-container-width;
 		margin:20px auto 0 auto;
 		img{
 			float:left;
-			margin: 0 3%;
-			width:44%;
+			width:100%;
+		}
+		img:nth-child(2) {
+			margin-top:30px;
+			margin-bottom: 30px;
 		}
 	}
 }
 
-.project-title{
-	text-align: center;
-	font-weight: bold;
-}
 
-.pack-panel .project-title{
-	color:$pack-color;
+@media (min-width:$break-smaller) { 
 }
+@media (min-width:$break-small) { 
+	
+}
+@media (min-width:$break-med) { 
+	.project-desc-panel{
+		.project-title{
+			margin-top: 30px;
+			font-size: 36px;
+		}
 
-.seam-panel .project-title{
-	color:$seam-color;
+		.title{
+			font-size: 20px;
+		}
+		.text-panel{
+			width:60%;
+		}
+		.text-panel-2{
+			width:60%;
+			margin:40px auto;
+		}
+		.text-panel-3{
+			width:60%;
+			margin:20px auto;
+			.project-title{
+				line-height: 5em;
+				font-size: 30px;
+			}
+
+			.back-txt{
+				font-size: 36px;
+			}
+		}
+		.img-panel{
+			width:90%;
+			margin:20px auto 0 auto;
+			img{
+				width:50%;
+			}
+		}
+		.img-panel-2{
+			width:85%;
+			margin:20px auto 0 auto;
+			img{
+				margin: 0 3%;
+				width:44%;
+			}
+			img:nth-child(2) {
+				margin:0 3%;
+			}
+		}
+	}
 }
-.data-panel .project-title{
-	color:$data-color;
+@media (min-width:$break-lg) { 
+
 }
-.twitter-panel .project-title{
-	color:$twitter-color;
-}
-.front-panel .project-title{
-	color:$front-color;
-}
-.hatch-panel .project-title{
-	color:$hatch-color;
+@media (min-width:$break-xlg) { 
+
 }

@@ -1,0 +1,100 @@
+
+$pack-color:rgb(66,109,178);
+$seam-color:rgb(142,199,66);
+$data-color:rgb(37,128,197);
+$twitter-color:rgb(95,174,217);
+$front-color:rgb(213,20,32);
+$hatch-color:rgb(180,205,184);
+.second-project-box .pack-box{
+	.more-btn{
+		border:2px solid $pack-color;
+		color:$pack-color;
+	}
+	.more-btn:hover{
+		background-color: $pack-color;
+		color:$white;
+	}
+}	
+.second-project-box .seam-box{
+	.more-btn{
+		border:2px solid $seam-color;
+		color:$seam-color;
+	}
+	.more-btn:hover{
+		background-color: $seam-color;
+		color:$white;
+	}
+}	
+
+.second-project-box .data-box{
+	.more-btn{
+		border:2px solid $data-color;
+		color:$data-color;
+	}
+	.more-btn:hover{
+		background-color: $data-color;
+		color:$white;
+	}
+}	
+
+.second-project-box .twitter-box{
+	.more-btn{
+		border:2px solid $twitter-color;
+		color:$twitter-color;
+	}
+	.more-btn:hover{
+		background-color: $twitter-color;
+		color:$white;
+	}
+}	
+
+.second-project-box .front-box{
+	.more-btn{
+		border:2px solid $front-color;
+		color:$front-color;
+	}
+	.more-btn:hover{
+		background-color: $front-color;
+		color:$white;
+	}
+}	
+
+.second-project-box .hatch-box{
+	.more-btn{
+		border:2px solid $hatch-color;
+		color:$hatch-color;
+	}
+	.more-btn:hover{
+		background-color: $hatch-color;
+		color:$white;
+	}
+}	
+
+
+
+
+
+
+
+
+
+
+.pack-panel .project-title{
+	color:$pack-color;
+}
+
+.seam-panel .project-title{
+	color:$seam-color;
+}
+.data-panel .project-title{
+	color:$data-color;
+}
+.twitter-panel .project-title{
+	color:$twitter-color;
+}
+.front-panel .project-title{
+	color:$front-color;
+}
+.hatch-panel .project-title{
+	color:$hatch-color;
+}

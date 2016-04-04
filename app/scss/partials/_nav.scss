@@ -1,10 +1,26 @@
 #toggle-nav{
+	background-color: #232323;
+}
+@media (min-width:$break-smaller) {
+
+}
+@media (min-width:$break-small) { 
+	
+}
+@media (min-width:$break-med) { 
+	#toggle-nav{
 	background-color: transparent;	
 	transition:background-color 0.5s ease;
+	}
 }
 .navbar{
 	border:0;
 	margin-bottom:0;
+	width:100%;
+	padding:0 2%;
+	.navbar-toggle .icon-bar {
+		background-color: $prim-color;
+	}
 	a{
 		color:$prim-color;
 	}
@@ -50,10 +66,32 @@
 			color:$sec-color;
 			font-weight: bold;
 			font-size: 16px;
+			margin-left:18px;
 		}
 
 	}
 	.navbar-brand{
-		color:$prim-color;
+		color:$sec-color;
 	}
+}
+
+@media (min-width:$break-smaller) { 
+}
+@media (min-width:$break-small) { 
+	
+}
+@media (min-width:$break-med) { 
+	.project-nav{
+		.navbar-right{
+			h4{
+				margin-left: 0;
+			}
+		}
+	}
+}
+@media (min-width:$break-lg) { 
+
+}
+@media (min-width:$break-xlg) { 
+
 }
