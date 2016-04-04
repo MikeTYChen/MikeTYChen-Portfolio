@@ -19,7 +19,7 @@
   .navbar .navbar-right a {
     color: #fafafa;
     font-weight: bold;
-    font-size: 16px; }
+    font-size: 14px; }
   .navbar .navbar-right a:hover, .navbar .navbar-right a:focus {
     background-color: transparent;
     color: #1eb954; }
@@ -28,26 +28,28 @@
   .navbar .navbar-right li:hover {
     background-color: none; }
   .navbar .navbar-right li {
-    margin-right: 25px; }
+    margin-right: 18px; }
 
 .project-nav {
   background-color: #232323; }
   .project-nav .navbar-right a {
+    font-size: 14px;
     color: #fafafa; }
   .project-nav .navbar-right h4 {
     cursor: pointer;
-    margin-top: 17px;
+    margin-top: 18px;
     color: #fafafa;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 18px; }
   .project-nav .navbar-brand {
     color: #fafafa; }
 
 @media (min-width: 40.063em) {
   .navbar .navbar-brand {
-    font-size: 25px; }
+    font-size: 20px; }
   .project-nav .navbar-right h4 {
+    font-size: 14px;
     margin-left: 0; }
   #toggle-nav {
     background-color: transparent;
@@ -57,7 +59,7 @@
   width: 100%;
   height: 100%; }
   .main-panel .welcome-box {
-    padding: 66% 0;
+    padding: 65% 0;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -110,7 +112,7 @@
 
 @media (min-width: 40.063em) {
   .main-panel .welcome-box {
-    padding: 15% 0;
+    padding: 15.5% 0;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -164,7 +166,8 @@
     padding-bottom: 0px; }
     .top-project-panel .top-project-box .title-box .title {
       line-height: 0.8em;
-      float: left; }
+      float: left;
+      font-size: 20px; }
     .top-project-panel .top-project-box .title-box .link {
       font-weight: 500;
       color: #000;
@@ -181,7 +184,7 @@
         margin-right: 10px;
         margin-top: 50px;
         border-radius: 0;
-        font-size: 18px; }
+        font-size: 15px; }
     .top-project-panel .top-project-box .img-box {
       margin-top: 20px;
       width: 100%;
@@ -210,6 +213,8 @@
     .top-project-panel .top-project-box {
       width: 93%;
       padding: 50px; }
+    .top-project-panel .button-box a {
+      font-size: 12px; }
     .top-project-panel .button-box .more-btn {
       margin-top: 100px;
       margin-right: 0; } }
@@ -229,7 +234,7 @@
       left: 0;
       top: 0;
       width: 100%;
-      height: 100%; }
+      height: 50%; }
     .second-project-box .img-box .top {
       width: 100%;
       position: absolute;
@@ -391,7 +396,7 @@
       margin-top: 50px;
       margin-right: 12%; }
       .about-panel .bio-box .desc-txt-box h4, .about-panel .bio-box .desc-txt-box a {
-        font-size: 17px; }
+        font-size: 19px; }
       .about-panel .bio-box .social-box {
         margin-top: 30px; }
         .about-panel .bio-box .social-box .glyph-icon {
@@ -446,7 +451,7 @@
     text-align: center;
     font-weight: bold; }
   .project-desc-panel .title {
-    font-size: 18px; }
+    font-size: 16px; }
   .project-desc-panel .text-panel {
     width: 88%;
     margin: 0 auto; }
@@ -489,9 +494,9 @@
 @media (min-width: 40.063em) {
   .project-desc-panel .project-title {
     margin-top: 30px;
-    font-size: 30px; }
+    font-size: 28px; }
   .project-desc-panel .title {
-    font-size: 20px; }
+    font-size: 16px; }
   .project-desc-panel .text-panel {
     width: 60%; }
   .project-desc-panel .text-panel-2 {
@@ -504,12 +509,12 @@
       line-height: 5em;
       font-size: 30px; }
     .project-desc-panel .text-panel-3 .back-txt {
-      font-size: 30px; }
+      font-size: 26px; }
     .project-desc-panel .text-panel-3 .visit-box {
       margin-bottom: 20px; }
       .project-desc-panel .text-panel-3 .visit-box .visit-txt {
         margin-top: 30px;
-        font-size: 22px; }
+        font-size: 18px; }
     .project-desc-panel .text-panel-3 .visit-margin {
       margin-top: 35px;
       margin-bottom: 0; }
@@ -574,4 +579,4 @@ html, body {
   .footer {
     margin-top: 20px; }
   .title-txt {
-    font-size: 35px; } }
+    font-size: 30px; } }
