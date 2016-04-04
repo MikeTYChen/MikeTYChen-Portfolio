@@ -1,0 +1,16 @@
+.skills-panel{
+	width:100%;
+	background-color: $tert-color;
+	.skills-box{
+		width: $container-width;
+		margin:0 auto;
+		padding:$container-padding;
+	}
+	.category{
+		font-size: 22px;
+		color:$prim-color;
+	}
+	.skill{
+		font-size: 15px;
+	}
+}

@@ -21,6 +21,8 @@ $hatch-color:rgb(180,205,184);
 
 $navbar-height:50px;
 
+$mobile-container-width:88%;
+$mobile-container-padding:5px;
 $container-width:93%;
 $container-padding:50px;
 $project-width:95%;
@@ -36,6 +38,7 @@ $break-xlg:80.063em;
 @import 'partials/_topProjects.scss';
 @import 'partials/_secondProjects.scss';
 @import 'partials/_aboutPanel.scss';
+@import 'partials/_skillsPanel.scss';
 
 
 @import 'partials/_projectsPage.scss';
@@ -69,6 +72,7 @@ html,body{
 	color:$prim-color;
 	padding:0 0 25px 0;
 	font-weight: bold;
+	font-size: 25px;
 }
 
 .footer{
@@ -98,6 +102,12 @@ html,body{
 	}
 	.footer{
 		margin-top: 20px;
+	}
+	.title-txt{
+		color:$prim-color;
+		padding:0 0 25px 0;
+		font-weight: bold;
+		font-size: 35px;
 	}
 }
 @media (min-width:$break-lg) { 

@@ -2,19 +2,19 @@
 	background-color: $white;
 	width:100%;
 	.top-project-box{
-		width: $container-width;
+		width: $mobile-container-width;
 		margin:0 auto;
-		padding:$container-padding;
+		padding:$mobile-container-padding;
 		padding-bottom:0px;
 		.title-box{
 			.title{
-				line-height: 1.5em;
+				line-height: 0.8em;
 				float:left;
 			}
 			.link{
 				font-weight: 500;
 				color:$black;
-				line-height: 1.5em;
+				line-height: 2em;
 				float:right;
 				border-bottom: 1px solid $blue;
 			}
@@ -31,7 +31,8 @@
 		.button-box{
 			text-align: center;
 			.more-btn{
-				margin-top: 100px;
+				margin-right:10px;
+				margin-top: 50px;
 				border-radius: 0;
 				font-size: 18px;
 			}
@@ -67,4 +68,30 @@
 			color:$white;
 		}
 	}
+}
+
+@media (min-width:$break-smaller) { 
+}
+@media (min-width:$break-small) { 
+}
+@media (min-width:$break-med) { 
+	.top-project-panel{
+		background-color: $white;
+		.top-project-box{
+			width: $container-width;
+			padding:$container-padding;
+		}
+		.button-box{
+			.more-btn{
+				margin-top: 100px;
+				margin-right:0;
+			}
+		}
+	}
+}
+@media (min-width:$break-lg) { 
+
+}
+@media (min-width:$break-xlg) { 
+
 }

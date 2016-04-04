@@ -1,7 +1,7 @@
-.second-project-box{
-	width: $container-width;
+.second-project-box{	
+	width: $mobile-container-width;
 	margin:0 auto;
-	padding:$container-padding;
+	padding:$mobile-container-padding;
 	.img-box {
 		margin:0 auto;
 		position:relative;
@@ -45,7 +45,11 @@
 	
 }
 @media (min-width:$break-med) { 
-	
+	.second-project-box{
+		width: $container-width;
+		margin:0 auto;
+		padding:$container-padding;
+	}
 }
 @media (min-width:$break-lg) { 
 
