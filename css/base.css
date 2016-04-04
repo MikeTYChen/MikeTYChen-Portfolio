@@ -57,7 +57,7 @@
   width: 100%;
   height: 100%; }
   .main-panel .welcome-box {
-    padding: 65% 0;
+    padding: 66% 0;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -343,7 +343,7 @@
         line-height: 1.5em;
         color: #000;
         font-size: 16px;
-        font-weight: 600; }
+        font-weight: 500; }
       .about-panel .bio-box .desc-txt-box a:hover {
         color: #1eb954; }
     .about-panel .bio-box .social-box {
@@ -453,8 +453,6 @@
   .project-desc-panel .text-panel-2 {
     width: 88%;
     margin: 40px auto; }
-    .project-desc-panel .text-panel-2 .title-box {
-      margin-top: 300px !important; }
   .project-desc-panel .text-panel-3 {
     width: 88%;
     margin: 20px auto;
@@ -491,7 +489,7 @@
 @media (min-width: 40.063em) {
   .project-desc-panel .project-title {
     margin-top: 30px;
-    font-size: 36px; }
+    font-size: 30px; }
   .project-desc-panel .title {
     font-size: 20px; }
   .project-desc-panel .text-panel {
@@ -506,7 +504,15 @@
       line-height: 5em;
       font-size: 30px; }
     .project-desc-panel .text-panel-3 .back-txt {
-      font-size: 36px; }
+      font-size: 30px; }
+    .project-desc-panel .text-panel-3 .visit-box {
+      margin-bottom: 20px; }
+      .project-desc-panel .text-panel-3 .visit-box .visit-txt {
+        margin-top: 30px;
+        font-size: 22px; }
+    .project-desc-panel .text-panel-3 .visit-margin {
+      margin-top: 35px;
+      margin-bottom: 0; }
   .project-desc-panel .img-panel {
     width: 90%;
     margin: 20px auto 0 auto; }
@@ -516,10 +522,9 @@
     width: 85%;
     margin: 20px auto 0 auto; }
     .project-desc-panel .img-panel-2 img {
-      margin: 0 3%;
-      width: 44%; }
+      width: 50%; }
     .project-desc-panel .img-panel-2 img:nth-child(2) {
-      margin: 0 3%; } }
+      margin: 0; } }
 
 h1, h2, h3, h4, h5, h6, a, span, i, body {
   font-family: 'Source Sans Pro', sans-serif; }
