@@ -496,11 +496,15 @@
     margin-top: 30px;
     font-size: 28px; }
   .project-desc-panel .title {
-    font-size: 16px; }
+    font-size: 18px; }
+  .project-desc-panel .tech {
+    font-size: 20px; }
   .project-desc-panel .text-panel {
     width: 60%; }
+    .project-desc-panel .text-panel h4 {
+      margin-top: 15px; }
   .project-desc-panel .text-panel-2 {
-    width: 60%;
+    width: 50%;
     margin: 40px auto; }
   .project-desc-panel .text-panel-3 {
     width: 60%;
