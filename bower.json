@@ -10,6 +10,7 @@
   "moduleType": [],
   "dependencies": {
     "bootstrap": "~3.3.6",
-    "jquery-ui": "~1.11.4"
+    "jquery-ui": "~1.11.4",
+    "jquery": "~2.2.2"
   }
 }

@@ -3,7 +3,6 @@ $gray: #EEEFF1;
 $d-gray: #232323;
 $black: #000;
 $white:rgb(250,250,250);
-
 $green: rgb(30,185,84);
 
 $prim-color: $green;
@@ -40,9 +39,6 @@ $break-xlg:80.063em;
 @import 'partials/_colorCustom.scss';
 @import 'partials/_aboutPanel.scss';
 @import 'partials/_skillsPanel.scss';
-
-
-@import 'partials/_projectsPage.scss';
 @import 'partials/_projectsDesc.scss';
 
 h1,h2,h3,h4,h5,h6,a,span,i,body{
