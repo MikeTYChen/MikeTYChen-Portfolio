@@ -15,10 +15,7 @@
 	}
 	.text-panel-2{
 		width:$mobile-container-width;
-		margin:40px auto;
-		.title-box{
-			margin-top: 300px!important;
-		}
+		margin:40px auto
 	}
 	.text-panel-3{
 		width:$mobile-container-width;
@@ -35,7 +32,7 @@
 		.visit-box{
 			margin-bottom: 20px;
 			.visit-txt{
-			font-size: 18px;
+				font-size: 18px;
 			}
 		}
 		.visit-margin{
@@ -52,7 +49,7 @@
 		}
 	}
 	.img-panel-2{
-		width::$mobile-container-width;
+		width:$mobile-container-width;
 		margin:20px auto 0 auto;
 		img{
 			float:left;
@@ -75,7 +72,7 @@
 	.project-desc-panel{
 		.project-title{
 			margin-top: 30px;
-			font-size: 36px;
+			font-size: 30px;
 		}
 
 		.title{
@@ -97,7 +94,20 @@
 			}
 
 			.back-txt{
-				font-size: 36px;
+				font-size: 30px;
+			}
+
+			.visit-box{
+				margin-bottom: 20px;
+				.visit-txt{
+					margin-top: 30px;
+				font-size: 22px;
+				}
+			}
+
+			.visit-margin{
+				margin-top: 35px;
+				margin-bottom: 0;
 			}
 		}
 		.img-panel{
@@ -111,11 +121,10 @@
 			width:85%;
 			margin:20px auto 0 auto;
 			img{
-				margin: 0 3%;
-				width:44%;
+				width:50%;
 			}
 			img:nth-child(2) {
-				margin:0 3%;
+				margin:0;
 			}
 		}
 	}
