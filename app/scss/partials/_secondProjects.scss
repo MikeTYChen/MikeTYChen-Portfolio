@@ -6,9 +6,9 @@
 		margin:0 auto;
 		position:relative;
 		cursor: pointer;
-
+		text-align: center;
 		img{
-			width:100%;
+			width:80%;
 		}
 		.bottom{				
 			left:0;
@@ -31,11 +31,30 @@
 		}
 	}
 	.desc-box{
-		margin:10px auto 80px auto;
+		margin:10px auto 20px auto;
 		.desc-type{
 			font-weight: bold;
 		}
-	}		
+	}	
+	.button-box{
+			text-align: center;
+			.more-btn{
+				margin-right:10px;
+				margin-bottom: 80px;
+				border-radius: 0;
+				font-size: 18px;
+			}
+		}
+	.button-box{
+		.more-btn{
+			border:2px solid $pack-color;
+			color:$pack-color;
+		}
+		.more-btn:hover{
+			background-color: $pack-color;
+			color:$white;
+		}
+	}	
 }
 
 
@@ -49,6 +68,14 @@
 		width: $container-width;
 		margin:0 auto;
 		padding:$container-padding;
+		.img-box{
+			img{
+				width:100%;
+			}
+		}
+		.desc-box{
+			margin:10px auto 80px auto;
+		}
 	}
 }
 @media (min-width:$break-lg) { 

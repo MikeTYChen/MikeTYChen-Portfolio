@@ -204,9 +204,10 @@
   .second-project-box .img-box {
     margin: 0 auto;
     position: relative;
-    cursor: pointer; }
+    cursor: pointer;
+    text-align: center; }
     .second-project-box .img-box img {
-      width: 100%; }
+      width: 80%; }
     .second-project-box .img-box .bottom {
       left: 0;
       top: 0;
@@ -221,15 +222,32 @@
     .second-project-box .img-box .top:hover {
       opacity: 0; }
   .second-project-box .desc-box {
-    margin: 10px auto 80px auto; }
+    margin: 10px auto 20px auto; }
     .second-project-box .desc-box .desc-type {
       font-weight: bold; }
+  .second-project-box .button-box {
+    text-align: center; }
+    .second-project-box .button-box .more-btn {
+      margin-right: 10px;
+      margin-bottom: 80px;
+      border-radius: 0;
+      font-size: 18px; }
+  .second-project-box .button-box .more-btn {
+    border: 2px solid #426db2;
+    color: #426db2; }
+  .second-project-box .button-box .more-btn:hover {
+    background-color: #426db2;
+    color: #fafafa; }
 
 @media (min-width: 40.063em) {
   .second-project-box {
     width: 93%;
     margin: 0 auto;
-    padding: 50px; } }
+    padding: 50px; }
+    .second-project-box .img-box img {
+      width: 100%; }
+    .second-project-box .desc-box {
+      margin: 10px auto 80px auto; } }
 
 .about-panel {
   width: 100%;
