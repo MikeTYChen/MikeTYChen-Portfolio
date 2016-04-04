@@ -53,12 +53,13 @@
     .main-panel .welcome-box h1 {
       margin-top: 5%;
       font-weight: bold;
-      font-size: 36px;
+      font-size: 33px;
       line-height: .5em;
       color: #fafafa; }
     .main-panel .welcome-box h2 {
       color: #1eb954;
       font-weight: 400;
+      font-size: 25px;
       line-height: .6em; }
     .main-panel .welcome-box .social-box {
       margin-top: 15px; }
@@ -140,17 +141,17 @@
   background-color: #fafafa;
   width: 100%; }
   .top-project-panel .top-project-box {
-    width: 93%;
+    width: 88%;
     margin: 0 auto;
-    padding: 50px;
+    padding: 5px;
     padding-bottom: 0px; }
     .top-project-panel .top-project-box .title-box .title {
-      line-height: 1.5em;
+      line-height: 0.8em;
       float: left; }
     .top-project-panel .top-project-box .title-box .link {
       font-weight: 500;
       color: #000;
-      line-height: 1.5em;
+      line-height: 2em;
       float: right;
       border-bottom: 1px solid #2C86E8; }
     .top-project-panel .top-project-box .title-box .link:hover {
@@ -160,7 +161,8 @@
     .top-project-panel .top-project-box .button-box {
       text-align: center; }
       .top-project-panel .top-project-box .button-box .more-btn {
-        margin-top: 100px;
+        margin-right: 10px;
+        margin-top: 50px;
         border-radius: 0;
         font-size: 18px; }
     .top-project-panel .top-project-box .img-box {
@@ -185,10 +187,20 @@
   background-color: #426db2;
   color: #fafafa; }
 
+@media (min-width: 40.063em) {
+  .top-project-panel {
+    background-color: #fafafa; }
+    .top-project-panel .top-project-box {
+      width: 93%;
+      padding: 50px; }
+    .top-project-panel .button-box .more-btn {
+      margin-top: 100px;
+      margin-right: 0; } }
+
 .second-project-box {
-  width: 93%;
+  width: 88%;
   margin: 0 auto;
-  padding: 50px; }
+  padding: 5px; }
   .second-project-box .img-box {
     margin: 0 auto;
     position: relative;
@@ -213,6 +225,12 @@
     .second-project-box .desc-box .desc-type {
       font-weight: bold; }
 
+@media (min-width: 40.063em) {
+  .second-project-box {
+    width: 93%;
+    margin: 0 auto;
+    padding: 50px; } }
+
 .about-panel {
   width: 100%;
   background-color: #EEEFF1; }
@@ -225,7 +243,8 @@
     text-align: left; }
     .about-panel .bio-box h2 {
       color: #1eb954;
-      font-size: 35px; }
+      font-size: 35px;
+      font-weight: bold; }
     .about-panel .bio-box .desc-txt-box {
       width: 100%;
       margin-top: 30px; }
@@ -287,6 +306,19 @@
         .about-panel .bio-box .social-box .glyph-icon {
           font-size: 30px;
           margin: 0 28px 0 0; } }
+
+.skills-panel {
+  width: 100%;
+  background-color: #EEEFF1; }
+  .skills-panel .skills-box {
+    width: 93%;
+    margin: 0 auto;
+    padding: 50px; }
+  .skills-panel .category {
+    font-size: 22px;
+    color: #1eb954; }
+  .skills-panel .skill {
+    font-size: 15px; }
 
 .panel-2 {
   background-color: #fafafa;
@@ -392,7 +424,8 @@ html, body {
 .title-txt {
   color: #1eb954;
   padding: 0 0 25px 0;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 25px; }
 
 .footer {
   margin-top: 30px;
@@ -409,4 +442,9 @@ html, body {
   .desk-hidden {
     display: none; }
   .footer {
-    margin-top: 20px; } }
+    margin-top: 20px; }
+  .title-txt {
+    color: #1eb954;
+    padding: 0 0 25px 0;
+    font-weight: bold;
+    font-size: 35px; } }
