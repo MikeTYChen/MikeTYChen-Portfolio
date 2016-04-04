@@ -10,7 +10,6 @@
 			.title{
 				line-height: 1.5em;
 				float:left;
-				font-weight: bold;
 			}
 			.link{
 				font-weight: 500;
@@ -28,6 +27,15 @@
 				font-weight: bold;
 			}
 		}
+
+		.button-box{
+			text-align: center;
+			.more-btn{
+				margin-top: 100px;
+				border-radius: 0;
+				font-size: 18px;
+			}
+		}
 		.img-box{
 			margin-top: 20px;
 			width:100%;
@@ -40,6 +48,23 @@
 			img:hover{
 				border: 1px solid $blue;
 			}
+		}
+	}
+}
+.pack-panel{
+	.title-box{
+		.title{
+			color:$pack-color;
+		}
+	}
+	.button-box{
+		.more-btn{
+			border:2px solid $pack-color;
+			color:$pack-color;
+		}
+		.more-btn:hover{
+			background-color: $pack-color;
+			color:$white;
 		}
 	}
 }

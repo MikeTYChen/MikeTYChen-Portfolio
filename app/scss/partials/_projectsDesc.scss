@@ -4,20 +4,10 @@
 	.text-panel{
 		width:60%;
 		margin:0 auto;
-		.project-title{
-			color:$prim-color;
-			text-align: center;
-			font-weight: bold;
-		}
 	}
 	.text-panel-2{
 		width:60%;
 		margin:40px auto;
-		.project-title{
-			color:$prim-color;
-			text-align: center;
-			font-weight: bold;
-		}
 	}
 	.text-panel-3{
 		width:60%;
@@ -26,7 +16,6 @@
 		.project-title{
 			line-height: 5em;
 			font-size: 30px;
-			color:$prim-color;
 			font-weight: bold;
 		}
 	}
@@ -47,4 +36,29 @@
 			width:44%;
 		}
 	}
+}
+
+.project-title{
+	text-align: center;
+	font-weight: bold;
+}
+
+.pack-panel .project-title{
+	color:$pack-color;
+}
+
+.seam-panel .project-title{
+	color:$seam-color;
+}
+.data-panel .project-title{
+	color:$data-color;
+}
+.twitter-panel .project-title{
+	color:$twitter-color;
+}
+.front-panel .project-title{
+	color:$front-color;
+}
+.hatch-panel .project-title{
+	color:$hatch-color;
 }

@@ -44,6 +44,14 @@
 		a{
 			color:$sec-color;
 		}
+		h4{
+			cursor: pointer;
+			margin-top: 17px;
+			color:$sec-color;
+			font-weight: bold;
+			font-size: 16px;
+		}
+
 	}
 	.navbar-brand{
 		color:$prim-color;
