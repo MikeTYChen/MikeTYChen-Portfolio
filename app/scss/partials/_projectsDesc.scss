@@ -15,11 +15,11 @@
 	}
 	.text-panel-2{
 		width:$mobile-container-width;
-		margin:40px auto
+		margin:10px auto;
 	}
 	.text-panel-3{
 		width:$mobile-container-width;
-		margin:20px auto;
+		margin:10px auto;
 		text-align:center;
 		.project-title{
 			line-height: 5em;
@@ -66,7 +66,17 @@
 @media (min-width:$break-smaller) { 
 }
 @media (min-width:$break-small) { 
-	
+	.project-desc-panel{
+		.project-title{
+			line-height: 2em;
+			font-size: 28px;
+		}
+		.visit-box{
+			.visit-txt{
+				line-height: 3em;
+			}
+		}
+	}
 }
 @media (min-width:$break-med) { 
 	.project-desc-panel{
@@ -84,16 +94,16 @@
 		.text-panel{
 			width:60%;
 			h4{
-				margin-top: 15px;
+				margin-top: 10px;
 			}
 		}
 		.text-panel-2{
 			width:50%;
-			margin:40px auto;
+			margin:10px auto;
 		}
 		.text-panel-3{
 			width:60%;
-			margin:20px auto;
+			margin:10px auto;
 			.project-title{
 				line-height: 5em;
 				font-size: 30px;

@@ -430,10 +430,10 @@
     margin: 0 auto; }
   .project-desc-panel .text-panel-2 {
     width: 88%;
-    margin: 40px auto; }
+    margin: 10px auto; }
   .project-desc-panel .text-panel-3 {
     width: 88%;
-    margin: 20px auto;
+    margin: 10px auto;
     text-align: center; }
     .project-desc-panel .text-panel-3 .project-title {
       line-height: 5em;
@@ -464,6 +464,13 @@
       margin-top: 30px;
       margin-bottom: 30px; }
 
+@media (min-width: 23em) {
+  .project-desc-panel .project-title {
+    line-height: 2em;
+    font-size: 28px; }
+  .project-desc-panel .visit-box .visit-txt {
+    line-height: 3em; } }
+
 @media (min-width: 40.063em) {
   .project-desc-panel .project-title {
     margin-top: 30px;
@@ -475,13 +482,13 @@
   .project-desc-panel .text-panel {
     width: 60%; }
     .project-desc-panel .text-panel h4 {
-      margin-top: 15px; }
+      margin-top: 10px; }
   .project-desc-panel .text-panel-2 {
     width: 50%;
-    margin: 40px auto; }
+    margin: 10px auto; }
   .project-desc-panel .text-panel-3 {
     width: 60%;
-    margin: 20px auto; }
+    margin: 10px auto; }
     .project-desc-panel .text-panel-3 .project-title {
       line-height: 5em;
       font-size: 30px; }
