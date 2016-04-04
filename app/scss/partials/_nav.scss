@@ -24,7 +24,7 @@
 		a{
 			color:$sec-color;
 			font-weight: bold;
-			font-size: 16px;
+			font-size: 14px;
 		}
 		a:hover, a:focus{
 			background-color:transparent;
@@ -37,7 +37,7 @@
 			background-color: none;
 		}
 		li{
-			margin-right: 25px;
+			margin-right: 18px;
 		}
 	}
 }
@@ -45,15 +45,16 @@
 .project-nav{
 	background-color: #232323;
 	.navbar-right{
-		a{
+		a{	
+			font-size: 14px;
 			color:$sec-color;
 		}
 		h4{
 			cursor: pointer;
-			margin-top: 17px;
+			margin-top: 18px;
 			color:$sec-color;
 			font-weight: bold;
-			font-size: 16px;
+			font-size: 14px;
 			margin-left:18px;
 		}
 
@@ -71,12 +72,13 @@
 @media (min-width:$break-med) { 
 	.navbar{
 		.navbar-brand{
-			font-size: 25px;
+			font-size: 20px;
 		}
 	}
 	.project-nav{
 		.navbar-right{
 			h4{
+				font-size: 14px;
 				margin-left: 0;
 			}
 		}

@@ -10,6 +10,7 @@
 			.title{
 				line-height: 0.8em;
 				float:left;
+				font-size: 20px;
 			}
 			.link{
 				font-weight: 500;
@@ -34,7 +35,7 @@
 				margin-right:10px;
 				margin-top: 50px;
 				border-radius: 0;
-				font-size: 18px;
+				font-size: 15px;
 			}
 		}
 		.img-box{
@@ -82,6 +83,9 @@
 			padding:$container-padding;
 		}
 		.button-box{
+			a{
+				font-size: 12px;
+			}
 			.more-btn{
 				margin-top: 100px;
 				margin-right:0;
