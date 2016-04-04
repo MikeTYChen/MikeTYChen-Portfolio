@@ -78,23 +78,22 @@ $hatch-color:rgb(180,205,184);
 
 
 
-
-.pack-panel .project-title{
+.pack-panel .project-title, .pack-panel .visit-txt{
 	color:$pack-color;
 }
 
-.seam-panel .project-title{
+.seam-panel .project-title, .seam-panel .visit-txt{
 	color:$seam-color;
 }
-.data-panel .project-title{
+.data-panel .project-title, .data-panel .visit-txt{
 	color:$data-color;
 }
-.twitter-panel .project-title{
+.twitter-panel .project-title, .twitter-panel .visit-txt{
 	color:$twitter-color;
 }
-.front-panel .project-title{
+.front-panel .project-title, .front-panel .visit-txt{
 	color:$front-color;
 }
-.hatch-panel .project-title{
+.hatch-panel .project-title, .hatch-panel .visit-txt{
 	color:$hatch-color;
 }

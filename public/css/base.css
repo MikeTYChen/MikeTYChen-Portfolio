@@ -1,11 +1,6 @@
 #toggle-nav {
   background-color: #232323; }
 
-@media (min-width: 40.063em) {
-  #toggle-nav {
-    background-color: transparent;
-    transition: background-color 0.5s ease; } }
-
 .navbar {
   border: 0;
   margin-bottom: 0;
@@ -16,7 +11,7 @@
   .navbar a {
     color: #1eb954; }
   .navbar .navbar-brand {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color: #fafafa; }
   .navbar .navbar-center {
@@ -50,8 +45,13 @@
     color: #fafafa; }
 
 @media (min-width: 40.063em) {
+  .navbar .navbar-brand {
+    font-size: 25px; }
   .project-nav .navbar-right h4 {
-    margin-left: 0; } }
+    margin-left: 0; }
+  #toggle-nav {
+    background-color: transparent;
+    transition: background-color 0.5s ease; } }
 
 .main-panel {
   width: 100%;
@@ -66,7 +66,7 @@
     .main-panel .welcome-box h1 {
       margin-top: 5%;
       font-weight: bold;
-      font-size: 33px;
+      font-size: 28px;
       line-height: .5em;
       color: #fafafa; }
     .main-panel .welcome-box h2 {
@@ -103,6 +103,10 @@
     margin-top: 100px; }
   50% {
     margin-top: 50px; } }
+
+@media (min-width: 23em) {
+  .main-panel .welcome-box h1 {
+    font-size: 33px; } }
 
 @media (min-width: 40.063em) {
   .main-panel .welcome-box {
@@ -304,22 +308,22 @@
   background-color: #b4cdb8;
   color: #fafafa; }
 
-.pack-panel .project-title {
+.pack-panel .project-title, .pack-panel .visit-txt {
   color: #426db2; }
 
-.seam-panel .project-title {
+.seam-panel .project-title, .seam-panel .visit-txt {
   color: #8ec742; }
 
-.data-panel .project-title {
+.data-panel .project-title, .data-panel .visit-txt {
   color: #2580c5; }
 
-.twitter-panel .project-title {
+.twitter-panel .project-title, .twitter-panel .visit-txt {
   color: #5faed9; }
 
-.front-panel .project-title {
+.front-panel .project-title, .front-panel .visit-txt {
   color: #d51420; }
 
-.hatch-panel .project-title {
+.hatch-panel .project-title, .hatch-panel .visit-txt {
   color: #b4cdb8; }
 
 .about-panel {
@@ -329,16 +333,12 @@
     top: 0;
     width: 100%; }
   .about-panel .bio-box {
-    width: 88%;
+    width: 90%;
     margin: 0 auto;
     text-align: left; }
-    .about-panel .bio-box h2 {
-      color: #1eb954;
-      font-size: 35px;
-      font-weight: bold; }
     .about-panel .bio-box .desc-txt-box {
       width: 100%;
-      margin-top: 30px; }
+      margin-top: 0px; }
       .about-panel .bio-box .desc-txt-box h4, .about-panel .bio-box .desc-txt-box a {
         line-height: 1.5em;
         color: #000;
@@ -465,6 +465,13 @@
       font-weight: bold; }
     .project-desc-panel .text-panel-3 .back-txt {
       font-size: 20px; }
+    .project-desc-panel .text-panel-3 .visit-box {
+      margin-bottom: 20px; }
+      .project-desc-panel .text-panel-3 .visit-box .visit-txt {
+        font-size: 18px; }
+    .project-desc-panel .text-panel-3 .visit-margin {
+      margin-top: 20px;
+      margin-bottom: 0; }
   .project-desc-panel .img-panel {
     width: 88%;
     margin: 20px auto 0 auto;
@@ -537,9 +544,9 @@ html, body {
 
 .title-txt {
   color: #1eb954;
-  padding: 0 0 25px 0;
+  padding: 0 0 20px 0;
   font-weight: bold;
-  font-size: 25px; }
+  font-size: 23px; }
 
 .footer {
   margin-top: 30px;
@@ -550,6 +557,10 @@ html, body {
     font-size: 14px;
     color: #1eb954; }
 
+@media (min-width: 23em) {
+  .title-txt {
+    font-size: 28px; } }
+
 @media (min-width: 40.063em) {
   .mobile-hidden {
     display: block; }
@@ -558,7 +569,4 @@ html, body {
   .footer {
     margin-top: 20px; }
   .title-txt {
-    color: #1eb954;
-    padding: 0 0 25px 0;
-    font-weight: bold;
     font-size: 35px; } }

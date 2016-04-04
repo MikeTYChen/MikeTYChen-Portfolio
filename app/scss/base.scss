@@ -71,9 +71,9 @@ html,body{
 }
 .title-txt{
 	color:$prim-color;
-	padding:0 0 25px 0;
+	padding:0 0 20px 0;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 23px;
 }
 .footer{
 	margin-top: 30px;
@@ -91,7 +91,9 @@ html,body{
 @media (min-width:$break-smaller) { 
 }
 @media (min-width:$break-small) { 
-	
+	.title-txt{
+		font-size: 28px;
+	}
 }
 @media (min-width:$break-med) { 
 	.mobile-hidden{
@@ -104,9 +106,6 @@ html,body{
 		margin-top: 20px;
 	}
 	.title-txt{
-		color:$prim-color;
-		padding:0 0 25px 0;
-		font-weight: bold;
 		font-size: 35px;
 	}
 }
